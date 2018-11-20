@@ -1,0 +1,50 @@
+.faculty-page {
+  a:hover, a:visited, a:link, a:active {
+      text-decoration: none;
+  }
+  .button  {
+    @include breakpoint ($small-only) {
+      padding: 5% 2%;
+    }
+    @include mobile-xs-portrait-only {
+      font-size: 12px;
+    }
+    i { line-height: 19px; }    
+  }
+}
+
+.faculty {
+  &__list-item {
+    text-align: center;
+    vertical-align: top;
+    padding: 20px;
+    display: inline-block;
+  }
+
+  &__picture {
+    height: 250px;
+    width: 250px;
+    margin: 0 auto 30px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(black, .1);
+  }
+
+  &__name {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 0;
+    border-bottom: 2px solid $main-color;
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+      border-bottom: 2px solid $orange;
+    }
+  }
+
+  &__job {
+    font-size: 1rem;
+    color: rgba(black, .6);
+  }
+}

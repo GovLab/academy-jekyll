@@ -1,0 +1,84 @@
+.library-page {
+
+  // styleguide resource card override
+  .resources-section .result-item__taxonomy__key {
+      width: 85px;
+  }
+
+// dropdown filters
+  .dropdown-wrapper {
+    .show-filters {
+      display: none;
+      &.active {
+        &:before {
+          content: "Hide filters"
+        }
+      }
+      @include breakpoint($small-only) {
+        display: block;
+        &:before {
+          content: "Show filters "
+        }
+      }
+    }
+    .dropdown-container { 
+      @include breakpoint($small-only) {
+        display: none;
+        &.active {
+          display: block;
+        }
+      }
+    }
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+
+    .select {
+      margin-bottom: 25px;
+      margin-right: 10px;
+      &::before { display: none;}
+      select {
+        width: 110%;
+        @include cross-browser-select;
+        @include browser(Firefox) {
+          &:-moz-focusring {
+            width: 100%;
+          }
+        }
+        @include browser(Windows) {
+          width: 100%;
+          &::-ms-expand {
+            display: none;
+          }
+        }
+      }
+    }
+
+
+    .button--icon-only {
+      @include breakpoint($small-only) {
+        width: 100%;
+      }
+    }
+  }
+
+  .filter-panel {
+    .select,
+    .button { margin: 6px 0; }
+    .button--icon-only { padding: 13px; }
+  }
+// end dropdown filters
+  
+  .search {
+    input[type='text'] {
+
+      @include placeholder { color: white; }
+      
+    }
+  }
+  .search--fixed, .js-active {
+      z-index: 1;
+  }
+
+
+}

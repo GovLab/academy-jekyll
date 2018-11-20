@@ -1,0 +1,242 @@
+---
+layout: default
+custom_js: library.js
+---
+{% assign libraryResources = site.data.contentful.spaces.resources.resource | sort: "title"%}
+
+
+<div class="library-page">
+  <div class="top-section top-section--orange">
+    <div class="row">
+      <div class="large-12 column">
+        <h1>Library</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- begin dropdown filters -->
+  <section id="resources">
+    <div class="divider">
+
+
+
+
+      <!-- create dropdown arrays from contentful-->
+      {% assign type_list = "" | split: "" %}
+      {% assign category_list = "" | split: "" %}
+      {% assign objective_list = "" | split: "" %}
+      {% assign methodology_list = "" | split: "" %}
+
+      {% for item in site.data.contentful.spaces.resources.resource %}
+          {% assign type_name = item.type %}
+          {% assign type_list = type_list | push: type_name %}
+
+        {% for category in item.resourceCategory %}
+          {% assign category_name = category %}
+          {% assign category_list = category_list | push: category_name %}
+        {% endfor %}
+
+        {% for objective in item.resourceObjective%}
+          {% assign objective_name = objective %}
+          {% assign objective_list = objective_list | push: objective_name %}
+        {% endfor %}
+
+        {% for methodology in item.resourceMethodology %}
+          {% assign methodology_name = methodology %}
+          {% assign methodology_list = methodology_list | push: methodology_name %}
+        {% endfor %}
+
+      {% endfor %}
+
+      {% assign type_list = type_list | uniq %}
+      {% assign category_list = category_list | uniq %}
+      {% assign objective_list = objective_list | uniq %}
+      {% assign methodology_list = methodology_list | uniq %}
+
+      <div class="filter-panel dropdown-wrapper">
+        <div class="row align-center expanded">
+          <div class="columns large-12">
+            <form class="search search--fixed js-target-search" action="">
+              <input class="fuzzy-search" type="text" placeholder="Keyword Search">
+              <input class="js-search-submit js-trigger-search search-trigger" type="submit" value="search">
+            </form>
+          </div>
+        </div>
+
+        <div class="columns">
+          <button class="button button--icon-only show-filters" type="button" name="button"><i class="material-icons">add</i></button>
+        </div>
+
+        <div class="row large-unstack expanded align-right dropdown-container">
+
+          <div class="columns resource-type">
+            <div class="select">
+              <select data-filter="resource-type" id="type-filter" class="dropdown-content">
+                <option id="all">Filter by Type</option>
+                {% for t in type_list %}
+                  <option id="{{ t | join: ' ' | slugify }}">{{ t }}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+
+          <div class="columns resource-category">
+            <div class="select">
+              <select data-filter="resource-category" id="category-filter" class="dropdown-content">
+                <option id="all">Filter by Category</option>
+                {% for category in category_list %}
+                <option id="{{ category | join: '' | slugify }}">{{category}}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+
+          <div class="columns resource-methodology">
+            <div class="select">
+              <select data-filter="resource-methodology" id="methodology-filter" class="dropdown-content">
+                <option id="all">Filter by Methodology</option>
+                {% for methodology in methodology_list %}
+                <option id="{{ methodology | join: '' | slugify }}">{{methodology}}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+
+          <div class="columns resource-objective">
+            <div class="select">
+              <select data-filter="resource-objective" id="objective-filter" class="dropdown-content">
+                <option id="all">Filter by Objective</option>
+                {% for objective in objective_list %}
+                <option id="{{ objective | join: '' | slugify }}">{{objective}}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+
+
+      </div>
+        <div class="columns">
+          <button class="button button--icon-only clear_filters" type="button" name="button">Clear Filters <i class="material-icons">close</i></button>
+          <button data-sort="result-item__publicationDate" id="pubdate-sort" class="button button--icon-only sort" type="button" name="button">Sort by Date <i class="material-icons">keyboard_arrow_down</i></button>
+        </div>
+      </div>
+    </div>
+    <!-- end dropdowns -->
+
+    <div class="resources-section">
+      <div class="row expanded collapse">
+        <div class="columns results-container">
+          <div id="list" class="list">
+          {% for resource in libraryResources %}
+            <div class="result-item">
+            <div class="js-open-modal">
+              <h2 class="result-item__name">{{ resource.title }}</h2>
+              <p class="result-item__authors">{{ resource.author | join:", "}}</p>
+            </div>
+              {% comment %}
+              <!-- Short Description -->
+  <!--             {% if resource.shortDescription %}
+              <div class="result-item__short-description">
+                <p>{{ resource.shortDescription }}</p>
+              </div>
+              {% endif %} -->
+              {% endcomment %}
+
+              <!-- Publication and pubdate -->
+              {% if resource.publicationName %}
+              <div class="result-item__publication" data-publication="{{ resource.publicationName }}">
+                <p><span>Published in</span> {{ resource.publicationName }} {% if resource.publicationDate %} in <span class="result-item__publicationDate" data-timestamp="{{resource.publicationDate}}" >{{ resource.publicationDate | date: "%B %Y" }}</span> {% endif %}</p>
+              </div>
+              {% endif %}
+
+              <!-- Resource type -->
+              {% if resource.type %}
+              <div class="result-item__taxonomy result-item__taxonomy--type">
+                <span class="result-item__taxonomy__key">Type</span>
+                <span class="result-item__taxonomy__value">
+                {% for t in resource.type %}
+                  <p class="result-item__tag resource-type" data-filter="resource-type" data-type="all {{t | slugify}}">{{ t }}</p>
+                {% endfor %}
+                </span>
+              </div>
+              {% endif %}
+
+              <!-- Resource category tags -->
+              {% if resource.resourceCategory %}
+              <div class="result-item__taxonomy result-item__taxonomy--type">
+                <span class="result-item__taxonomy__key">Category</span>
+                <span class="result-item__taxonomy__value resource-category" data-category="all {% for tag in resource.resourceCategory %} {{ tag | slugify }} {% endfor %}">
+                  {% for tag in resource.resourceCategory %}
+                    <p class="result-item__tag" data-filter="resource-category">{{ tag }}</p>
+                  {% endfor %}
+                </span>
+              </div>
+              {% endif %}
+
+              <!-- Resource objective tags -->
+              {% if resource.resourceObjective %}
+              <div class="result-item__taxonomy result-item__taxonomy--type">
+                <span class="result-item__taxonomy__key">Objective</span>
+                <span class="result-item__taxonomy__value resource-objective" data-objective="all {% for tag in resource.resourceObjective %} {{tag | slugify}} {% endfor %}">
+                  {% for tag in resource.resourceObjective %}
+                    <p class="result-item__tag" data-filter="resource-objective">{{ tag }}</p>
+                  {% endfor %}
+                </span>
+              </div>
+              {% endif %}
+
+              <!-- Resource methodology tags -->
+              {% if resource.resourceMethodology %}
+              <div class="result-item__taxonomy result-item__taxonomy--type">
+                <span class="result-item__taxonomy__key">Methodology</span>
+                <span class="result-item__taxonomy__value resource-methodology" data-methodology="all {% for tag in resource.resourceMethodology %} {{tag | slugify }} {% endfor %}">
+                  {% for tag in resource.resourceMethodology %}
+                    <p class="result-item__tag" data-filter="resource-methodology">{{ tag }}</p>
+                  {% endfor %}
+                </span>
+              </div>
+              {% endif %}
+
+              <!-- Modal Content -->
+              <div class="modal js-target-modal">
+                <header class="modal__header modal--top-section">
+                  <div class="modal__type">
+                    <span>{{ resource.type }}</span>
+                  </div>
+
+                  <i class="modal__close material-icons js-close-modal">close</i>
+                  <h1 class="modal__title">{{ resource.title }}</h1>
+                  <h2 class="modal__authors">{{ resource.author | join:", "}}</h2>
+                  <!-- publication -->
+                  {% if resource.publicationName %}
+                   <p class="modal__publication"><span>Published in</span> {{ resource.publicationName }}</p>
+                  {% endif %}
+
+                  <!-- URL -->
+                  {% if resource.url %}
+                  <div class="floating-button">
+                    <div class="floating-button__wrapper">
+                      <a class="button button--floating button--black" target="_blank" href="{{resource.url}}" title="">Go to Resource</a>
+                    </div>
+                  </div>
+                  {% endif %}
+                </header>
+
+                <div class="modal__content">
+                  <!-- Short Description -->
+                  {% if resource.shortDescription %}
+                  <div class="result-item__short-description">
+                    <p>{{ resource.shortDescription }}</p>
+                  </div>
+                  {% endif %}
+                </div>
+              </div>
+
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

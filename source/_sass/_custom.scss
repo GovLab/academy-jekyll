@@ -1,0 +1,191 @@
+
+// color coding for the top section
+.top-section {
+  .course-detail.m-clinics &,
+  .course-list--clinics &   { background-color: $clinics-color; }
+  .course-detail--coaching &,
+  .course-list--coaching &   { background-color: $coaching-color; }
+  .course-detail.m-masters  &,
+  .course-list--masters  &   { background-color: $workshop-color; }
+  .course-detail.m-workshop &,
+  .course-list--workshop &   { background-color: $masters-color; }
+
+  &--project {
+    i {
+      font-size: 1.5rem;
+      padding: 2rem;
+      &:hover {
+        color: #fff;
+        transition: color 0.2s ease-out;
+      }
+      transition: color 0.2s ease-out;
+    }
+
+    h1, h2, h3, h4, h5 {
+      padding: 0 20px;
+    }
+  }
+
+  &--orange {
+    background-color: $orange;
+  }
+}
+
+// Faculty Page Styles
+
+.faculty-header {
+  @extend .top-section;
+  text-align: center;
+
+  .faculty-picture {
+    margin: 0 auto 30px;
+    @include circle;
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    background-size: 100%;
+    background-position: center;
+  }
+}
+
+.project-gallery-grid {
+  max-width: 1020px;
+
+  @media (max-width: 1020px) {
+    max-width: 680px;
+  }
+  @media (max-width: 680px) {
+    max-width: 340px;
+  }
+
+  margin: 0 auto;
+  a {
+    text-decoration: none;
+  }
+  .card-3 {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+
+    &__image {
+      height: 100%;
+      background-size: 50%;
+      background-repeat: no-repeat;
+      background-position: center;
+      align-items: flex-end;
+      display: flex;
+    }
+
+    &__content {
+      padding-top: 0;
+      width: 100%;
+      h1 {
+        font-weight: normal;
+        background-color: rgba(0,0,0,0.0);
+        color: #222;
+        vertical-align: text-bottom;
+        padding-bottom: 4%;
+        transition: background-color 0.2s ease-out;
+      }
+    }
+
+    &:hover {
+      border: 1px solid rgba(0,0,0,0.3);
+      transition: border 0.2s ease-out;
+    }
+
+    &:hover .card-3__content h1 {
+      background-color: rgba(0,0,0,0.1);
+      transition: background-color 0.2s ease-out;
+    }
+
+    transition: border 0.2s ease-out;
+  }
+}
+
+.project {
+  &--location {
+    span {
+      &:not(:last-child)::after {
+        content: ", "
+      }
+    }
+  }
+  &--slider {
+
+    &__container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: 515px;
+    }
+
+    &__image-wrapper {
+      max-height: 400px;
+      flex-basis: 100%;
+    }
+
+    &__image {
+      display: block;
+      margin: 0 auto;
+      max-height: 400px;
+    }
+
+    &__description {
+      text-align: center;
+    }
+  }
+}
+
+.regions {
+  h4 {
+    text-align: center;
+    font-weight: 200;
+    // margin-bottom: 0;
+  }
+  &__map #region-map path {
+    fill: black;
+    fill-opacity: .1;
+  }
+
+  &--worldwide #region-map path {
+    fill: $main-color;
+    fill-opacity: 1;
+  }
+
+  &--north-america #north-america path {
+    fill: $main-color;
+    fill-opacity: 1;
+  }
+
+  &--latin-america #latin-america path {
+    fill: $main-color;
+    fill-opacity: 1;
+  }
+
+  &--east-asia #east-asia path {
+    fill: $main-color;
+    fill-opacity: 1;
+  }
+
+  &--south-asia #south-asia path {
+    fill: $main-color;
+    fill-opacity: 1;
+  }
+
+  &--sub-saharan-africa #sub-saharan-africa path {
+    fill: $main-color;
+    fill-opacity: 1;
+  }
+
+  &--north-africa #north-africa path {
+    fill: $main-color;
+    fill-opacity: 1;
+  }
+
+  &--europe #europe path {
+    fill: $main-color;
+    fill-opacity: 1;
+  }
+}

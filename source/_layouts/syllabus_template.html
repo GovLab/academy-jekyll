@@ -1,0 +1,220 @@
+---
+layout: default
+---
+
+{% assign all_resources = site.data.contentful.spaces.resources.resource %}
+
+<div class="syllabus">
+  <div class="top-section top-section--orange">
+    <div class="row">
+      <div class="column">
+        <h1 class="syllabus__title">{{page.syllabusTitle}}</h1>
+        <h6 id="pdf-title" class="syllabus__title" style="display:none; font-weight:bold">{{page.syllabusTitle}}</h6>
+      </div>
+    </div>
+    <div class="row align-right expanded">
+      <div class="column small-12 large-4">
+        <div class="syllabus__date-container">
+          {% if page.startDate or page.endDate  %}
+            <h6 class="syllabus__date">Starts: {{page.startDate | date: "%B %d, %Y"}}</h6>
+            <p style="display:none" id="pdf-start">{{page.startDate | date: "%B %d, %Y"}} - {{page.endDate | date: "%B %d, %Y"}}</p>
+            <h6 class="syllabus__date">Ends: {{page.endDate | date: "%B %d, %Y"}}</h6>
+            <!-- <p style="display:none" id="pdf-end" >Ends: {{page.endDate | date: "%B %d, %Y"}}</p> -->
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="syllabus__section">
+    <div class="row medium-uncollapse expanded">
+      <div class="column medium-10 large-10 small-12 columns">
+        <h4 class="syllabus__description-text">Description</h4>
+        <p class="syllabus__description">{{page.description}}</p>
+        <p id="pdf-desc" class="syllabus__description" style="display:none; font-size:12px;">{{page.description}}</p>
+        <div class="button download-button">
+          Download Syllabus as PDF
+        </div>
+      </div>
+
+      {% if page.faculty %}
+      <div class="column large-2 medium-2 small-12">
+        <div class="row expanded collapse">
+          <div class="syllabus__faculty-list">
+            {% for faculty in page.faculty %}
+            <div class="syllabus__faculty" style="background-image: url({{faculty.facultyImage.url}});">
+
+              <a href="{{site.url}}{{site.baseurl}}/faculty/{{ faculty.lastName | slugify | replace: 'ú', 'u' }}.html" target="_blank" class="syllabus__faculty"></a>
+              <p>{{faculty.firstName}} {{faculty.lastName}}</p>
+
+            </div>
+
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+    </div>
+  </div>
+
+  {% if page.addlInformation or page.objectives %}
+    <div class="syllabus__objectives">
+      <div class="row expanded medium-uncollapse">
+        {% if page.objectives %}
+          <div class="column large-6 small-12">
+            <div class="syllabus__objectives--objective">
+              <h6>Objectives</h6>
+              <p>{{page.objectives}}</p>
+            </div>
+          </div>
+        {% endif %}
+        {% if page.addlInformation %}
+          <div class="column large-6 small-12">
+            <div class="syllabus__objectives--info">
+              <h6>Additional Info</h6>
+              <p>{{page.addlInformation}}</p>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div class="divider">
+    <h1>Classes</h1>
+  </div>
+
+  <div class="syllabus__classes">
+    <div class="resources-section">
+      <div class="row expanded collapse">
+        <div id="events" class="columns results-container">
+          <div id="list" class="list">
+            {% for class in page.syllabusClasses %}
+            <div class="result-item">
+              <div class="js-open-modal">
+                <h2 class="result-item__name">{{class.classTitle}}</h2>
+                  <p style="display:none; font-size:16px; font-weight:bold;" class="pdf-class-title">Class {{class.classNumber}}, Week {{class.classWeek}}: {{class.classTitle}}</p>
+                <!-- Short Description -->
+                <div class="result-item__short-description">
+                  <p>{{class.shortDescription}}</p>
+                </div>
+
+                <div class="result-item--event__date fancy-date">
+                  <div class="fancy-date__stack">
+                    <span class="fancy-date__month">Class</span>
+                  </div>
+                  <span class="fancy-date__day pdf-class-week">{{class.classNumber}}</span>
+                  <div class="fancy-date__stack">
+                    <span class="fancy-date__weekday">Week</span>
+                  </div>
+                  <span class="fancy-date__day pdf-class-week">{{class.classWeek}}</span>
+                </div>
+              </div>
+            {% include class-modal.html %}
+            </div>
+          {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider">
+    <h1>Resources</h1>
+  </div>
+
+  <div class="syllabus__resources">
+    <div class="resources-section">
+      <div class="row expanded collapse">
+        <div id="resources" class="columns results-container">
+          <div id="list" class="list">
+            {% if page.resources %}
+              {% for resource in page.resources %}
+                <div class="result-item">
+                  <div class="js-open-modal">
+                    {% assign resource_id =  resource.sys.id%}
+                    {% for item in all_resources %}
+                      {% if item.sys.id == resource_id %}
+                        <h2 class="result-item__name">{{item.title}}</h2>
+                        <!-- Short Description -->
+                        <div class="result-item__short-description">
+                          <p>{{item.shortDescription | strip_html | truncatewords: 30}}</p>
+                        </div>
+                        <!-- Publication -->
+                        <div class="result-item__publication">
+                          <p><span>Published by</span> {{item.publicationName}}, {{item.publicationDate | date: "%Y"}}</p>
+                        </div>
+                        <!-- Authors -->
+                        <div class="result-item__taxonomy result-item__taxonomy--type">
+                          <span class="result-item__taxonomy__key">Author</span>
+                          <span class="result-item__taxonomy__value resource-theme" data-theme="all">
+                            {% for authors in item.author %}
+                              <p class="result-item__tag">{{authors}}</p>
+                            {% endfor %}
+                          </span>
+                        </div>
+                        <!-- Resource type -->
+                        <div class="result-item__taxonomy result-item__taxonomy--type">
+                          <span class="result-item__taxonomy__key">Type</span>
+                          <span class="result-item__taxonomy__value">
+                              <p class="result-item__tag resource-type" data-type="all">{{item.type}}</p>
+                          </span>
+                        </div>
+                    </div>
+                    <!-- Modal Content -->
+                    <div class="modal js-target-modal">
+                      <header class="modal__header modal--top-section">
+                        <div class="modal__type">
+                          <span>{{item.type}}</span>
+                        </div>
+
+                        <i class="modal__close material-icons js-close-modal">close</i>
+                        <h1 class="modal__title">{{item.title}}</h1>
+                        {% for authors in item.author %}
+                          <h2 class="modal__authors">{{authors}}</h2>
+                        {% endfor %}
+
+                        <p class="modal__publication"><span>Published by</span> {{item.publicationName}}, {{item.publicationDate | date: "%Y"}}</p>
+
+                        <!-- URL -->
+                        <div class="floating-button">
+                          <div class="floating-button__wrapper">
+                            {% if item.url %}
+                              <a class="button button--floating button--black" target="_blank" href="{{item.url}}" title="">Visit Webpage</a>
+                            {% endif %}
+                          </div>
+                        </div>
+                      </header>
+
+                      <div class="modal__content">
+                        <!-- Short Description -->
+                        <div class="result-item__short-description">
+                          <p>{{item.shortDescription}}</p>
+                        </div>
+                        <p>Type <b>{{item.type}}</b></p>
+                      </div>
+                    </div>
+                  </div>
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="download">
+  <div class="row align-center">
+    <div class="column large-4">
+      <!-- <div class="button download-button">
+        Download Syllabus as PDF
+      </div> -->
+    </div>
+  </div>
+</div>
+
+<img id="gov-logo" src="../images/pdf-header.png" alt="" style="display:none;">
+<img id="gov-footer" src="../images/pdf-footer.png" alt="" style="display:none;">

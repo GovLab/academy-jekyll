@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11111100111" textdirection="ltr" device="false" fontscale="150" kbshortcuts="false" skip_nav_enabled="true" outputtype="undefined">
+  <layouts>
+    <layout name="npnxnanbsnfns11111100111" font="Proxima Nova" controllayout="npnxnanbsnfns11111100111" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+    <layout name="pxabnsnfns11111100111" font="Proxima Nova" controllayout="pxabnsnfns11111100111" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+    <layout name="npxnabnsnfns11111100111" font="Proxima Nova" controllayout="npxnabnsnfns11111100111" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+    <layout name="npnxnanbnsnfns11111100111" font="Proxima Nova" controllayout="npnxnanbnsnfns11111100111" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+    <layout name="pxabnsnfns11111100110" font="Proxima Nova" controllayout="pxabnsnfns11111100110" colorscheme="pxabnsnfns11111100111" string_table="pxabnsnfns11111100111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Solving Public Problems with Data - Session 1.1" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" value="story_content/logo.swf">
+                <properties>
+                  <property name="width" value="279" />
+                  <property name="height" value="140" />
+                </properties>
+              </option>
+              <option name="html5_logo_url" value="mobile/6mI25d2dJDN.png" />
+            </options>
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="transcript" value="false" group="linkright" />
+              <listitem name="glossary" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="true" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="search" value="true" />
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Proxima Nova" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns11111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns11111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns11111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111100110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns11111100111">
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDACFED" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x808080" alpha="50" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x523080" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD2D4D6" alpha="100" stop="0" />
+                <color rgb="0xD2D4D6" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD2D4D6" alpha="100" stop="0" />
+                <color rgb="0xD2D4D6" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x533180" alpha="100" stop="0" />
+                <color rgb="0x533180" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA897BF" alpha="100" stop="0" />
+                <color rgb="0xA897BF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA897BF" alpha="100" stop="0" />
+                <color rgb="0xA897BF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x58078C" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDADADA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEE5C44" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEE5B43" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="0" stop="0" />
+                <color rgb="0xF3F3F3" alpha="0" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+                <color rgb="0xD9D9D9" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="0" stop="0" />
+                <color rgb="0xBABABA" alpha="0" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x79C143" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x523080" alpha="100" stop="0" />
+                <color rgb="0x523080" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+                <color rgb="0x444444" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD2D4D6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA897BF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x343F49" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFCDED9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFCDED9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x79C143" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8BDB4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEE5B43" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x018895" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x008895" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD2D4D6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD2D4D6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns11111100111">
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to Menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">References</string>
+      <string id="acc_resources">references</string>
+      <string id="restart">Restart</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip Navigation. Hit enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Proxima Nova">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6QlY9bKY98T" displaytext="Introduction" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6QlY9bKY98T.6OFvFvtgfM0" displaytext="Understanding What Works in Poverty Alleviation (Total Session Length: 38:58)" expand="false" type="slide" />
+            <slidelink slideid="_player.6QlY9bKY98T.6NDY77iEKTw" displaytext="Instructor Introduction (0:19)" expand="false" type="slide" />
+            <slidelink slideid="_player.6QlY9bKY98T.6FYws7GtfJy" displaytext="Session Outline (0:05)" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6jexJlF08xG" displaytext="How to Measure Impact" expand="true" type="slide">
+          <links>
+            <slidelink slideid="" displaytext="Methods to Estimate Impact" expand="true" type="slide">
+              <links>
+                <slidelink slideid="_player.6jexJlF08xG.67CCbOJKGnI" displaytext="Thought Experiment (0:33)" expand="false" type="slide" />
+                <slidelink slideid="_player.6jexJlF08xG.5YQerDqbMM0" displaytext="The Problem with Simple Pre-Post Analysis (1:19)" expand="false" type="slide" />
+                <slidelink slideid="_player.6jexJlF08xG.64beTm889rK" displaytext="Can We Do Better than “Medieval Doctors?” (1:34)" expand="false" type="slide" />
+                <slidelink slideid="_player.6jexJlF08xG.5XJ9Gddssjv" displaytext="Defining What's Urgent (1:50)" expand="false" type="slide" />
+                <slidelink slideid="_player.6jexJlF08xG.61ieAEkXTCE" displaytext="What About Chronic Problems? (0:23)" expand="false" type="slide" />
+                <slidelink slideid="_player.6jexJlF08xG.68OTRMjj1dv" displaytext="For Causal Inference, Why Randomize? (1:15)" expand="false" type="slide" />
+                <slidelink slideid="_player.6jexJlF08xG.6KsMP2kWNVP" displaytext="Using Randomization to Estimate Impact (0:27)" expand="false" type="slide" />
+                <slidelink slideid="_player.6jexJlF08xG.60sy7Y9V0pI" displaytext="What is the Impact of This Intervention? (Positive Example) (0:44)" expand="false" type="slide" />
+                <slidelink slideid="_player.6jexJlF08xG.5XIJcAzrqwE" displaytext="What is the Impact of This Intervention? (Negative Example) (0:30)" expand="false" type="slide" />
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.5YXacDLBo1Q" displaytext="International Case Studies" expand="true" type="slide">
+              <links>
+                <slidelink slideid="_player.5kNTxaaxOCI" displaytext="Immunization in Udaipur, India " expand="true" type="slide">
+                  <links>
+                    <slidelink slideid="_player.5kNTxaaxOCI.5gc0FL2mmxk" displaytext="How to Immunize? (1:31)" expand="false" type="slide" />
+                    <slidelink slideid="_player.5kNTxaaxOCI.66p2ChjfLDa" displaytext="Create Randomized Groups (1:00)" expand="false" type="slide" />
+                    <slidelink slideid="_player.5kNTxaaxOCI.5WNydWkCMzW" displaytext="Sample Size &amp; Distribution (0:59)" expand="false" type="slide" />
+                    <slidelink slideid="_player.5kNTxaaxOCI.5qe88bQog5g" displaytext="What Worked? (0:40)" expand="false" type="slide" />
+                    <slidelink slideid="_player.5kNTxaaxOCI.6637qJ6x6Zp" displaytext="Cost-Effectiveness (1:10)" expand="false" type="slide" />
+                  </links>
+                </slidelink>
+                <slidelink slideid="_player.5X7LLK89G9C" displaytext="Childhood Education" expand="true" type="slide">
+                  <links>
+                    <slidelink slideid="_player.5X7LLK89G9C.6oqBnFm60Rx" displaytext="Childhood Education (0:41)" expand="false" type="slide" />
+                    <slidelink slideid="_player.5X7LLK89G9C.5e4cqGfQjt7" displaytext="Childhood Education: Real-World Example (1:13)" expand="false" type="slide" />
+                  </links>
+                </slidelink>
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.5a0c5sPHXcA" displaytext="Domestic Case Studies" expand="true" type="slide">
+              <links>
+                <slidelink slideid="_player.5a0c5sPHXcA.6hlNempu7zU" displaytext="Scaling Up Effective Programs (0:37)" expand="false" type="slide" />
+                <slidelink slideid="_player.5a0c5sPHXcA.6pQCIZ3E6E3" displaytext="J-PAL's Mission (0:49)" expand="false" type="slide" />
+                <slidelink slideid="_player.5a0c5sPHXcA.5tjNL4CWeFN" displaytext="Context (1:28)" expand="false" type="slide" />
+                <slidelink slideid="_player.5a0c5sPHXcA.5uCoQdWVMvm" displaytext="Debate Over Health Insurance Expansion (2:28)" expand="false" type="slide" />
+                <slidelink slideid="_player.5a0c5sPHXcA.6E76w7cKuAQ" displaytext="Debate Over Health Insurance Expansion (1:52)" expand="false" type="slide" />
+                <slidelink slideid="_player.5a0c5sPHXcA.648kfd8WwWD" displaytext="Debate Over Crime and Violence (1:31)" expand="false" type="slide" />
+                <slidelink slideid="_player.5a0c5sPHXcA.6llUtIwvlsx" displaytext="Debate Over Crime and Violence (2:11)" expand="false" type="slide" />
+                <slidelink slideid="_player.5a0c5sPHXcA.5hQixwJIWxV" displaytext="Debate Over Education (0:39)" expand="false" type="slide" />
+                <slidelink slideid="_player.5a0c5sPHXcA.5gek6pGZZlF" displaytext="Benefits of Administrative Data (2:01)" expand="false" type="slide" />
+                <slidelink slideid="_player.5a0c5sPHXcA.5hs3TUyeSRr" displaytext="Obtaining and Using Administrative Data (0:39)" expand="false" type="slide" />
+              </links>
+            </slidelink>
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6EdezdxSj2v" displaytext="Building Capacity" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6EdezdxSj2v.5z93OvMn8C5" displaytext="Researchers and Governments Working Together (0:57)" expand="false" type="slide" />
+            <slidelink slideid="_player.6EdezdxSj2v.6Z09htNs2GN" displaytext="Becoming Better Producers and Consumers of Evidence (4:52)" expand="false" type="slide" />
+            <slidelink slideid="_player.6EdezdxSj2v.6JbM4rPKkui" displaytext="Encouraging Creation and Use of Evidence at All Levels of Government (1:13)" expand="false" type="slide" />
+            <slidelink slideid="_player.6EdezdxSj2v.5Y9ikLqWdNs" displaytext="How Can We Facilitate More Collaborations to Solve Public Problems? (0:56)" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5gnkaCcdB7e" displaytext="Conclusion" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5gnkaCcdB7e.5xVB1eh7eab" displaytext="Thank You (0:23)" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6QlY9bKY98T.6OFvFvtgfM0" slidebank="false" type="slide">introduction to evidence-based decision-making: examples in economic development quentin palfrey funded by a grant from the </slidetext>
+      <slidetext slideid="6QlY9bKY98T.6NDY77iEKTw" slidebank="false" type="slide">executive director, j-pal north america at mit the abdul latif jameel poverty action lab (j-pal) is a network of 143 affiliated professors from 49 universities j-pal’s mission is to reduce poverty by ensuring that policy is informed by scientific evidence quentin palfrey </slidetext>
+      <slidetext slideid="6QlY9bKY98T.6FYws7GtfJy" slidebank="false" type="slide">session outline how to measure impact how to measure impact building capacity methods to estimate impact international case studies domestic case studies researchers and governments working together becoming better producers and consumers of evidence encouraging creation and use of evidence at all levels of government how can we facilitate more collaboration to solve public problems? </slidetext>
+      <slidetext slideid="6jexJlF08xG.67CCbOJKGnI" slidebank="false" type="slide">how to invest scarce resources in programs that have the greatest impact on the least advantaged in society? how do you know what works? thought experiment </slidetext>
+      <slidetext slideid="6jexJlF08xG.5YQerDqbMM0" slidebank="false" type="slide">the problem with simple pre-post analysis 40 30 20 10 0 800 600 400 200 0 1960      1970       1980          1990         2000 aid, billions of $ (2006 constant) gdp per capita (2000 constant $us) ? ? source: easterly (2009) </slidetext>
+      <slidetext slideid="6jexJlF08xG.64beTm889rK" slidebank="false" type="slide">problem with pre-modern medicine: no way of knowing whether the treatment caused the effect because there’s no counterfactual. now we take a more rigorous approach. through randomized control trials, we can get good data about what works and why.   silver bullets are rare. sometimes there are true breakthroughs, but most progress is made by examining particular problems, learning over time. can we do better than “medieval doctors?” </slidetext>
+      <slidetext slideid="6jexJlF08xG.5XJ9Gddssjv" slidebank="false" type="slide">haiti, 2010  200,000 dead $2 billion pledged $10,000 per death source: un (2015) every year, 6 million children under 5 die, mostly from preventable diseases – yet nearly 20 million infants are unvaccinatedsource: who (2016) would be $60 billion at $10,000 per death another problem: defining what's urgent photo credit: united nations development programme  </slidetext>
+      <slidetext slideid="6jexJlF08xG.61ieAEkXTCE" slidebank="false" type="slide">photo credit: andrew fraker what about chronic problems affecting the poor that do not dominate headlines -- like avoidable child deaths? what about chronic problems? </slidetext>
+      <slidetext slideid="6jexJlF08xG.68OTRMjj1dv" slidebank="false" type="slide">randomized evaluations can measure the causal impact of a program  randomization ensures that the treatment group and comparison group are equivalent on average, with the exception of receipt of the treatment as a result, the comparison group provides a reasonable counterfactual for the treatment group, representing what would have happened without the treatment the difference in outcomes between the treatment and comparison groups can be directly attributed to the treatment why randomize? for causal inference, why randomize? </slidetext>
+      <slidetext slideid="6jexJlF08xG.6KsMP2kWNVP" slidebank="false" type="slide">using randomization to estimate impact </slidetext>
+      <slidetext slideid="6jexJlF08xG.60sy7Y9V0pI" slidebank="false" type="slide">time primary outcome intervention starts what is the impact of this intervention? (positive example) primary outcome over time counterfactual impact </slidetext>
+      <slidetext slideid="6jexJlF08xG.5XIJcAzrqwE" slidebank="false" type="slide">what is the impact of this intervention? (negative example) time primary outcome intervention starts primary outcome over time counterfactual impact </slidetext>
+      <slidetext slideid="5kNTxaaxOCI.5gc0FL2mmxk" slidebank="false" type="slide">how to immunize? udaipur, india only 2% of children were fully immunizedsource: banerjee, et al. (2010) the problem of the last mile: we have the technology, we have the resources, but we need to make sure people who could benefit from those services, actually takes advantage of them. photo credit: flickr; iwishmynamewasmarsha </slidetext>
+      <slidetext slideid="5kNTxaaxOCI.66p2ChjfLDa" slidebank="false" type="slide">create randomized groups affected population of udaipur, rajasthan, india comparison (control group) no intervention ordinary public services centers easy-access immunization camps centers + incentive easy-access immunization camps + incentive </slidetext>
+      <slidetext slideid="5kNTxaaxOCI.5WNydWkCMzW" slidebank="false" type="slide">sample size &amp; distribution photo credit: google earth udaipur, rajasthan, india comparison (control group) centers centers + incentive in order to get results that we can actually count on: use a relatively large sample size to be able to determine if results come from the intervention, or if results come from statistical noise (the luck of the draw).  </slidetext>
+      <slidetext slideid="5kNTxaaxOCI.5qe88bQog5g" slidebank="false" type="slide">what worked? results for different locations: source: banerjee, et al. (2010) </slidetext>
+      <slidetext slideid="5kNTxaaxOCI.6637qJ6x6Zp" slidebank="false" type="slide">cost-effectiveness rs. 2,202 rs. 730 rs. 372 immunization centers centers + incentives + cost of incentives cost of centers costs per fully immunized child (rs. = indian rupees) source: banerjee, et al. (2010) easy-access immunization centers + incentive, not only was more effective but also more cost-effective.  why it matters? you'll know you will be investing in things that work:  confidence of obtaining better results, and; confidence of spending the money in a cost-effective way </slidetext>
+      <slidetext slideid="5X7LLK89G9C.6oqBnFm60Rx" slidebank="false" type="slide">childhood education photo credit: aude guerrucci 72 million school-aged kids are not going to school. what can we do? hire extra teachers build latrines eliminate fees pay for uniforms school meals tell kids benefits of education provide health services conditional cash transfers give girls sanitary pads </slidetext>
+      <slidetext slideid="5X7LLK89G9C.5e4cqGfQjt7" slidebank="false" type="slide">childhood education: real-world example source: unicef; miguel and kremer (2004, 2007); j-pal (2012) problem: 72 million children of primary school age in the developing world were not in school in 2005; 57 percent of them were girls. surprising finding: where intestinal worms are prevalent, deworming kids yields an extra year of education for every $7 invested – more than extra teachers, school meals, uniforms, and scholarships. result: an evidence-informed movement in global philanthropy to “deworm the world.”   </slidetext>
+      <slidetext slideid="5a0c5sPHXcA.6hlNempu7zU" slidebank="false" type="slide">770+ ongoing and completed evaluations in 68 countries 200+ million lives touched by the scale up of effective programs so far scaling up effective programs </slidetext>
+      <slidetext slideid="5a0c5sPHXcA.6pQCIZ3E6E3" slidebank="false" type="slide">j-pal's mission </slidetext>
+      <slidetext slideid="5a0c5sPHXcA.5tjNL4CWeFN" slidebank="false" type="slide">context j-pal north america launched at a time of momentum for evidence-based policymaking in u.s. establishment of the commission on evidence-based policymaking growth of emphasis on evidence in the white house creation and institutionalization of the white house social &amp; behavioral sciences team (sbst) focus on pay for success and social impact bonds source: martinez (2016); office of management &amp; budget; executive office of the president (2015) </slidetext>
+      <slidetext slideid="5a0c5sPHXcA.5uCoQdWVMvm" slidebank="false" type="slide">debate over health insurance expansion </slidetext>
+      <slidetext slideid="5a0c5sPHXcA.6E76w7cKuAQ" slidebank="false" type="slide">debate over health insurance expansion increased health care use across the board  hospital, er, primary care, drugs, preventive care ~25% ↑ total, annual spending (hospital, outpatient, drugs) reduced out-of-pocket costs and financial strain virtually eliminated “catastrophic” out-of-pocket spending no detectable effect on earnings and employment health improved self-reported health reduced depression no detectable effects on measured physical health source: finkelstein et al. (2012); taubman et al. (2014); baicker et al. (2013); baicker et al. (2014); finkelstein et al. (2016) </slidetext>
+      <slidetext slideid="5a0c5sPHXcA.648kfd8WwWD" slidebank="false" type="slide">debate over crime and violence photo credit: university of chicago crime lab on june 2, 2012, kalvin carter, age 17, shot and killed jamal lockett, age 16, in a dispute over a bicycle in chicago. source: university of chicago crime lab </slidetext>
+      <slidetext slideid="5a0c5sPHXcA.6llUtIwvlsx" slidebank="false" type="slide">debate over crime and violence source: blattman et al. (2015); guryan et al. (forthcoming)  cognitive behavioral therapy (cbt) in liberia and chicago photo credit: youth guidance both experiments show that cbt can be a very effective method of decreasing the likelihood of violence </slidetext>
+      <slidetext slideid="5a0c5sPHXcA.5hQixwJIWxV" slidebank="false" type="slide">debate over education source: banerjee et al. (2007); duflo, dupas, and kremer (2011); cook et al. (2015) intervention: match tutoring tutoring programs designed to teach children “at the right level,” evaluated around the world by j-pal affiliates, have shown large impacts balsakhi program in india tracked education in kenya math tutoring in chicago public schools  estimated effects of tutoring 55 minutes of 2:1 daily math tutoring in 12 chicago public schools: improved student math test scores  equivalent to extra 1-2 years of learning for typical american high school student equivalent to 30 percent of the black-white test score gap nationwide improved math grades by 0.58 points on a 4-point scale reduced math failures by over 50 percent reduced overall failures by over 25 percent </slidetext>
+      <slidetext slideid="5a0c5sPHXcA.5gek6pGZZlF" slidebank="false" type="slide">benefits of administrative data reduce research costs lessen logistical burden enable long-term follow-up improve accuracy of findings compared to surveys, administrative data may: </slidetext>
+      <slidetext slideid="5a0c5sPHXcA.5hs3TUyeSRr" slidebank="false" type="slide">click to read – document opens in a new window. obtaining and using administrative data </slidetext>
+      <slidetext slideid="6EdezdxSj2v.5z93OvMn8C5" slidebank="false" type="slide">many governments are eager to produce and use data and evidence to improve policy, yet few have the resources, capacity, and mandate to do it on their own.  when researchers and governments work together, the results can be powerful.  researchers and governments working together </slidetext>
+      <slidetext slideid="6EdezdxSj2v.6Z09htNs2GN" slidebank="false" type="slide">becoming better producers and consumers of evidence step 1 step 2 step 3 step 4 step 5 step 6 step 7 familiarize yourself with relevant studies about what works in your field. learn to distinguish between studies that are based on rigorous evidence, and those that are not.  use constraints and limitations to your advantage, as opportunities to learn more. waiting lists can be an opportunity for evidence generation. smart piloting: roll out programs in ways that maximize the chances that you can learn over time what is working. when possible, incorporate randomization into the design of new programs. seek ways of linking administrative data sets and making data available to researchers and the public. share best practices with colleagues to build a movement for evidence-based policymaking. </slidetext>
+      <slidetext slideid="6EdezdxSj2v.6JbM4rPKkui" slidebank="false" type="slide">state and local innovation initiative  the first cohort of governments selected are innovating to: increase employment help people move out of poverty expand opportunity for young people find effective treatments for substance use disorders encouraging creation and use of evidence at all levels of government </slidetext>
+      <slidetext slideid="6EdezdxSj2v.5Y9ikLqWdNs" slidebank="false" type="slide">how can we facilitate more collaborations to solve public problems? disseminate existing policy lessons to better align resources with evidence foster further collaboration between researchers and policymakers to respond to the immediate needs of the policy/practitioner community  state &amp; local innovation initiative health  care delivery innovation competition create additional research resources for others to use  enhance strategic partnerships to institutionalize good evidence-based practices expand access to and use of administrative data </slidetext>
+      <slidetext slideid="5gnkaCcdB7e.5xVB1eh7eab" slidebank="false" type="slide">@qpalfrey  @qpalfrey  @qpalfrey  @qpalfrey  @qpalfrey  @qpalfrey  @jpal_na @jpal_na @jpal_na @jpal_na @jpal_na @jpal_na thank you </slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Proxima Nova' style='font-size: 11px;' size='11' color='#444444'&gt;Documents open in a new tab:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="story_content/external_files/references.pdf" image="story_content/6nmJcvZckoH.png" title="References" />
+    </resources>
+  </resource_data>
+  <transcript_data />
+  <glossary_data />
+</bwFrame>

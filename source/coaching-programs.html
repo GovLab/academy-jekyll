@@ -1,0 +1,186 @@
+---
+layout: default
+---
+{% assign coachingPrograms = site.data.contentful.spaces.coaching_programs.coachingProgram %}
+
+<div class="course-list course-list--coaching">
+  <div class="top-section">
+    <div class="row">
+      <div class="large-12 column">
+        <h1>Coaching Programs</h1>
+        <h3>Geared to the purpose-driven participant inside and outside of government  (both individuals and teams) passionate about a public problem and already undertaking a project, these programs are designed to help participants develop a project from idea to implementation.</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-section">
+    <div class="row">
+      <div class="large-12 column">
+        <ul>
+            <li><strong>WHO</strong> Public entrepreneurs with an identified project on a specific civic tech theme. Maximum of 12 individuals and/or teams per program. By application only </li>
+            <li><strong>WHAT</strong> A blend of group sessions, peer to peer coaching, expert mentoring and private "office hours" with Academy faculty </li>
+            <li><strong>WHEN</strong> Every week (for 4-5 weeks) or every other week (for 8-10 weeks) </li>
+            <li><strong>WHERE</strong> Online </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider">
+    <div class="row">
+      <div class="large-12 column">
+        <h1>Upcoming courses</h1>
+      </div>
+    </div>
+  </div>
+  <ul class="course-list">
+
+  {% assign currentCoachingPrograms = coachingPrograms | find_upcoming_data: 'applicationDeadline' | sort: "applicationDeadline" %}
+    {% assign courseSize = currentCoachingPrograms | size %}
+    {% if courseSize == 0 %}
+          <p>There are no upcoming courses.</p>
+    {% else%}
+      {% for course in currentCoachingPrograms %}
+        <li class="course-item">
+          <div class="row">
+            <div class="large-12 column">
+              <h2 class="course-item__title">{{ course.programName }}</h2>
+            </div>
+            <div class="large-6 medium-6 small-12 column">
+              <p class="course-item__application">APPLICATION DUE: {{ course.applicationDeadline | date: "%B %-d, %Y" }}</p>
+              <p class="course-item__application">STARTS THE WEEK OF: {{ course.startDate | date: "%B %-d, %Y" }}</p>
+              <div class="course-item__faculty-team row column">
+                {% for person in course.faculty %}
+                  <a href="{{site.url}}{{site.baseurl}}/faculty/{{ person.lastName | slugify | replace_diacritics }}.html" target="_blank" class="course-item__faculty column large-3 end" style="background-image: url({{person.facultyImage.url}});">
+                    <p>{{ person.firstName }} {{ person.lastName }}</p>
+                  </a>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="large-6 medium-6 small-12 column">
+              <p class="e-course-description">{{ course.shortDescription }}</p>
+              {% assign link = course.programName %}
+              {% assign char = "-" %}
+
+              {% capture link %}
+                  {{ link | replace: char, "0101010" }}
+              {% endcapture %}
+
+              {% assign slugged-link = link %}
+
+              {% capture slugged-link %}
+                {{ slugged-link | slugify }}
+              {% endcapture %}
+              <a href="{{site.url}}{{site.baseurl}}/coaching/{{ slugged-link | replace: "0101010", char  | rstrip | lstrip }}.html" class="button">more info</a>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    {% endif %}
+  </ul>
+
+  <div class="divider">
+    <div class="row">
+      <div class="large-12 column">
+        <h1>Past courses</h1>
+      </div>
+    </div>
+  </div>
+  <ul class="course-list course-list--past-courses">
+
+    {% assign pastCoachingPrograms = coachingPrograms | find_past_data: 'applicationDeadline'  | sort: "endDate" | reverse %}
+
+    {% for course in pastCoachingPrograms %}
+        <li class="course-item">
+          <div class="row">
+            <div class="large-6 medium-6 small-12 column">
+              <h2 class="course-item__title">{{ course.programName }}</h2>
+              <p class="course-item__application">STARTED THE WEEK OF: {{ course.startDate | date: "%B %-d, %Y" }}</p>
+              <div class="course-item__faculty-team">
+                {% for person in course.faculty %}
+                    <a href="{{site.url}}{{site.baseurl}}/faculty/{{ person.lastName | slugify | replace_diacritics }}.html" target="_blank">
+                      <div class="course-item__faculty column large-3 end" style="background-image: url({{person.facultyImage.url}});">
+                        <p>{{ person.firstName }} {{ person.lastName }}</p>
+                      </div>
+                    </a>
+                    {%comment%}
+<!--                   {% else %}
+                    <div class="course-item__faculty column large-3 end" style="background-image: url('/images/faculty/{{ person.name.slug  }}.jpg');">
+                      <p>{{name}}</p>
+                    </div>
+                  {% endif %} -->
+                  {%endcomment%}
+              {% endfor %}
+            </div>
+          </div>
+          <div class="large-6 medium-6 small-12 column">
+            <p class="course-item__description">{{ course.shortDescription | markdownify }}</p>
+            {% assign link = course.programName %}
+            {% assign char = "-" %}
+
+            {% capture link %}
+                {{ link | replace: char, "0101010" }}
+            {% endcapture %}
+
+            {% assign slugged-link = link %}
+
+            {% capture slugged-link %}
+              {{ slugged-link | slugify }}
+            {% endcapture %}
+            <a href="{{site.url}}{{site.baseurl}}/coaching/{{ slugged-link | replace: "0101010", char  | rstrip | lstrip }}.html" class="button">more info</a>
+          </div>
+        </div>
+        </li>
+
+    {% endfor %}
+  </ul>
+
+  <div class="divider">
+    <div class="row">
+      <div class="large-12 column">
+        <h1>About Coaching Programs</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-section">
+    <div class="row">
+      <div class="large-12 column">
+        <h4>Programs offer</h4>
+        <ul>
+          <li>Frequent and constructive feedback</li>
+          <li>Customized and original learning materials</li>
+          <li>Peer-to-peer support</li>
+          <li>Introductions to global topic experts</li>
+          <li>Group meetings online with the faculty for 1-2 hours: one hour is for discussion of projects by the whole group and the second hour, a guest lecture</li>
+          <li>Faculty and staff online office hours with the teams to address project progress</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 column">
+      <h4>Our Method</h4>
+        <img src="{{site.url}}{{site.baseurl}}/images/academy-method.png" alt="Coaching program Lifecycle">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 column">
+        <ul>
+          <li>A flexible, customized program responsive to the participants’ specific needs and challenges</li>
+          <li>Rigorous diagnosis of impediments to project implementation that allow us to customize learning;</li>
+          <li>Emphasis on specific and evidence­-based problem definition to ensure that the project solves a well­defined problem;</li>
+          <li>A combination of subject­-matter and skills­-based training to address both deficits in knowledge about innovation and in know how about how to apply that knowledge to one’s own project;</li>
+          <li>Peer­-to-­peer support where similarly situated public entrepreneurs counsel and support each other through challenges together;</li>
+          <li>Mentoring and coaching from experts with a track record of leading successful social change;</li>
+          <li>High­-quality original and curated content ,tools, and resources</li>
+        </ul>
+
+        <a href="http://goo.gl/forms/j403fD74Jk" class="button">Suggest a coaching program<i class="material-icons">arrow_forward</i></a>
+
+      </div>
+    </div>
+  </div>
+
+</div>

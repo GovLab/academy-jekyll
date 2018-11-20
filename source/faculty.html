@@ -1,0 +1,40 @@
+---
+layout: default
+---
+{% assign faculty = site.data.contentful.spaces.faculty.faculty | sort: "lastName" %}
+
+<div class="faculty-page">
+  <div class="top-section top-section--orange">
+    <div class="row">
+      <div class="large-12 column">
+        <h1>Faculty</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider">
+    
+    <div class="row">
+      <div class="large-12 column">
+        <a class="button" href="https://twitter.com/TheGovLab/lists/govlab-academy-faculty" target="_blank">Follow our faculty on Twitter <i class="fa fa-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-section">
+    <div class="row expanded align-center featured-authors">
+      {% for person in faculty %}
+      <div class="large-4 medium-6 small-12 column faculty__list-item">
+        <a href="{{site.url}}{{site.baseurl}}/faculty/{{person.lastName | slugify | replace_diacritics }}.html">
+          <div class="faculty__picture" style="background-image: url({{person.facultyImage.url}});"></div>
+        </a>
+        <a href="{{site.url}}{{site.baseurl}}/faculty/{{person.lastName | slugify | replace_diacritics  }}.html">
+          <p class="faculty__name">{{ person.firstName }} {{ person.lastName }}</p>
+        </a>
+        <p class="faculty__job">{{person.title}}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+</div>

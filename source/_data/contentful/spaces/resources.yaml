@@ -1,0 +1,148 @@
+---
+resource:
+- sys:
+    id: j0nGdQvlUOSY6IIoQwWia
+  title: "“Peer to Patent”: Collective Intelligence, Open Review, and Patent Reform"
+  author:
+  - Beth Simone Noveck
+  type:
+  - Journal Article
+  url: http://jolt.law.harvard.edu/articles/pdf/v20/20HarvJLTech123.pdf
+  publicationName: Harvard Journal of Law & Technology
+  publicationDate: !ruby/object:DateTime 2006-09-01 00:00:00.000000000 -05:00
+- sys:
+    id: 3hrTJ3Y812AewOmakaw4GU
+  title: 'Owning the city: new media and citizen engagement in urban design'
+  author:
+  - Michiel de Lange
+  - Martijn de Waal
+  type:
+  - Journal Article
+  url: http://pear.accc.uic.edu/ojs/index.php/fm/article/view/4954/3786
+  publicationName: First Monday
+  publicationDate: !ruby/object:DateTime 2013-11-04 00:00:00.000000000 -05:00
+- sys:
+    id: 15Cv1Ke32G4i68IMsACOuW
+  title: 'The Smart City and its Citizens: Governance and Citizen Participation in
+    Amsterdam Smart City'
+  author:
+  - Carlo Francesco Capra
+  type:
+  - Journal Article
+  url: http://www.igi-global.com/article/the-smart-city-and-its-citizens/144771
+  publicationName: International Journal of E-Planning Research
+  publicationDate: !ruby/object:DateTime 2016-01-01 00:00:00.000000000 -05:00
+  shortDescription: Smart cities are associated almost exclusively with modern technology
+    and infrastructure. However, smart cities have the possibility to enhance the
+    involvement and contribution of citizens to urban development. This work explores
+    the role of governance as one of the factors influencing the participation of
+    citizens in smart cities projects. Governance characteristics play a major role
+    in explaining different typologies of citizen participation.
+  resourceCategory:
+  - Citizen Engagement and Crowdsourcing
+  - Smart Cities
+  resourceObjective:
+  - Effectiveness
+  - Participation
+  resourceMethodology:
+  - Case Studies
+  - Conceptual Framework
+- sys:
+    id: 5F9ps7UC40SoiEAawSSgMK
+  title: 'Initial Conditions Matter: Social Capital and Participatory Development'
+  author:
+  - Lisa A. Cameron
+  - Susan Olivia
+  - Manisha Shah
+  type:
+  - Journal Article
+  url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2708376
+  publicationName: " Institute for the Study of Labor (IZA), Research Paper Series"
+  publicationDate: !ruby/object:DateTime 2015-12-01 00:00:00.000000000 -05:00
+  shortDescription: 'Billions of dollars have been spent on participatory development
+    programs in the developing world. These programs give community members an active
+    decision-making role. Given the emphasis on community involvement, one might expect
+    that the effectiveness of this approach would depend on communities'' pre-existing
+    social capital stocks.  '
+  resourceCategory:
+  - Citizen Engagement and Crowdsourcing
+  resourceObjective:
+  - Effectiveness
+  - Participation
+  resourceMethodology:
+  - Case Studies
+  - Quantitative Analysis
+- sys:
+    id: 7pfDQxNi4EqyKKwMq00Scy
+  title: 'Why a Nudge is Not Enough: A social identity critique of governanceby stealth'
+  author:
+  - Frank Mols
+  - S. Alexander Haslam
+  - Jolanda Jetten
+  - Niklas K. Steffens
+  type:
+  - Journal Article
+  url: http://onlinelibrary.wiley.com/doi/10.1111/1475-6765.12073/abstract
+  publicationName: European Journal of Political Research
+  publicationDate: !ruby/object:DateTime 2015-01-01 00:00:00.000000000 -05:00
+  shortDescription: 'Policy makers can use four different modes of governance: ‘hierarchy’,
+    ‘markets’, ‘networks’ and ‘persuasion’. In this article, it is argued that ‘nudging’
+    represents a distinct (fifth) mode of governance. '
+  resourceCategory:
+  - Behavioral Science and Nudges
+  resourceObjective:
+  - Effectiveness
+  resourceMethodology:
+  - Conceptual Framework
+- sys:
+    id: 3vR7jYwQg8QYcoOw6WasuE
+  title: 'Government Data Does Not Mean Data Governance: Lessons Learned from a Public
+    Sector Application Audit'
+  author:
+  - Nik Thompson
+  - Ravi Ravindran
+  - Salvatore Nicosia
+  type:
+  - Journal Article
+  url: http://www.sciencedirect.com/science/article/pii/S0740624X15000593
+  publicationName: Government Information Quarterly
+  publicationDate: !ruby/object:DateTime 2015-07-01 00:00:00.000000000 -05:00
+  shortDescription: Public sector agencies routinely store large volumes of information
+    about individuals in the community. The storage and analysis of this information
+    benefits society, as it enables relevant agencies to make better informed decisions
+    and to address the individual's needs more appropriately. Members of the public
+    often assume that the authorities are well equipped to handle personal data; however,
+    due to implementation errors and lack of data governance, this is not always the
+    case.
+  resourceCategory:
+  - Open Data
+  - Data Governance
+  resourceObjective:
+  - Legitimacy
+  - Privacy
+  - Security
+  resourceMethodology:
+  - Case Studies
+  - Conceptual Framework
+- sys:
+    id: 2SQjxijkp28SKeAuycMkme
+  title: 'Reinventing Discovery: The New Era of Networked Science'
+  author:
+  - Michael Nielsen
+  type:
+  - Book
+  url: https://www.amazon.com/dp/B005OQGZ54/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
+  publicationDate: !ruby/object:DateTime 2017-12-20 00:00:00.000000000 -05:00
+  shortDescription: 'In Reinventing Discovery, Michael Nielsen argues that we are
+    living at the dawn of the most dramatic change in science in more than 300 years.
+    This change is being driven by powerful new cognitive tools, enabled by the internet,
+    which are greatly accelerating scientific discovery. There are many books about
+    how the internet is changing business or the workplace or government. '
+  resourceCategory:
+  - Collective Intelligence
+  resourceObjective:
+  - Effectiveness
+  - Participation
+  resourceMethodology:
+  - Case Studies
+  - Conceptual Framework

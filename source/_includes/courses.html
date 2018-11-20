@@ -1,0 +1,46 @@
+<div class="divider">
+  <div class="row">
+    <div class="large-12 column"><h2>Courses</h2></div>
+  </div>
+</div>
+
+{% assign coachingPrograms = include.courses %}
+
+<ul class="course-list">
+  {% for course in coachingPrograms %}
+      {% comment %}TODO: Filter upcoming events only{% endcomment %}
+      <li class="course-item">
+        <div class="row">
+          <div class="large-12 column">
+            <h2 class="course-item__title">{{ course.programName }}</h2>
+          </div>
+          <div class="large-6 column">
+            <p class="course-item__application">APPLICATION DUE: {{ course.applicationDeadline | date: "%B %-d, %Y"  }}</p>
+            <div class="course-item__faculty-team row column">
+              {% for person in course.faculty %}
+                  <a href="{{site.url}}{{site.baseurl}}/faculty/{{ person.lastName | slugify | replace_diacritics }}.html" target="_blank" class="course-item__faculty column large-3 end" style="background-image: url({{person.facultyImage.url}});">
+                    <p>{{ person.firstName }} {{ person.lastName }}</p>
+                  </a>
+              {% endfor %}
+            </div>
+          </div>
+          <div class="large-6 column">
+            <p class="e-course-description">{{ course.shortDescription }}</p>
+            {% assign link = course.programName %}
+            {% assign char = "-" %}
+
+            {% capture link %}
+                {{ link | replace: char, "0101010" }}
+            {% endcapture %}
+
+            {% assign slugged-link = link %}
+
+            {% capture slugged-link %}
+              {{ slugged-link | slugify }}
+            {% endcapture %}
+            <a href="{{site.url}}{{site.baseurl}}/coaching/{{ slugged-link | replace: "0101010", char  | rstrip | lstrip }}.html" class="button">more info</a>
+          </div>
+        </div>
+      </li>
+  {% endfor %}
+</ul>

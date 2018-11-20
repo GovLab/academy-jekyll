@@ -1,0 +1,341 @@
+.b-single-landing {
+    padding-top: 90px;
+
+    .e-question {
+        margin-top: 40px;
+        margin-bottom: 80px;
+        font-weight: 100;
+        text-align: center;
+        max-width: 800px;
+    }
+}
+
+.b-single-description {
+    padding: 60px 0;
+    background-color: #fff;
+
+    .e-project-link {
+        position: relative;
+
+        i {
+            transform: rotate(-45deg);
+            margin-left: 15px;
+            position: absolute;
+            font-size: 28px;
+        }
+    }
+
+    .e-team { margin-top: 30px; }
+}
+
+.b-single-description.m-slider {
+    background-color: rgba(black, .2);
+    padding-bottom: 150px;
+}
+
+.b-single-landing {
+    background-color: $blue;
+
+    header {
+        background-color: rgba(black, .1);
+        padding-top: 40px;
+        padding-bottom: 20px;
+
+        @include breakpoint($large) {padding: 0;}
+    }
+
+    .e-tags {
+        list-style-type: none;
+        padding-left: 0;
+        margin-top: 0;
+
+        h5 {
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin: 0;
+            color: rgab(white, .3);
+
+            &:not(:first-child) {
+                margin-top: 15px;
+            }
+        }
+
+        .e-tag {
+            display: inline-block;
+            margin-bottom: 4px;
+            color: rgba(white, .8);
+            background-color: rgba(black, .1);
+            padding: 2px 8px;
+            font-size: 14px;
+            letter-spacing: .6px;
+        }
+    }
+
+    .e-wrap {
+        @include wrap;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+    }
+
+    .e-half {
+        -webkit-flex: 1;
+        flex: 1;
+        min-width: 350px;
+
+        &:nth-of-type(2n) {
+            @include breakpoint($large) { padding-right: 30px; }
+        }
+    }
+
+    footer {
+        display: block;
+        width: 100%;
+    }
+
+    h2 {
+        line-height: 1.3;
+        color: rgba(white, .9);
+    }
+
+    .e-project-name {
+        font-size: 36px;
+        font-weight: 100;
+        margin: 20px 0;
+        display: block;
+        width: 100%;
+        @include wrap;
+
+        @include breakpoint($large) { font-size: 48px; }
+    }
+
+    .e-project-tagline {
+        font-weight: 200;
+        font-style: italic;
+        font-size: 26px;
+        margin: 0;
+        color: rgba(white, .9);
+        line-height: 1.4;
+    }
+
+    .e-question {
+        color: rgba(white, .8);
+        font-weight: 400;
+        margin: 0;
+        font-size: 18px;
+        line-height: 1.35;
+        @include wrap;
+
+        @include breakpoint($large) { font-size: 22px; }
+    }
+
+    .e-project-link {
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: 1px;
+        color: rgba(white, .7);
+        font-weight: 600;
+        padding: 15px 0;
+        margin: 15px 0;
+        position: relative;
+
+
+        i {
+            position: absolute;
+            right: -40px;
+            transform: rotate(-45deg);
+        }
+    }
+
+    .e-content {
+        h4 {
+            text-transform: uppercase;
+            font-size: 16px;
+            letter-spacing: 1px;
+            color: rgba(white, .7);
+            font-weight: 600;
+            margin: 30px 0;
+
+        }
+
+        p, li { color: rgba(white, .7); }
+    }
+
+    .e-location {
+        @include breakpoint($large) { margin-right: 100px; }
+        h4 { margin-bottom: 10px; }
+
+        .e-place {
+            display: inline-block;
+            background-color: rgba(black, .1);
+            padding: 5px 18px;
+            margin-bottom: 4px;
+            color: rgba(white, .6);
+
+            @include breakpoint($large) {
+                display: inline-block;
+                font-size: 16px;
+                padding: 3px 9px;
+            }
+        }
+    }
+
+    .e-partners {
+        h4 { margin-bottom: 10px; }
+
+        .e-partner {
+            display: inline-block;
+            padding: 5px 0;
+            margin-bottom: 4px;
+            color: rgba(white, .6);
+
+            @include breakpoint($large) {
+                display: inline-block;
+                font-size: 16px;
+                padding: 3px 0;
+            }
+        }
+    }
+
+    .e-progress {
+        @include breakpoint($small-only) {
+            border: 1px solid rgba(white, .4);
+            padding: 3px 0;
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        @include breakpoint($large) {
+            width: 100%;
+            border-bottom: 1px solid rgba(white, .2);
+            margin-top: 70px;
+            margin-bottom: 20px;
+            margin-left: 120px;
+            position: relative;
+        }
+
+        &:before {
+            @include breakpoint($small-only) {
+                color: rgba(white, .6);
+                content: 'Progress: ';
+            }
+
+            @include breakpoint($large) {
+                color: rgab(white, .3);
+                content: 'Progress';
+                position: absolute;
+                bottom: -13px;
+                left: -120px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: 600;
+            }
+        }
+
+        &:after {
+            @include breakpoint($large) {
+                position: absolute;
+                content: "";
+                border-bottom: 1px solid rgba(white, .5);
+                left: 0;
+                top: 0;
+            }
+        }
+
+        span:before {
+            color: rgba(white, .6);
+            display: none;
+
+            @include breakpoint($large) {
+                position: absolute;
+                margin-top: -35px;
+                display: block;
+                color: rgab(white, .3);
+            }
+        }
+
+        span:nth-child(1):before {
+            content: "Ideation";
+            @include breakpoint($large) { right: 88%; }
+        }
+        span:nth-child(2):before {
+            content: "Prototyping";
+            @include breakpoint($large) { right: 70%; }
+        }
+        span:nth-child(3):before {
+            content: "User Testing";
+            @include breakpoint($large) { right: 51%; }
+        }
+        span:nth-child(4):before {
+            content: "Private Beta";
+            @include breakpoint($large) { right: 32%; }
+        }
+        span:nth-child(5):before {
+            content: "Public Beta";
+            @include breakpoint($large) { right: 16%; }
+        }
+        span:nth-child(6):before {
+            content: "Launched";
+            @include breakpoint($large) { right: 0; }
+        }
+
+        &.m-idea span:nth-child(1):before,
+        &.m-prototype span:nth-child(2):before,
+        &.m-testing span:nth-child(3):before,
+        &.m-private-beta span:nth-child(4):before,
+        &.m-public-beta span:nth-child(5):before,
+        &.m-launched span:nth-child(6):before {
+            color: rgba(white, .9);
+
+            @include breakpoint($small-only) {
+                display: inline-block;
+                font-weight: 600;
+            }
+        }
+
+        &.m-idea:after { width: 12%;}
+        &.m-prototype:after { width: 30%; }
+        &.m-testing:after { width: 49%; }
+        &.m-private-beta:after { width: 68%; }
+        &.m-public-beta:after { width: 84%; }
+        &.m-launched:after { width: 100%; }
+    }
+
+    .e-social-media {
+        padding: 20px 0;
+
+        h4 {
+            text-transform: uppercase;
+            font-size: 16px;
+            letter-spacing: 1px;
+            color: rgba(white, .4);
+            font-weight: 600;
+            margin: 0;
+            margin-right: 50px;
+
+            @include breakpoint($large) { display: inline-block; }
+        }
+
+        a {
+            color: rgba(white, .4);
+            font-size: 22px;
+            line-height: 16px;
+            display: inline-block;
+            padding: 10px;
+            @include transition;
+
+            &:hover {
+                color: white;
+                transform: scale(1.5);
+                @include transition;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,195 @@
+---
+syllabus:
+- sys:
+    id: 7rwrZOLyikWAOGyYY0IkoY
+  syllabusTitle: Leveraging Crowds in the Public Sector
+  faculty:
+  - sys:
+      id: 5gSD74RzVSgSa2uC6wGScS
+    firstName: Brian
+    lastName: Behlendorf
+    facultyTitle: Managing Director at Mithril Capital Management
+    longBio: Brian Behlendorf is Managing Director at Mithril Capital Management in
+      San Francisco.  His career has been a mix of technology start-up, public policy,
+      and non-profit tech leadership. Brian serves on the Boards of the Mozilla Foundation,
+      the Electronic Frontier Foundation, and Benetech, three organizations using
+      technology to fight for civil liberties, open technologies, and social impact
+      in the digital domain.  Prior to Mithril, Brian was Chief Technology Officer
+      at the World Economic Forum.  He also served for two years at the White House
+      as advisor to the Open Government project within the Office of Science and Technology
+      Policy, and then later as advisor to Health and Human Services on open software
+      approaches to health information sharing.  Before that he has founded two tech
+      companies (CollabNet and Organic) and several Open Source software projects
+      (Apache, Subversion, and more).
+    email: brian@behlendorf.com
+    website: http://brian.behlendorf.com
+    twitter: https://twitter.com/brianbehlendorf
+    linkedIn: https://www.linkedin.com/in/brianbehlendorf
+    gitHub: https://github.com/brianbehlendorf
+    facultyImage:
+      title: brian-behlendorf
+      description: 
+      url: "//images.contentful.com/gvpfsi7zggwe/3qjaiUVqk0GWucaqooGy4y/4b8b259e3a54a8d2b2c6c6b84c2ebbbe/brian-behlendorf.jpg"
+  - sys:
+      id: 5gfjFvZYdiAgkgaY0muu80
+    firstName: Dinorah
+    lastName: Cantú-Pedraza
+    facultyTitle: The GovLab Academy Coordinator
+    affiliation: The GovLab
+    longBio: Dinorah Cantu coordinates the GovLab Academy, an online institute aimed
+      at helping government and social innovators take innovative projects from idea
+      to implementation. Under her direction, the Academy has worked with over five
+      hundred innovators from more than 30 countries online and off over the last
+      two years. Thousands more have watched its skill-building videos. She has put
+      together over 12 Coaching Programs, the Academy’s signature mentoring and peer
+      to peer learning initiative, where over 95% of whose participants complete the
+      program. The Academy is a project of the Governance Lab, based at New York University.
+      GovLab focuses on the use of technology to improve how we govern. Dinorah has
+      also designed the GovLab’s Crowdsorcerer expert system, a software tool to deliver
+      customized case studies to government leaders about open innovation. Working
+      together with lawyers and education experts from NYU, she also designed an expert
+      system to help universities determine the legal requirements for offering online
+      education. She also runs the GovLab’s Demos for Democracy video series where
+      she interviews leading technologists about new platforms to advance the public
+      interest. A lawyer by training, Dinorah founded and directed the Human Rights
+      Center of the Facultad Libre de Derecho de Monterrey prior to coming to New
+      York in 2012. She holds an MPA in Public and Nonprofit Management and Policy
+      at NYU Robert F. Wagner School of Public Service and is passionate about the
+      value of civic technology for strengthening human rights. She is bilingual in
+      English and Spanish and tweets at @dinorah_cantu.
+    email: dinorah@thegovlab.org
+    website: http://thegovlab.org/about/team/
+    twitter: https://twitter.com/dinorah_cantu
+    linkedIn: https://www.linkedin.com/pub/dinorah-cantu/35/568/56a
+    gitHub: https://github.com/dino-at-thegovlab
+    facultyImage:
+      title: dinorah-cantu-pedraza
+      description: 
+      url: "//images.contentful.com/gvpfsi7zggwe/6vQYf3IQiA4qkUYKM6q8EQ/f1e968663e59fac91027cb3de707bf27/dinorah-cantu-pedraza.jpg"
+  - sys:
+      id: t7GAsnfeU0QGAsemoewSu
+    firstName: Alexandra
+    lastName: Clare
+    longBio: Before arriving at the GovLab, Ali worked as a criminal prosecutor for
+      the Australian Government and as a fellow at United Nations Office of the Special
+      Representative for Children and Armed Conflict, Human Rights Watch and at International
+      Crisis Group undertaking research and advocacy on various crisis situations
+      from Syria to the Democratic Republic of Congo.
+    email: acc578@nyu.edu
+    twitter: https://twitter.com/iraqrecoded
+    linkedIn: https://www.linkedin.com/pub/alexandra-clare/43/582/819
+    facultyImage:
+      title: alexandra-clare
+      description: 
+      url: "//images.contentful.com/gvpfsi7zggwe/207eivvPOYQEEqGK8YWGSC/5ff19c5302f33a0a6d0f41d7b84d6ed6/alexandra-clare.jpg"
+  - sys:
+      id: 39NgtCQES4QUWe2yyc880a
+    firstName: Gavin
+    lastName: Hayman
+    facultyTitle: Executive Director of the Open Contracting Partnership
+    longBio: |-
+      Gavin is currently the Executive Director of Global Witness and, before that, he was the organisation's Director of Campaigns since 2006. He oversees all of Global Witness groundbreaking and award-winning investigative, campaigning and advocacy work uncovering secret deals, corruption and conflict around the world. He helped create the international Publish What You Pay campaign and helped negotiate the intergovernmental Extractive Industries Transparency Initiative that brings together oil and mining companies, home- and host-governments and civil society to improve disclosure and oversight of over $1 trillion dollars of oil and mining money.
+
+      He is an expert on illicit financial flows, and helped lead global efforts to end the abuse of anonymous shell companies for money laundering and financial crime, including working with the British government's recent presidency of the G8 and the Open Government Partnership. He has a Doctorate from the University of Reading and has worked with Chatham House in London and the United National Environmental Programme in the past on analysing and investigating global environmental crime.
+    email: haymangavin@gmail.com
+    twitter: https://twitter.com/gavinhayman_gw
+    facultyImage:
+      title: gavin-hayman
+      description: 
+      url: "//images.contentful.com/gvpfsi7zggwe/20aU61SkPGCw6AcAsMkyC/806294fd712a8bb3d3a196f88caf66a8/gavin-hayman.jpg"
+  startDate: !ruby/object:DateTime 2016-04-15 00:00:00.000000000 -05:00
+  endDate: !ruby/object:DateTime 2017-05-01 00:00:00.000000000 -05:00
+  description: 'More and more organizations are turning to crowds for help in solving
+    their most vexing innovation and research questions. But managers remain understandably
+    cautious. It seems risky and even unnatural to push problems out to vast groups
+    of strangers distributed around the world, particularly for organizations and
+    institutions built on a history of internal innovation. Understanding what kinds
+    of problems a crowd really can handle better and how to manage the process requires
+    careful design. However, after a decade of study, we have identified when crowds
+    tend to outperform internal organizations (or not). This program is designed to
+    help those wishing to integrate crowdsourcing into ongoing projects. Whether policymaking
+    or service delivery in nature, we start from the assumption that, engaging citizens
+    is generally both more effective and more legitimate as a way of working. Together
+    we will explore how to better harness crowdsourcing and distributed innovation
+    networks by offering guidance on choosing the best form of crowdsourcing for a
+    given situation. '
+  syllabusClasses:
+  - sys:
+      id: 5fOzllL7gWu6iyCua6GwGM
+    classTitle: Describing the Project
+    shortDescription: 'During this session we want to talk about what people are doing
+      and why. Get people to refine their problem and project descriptions further. '
+    classNumber: 1
+    classWeek: 1
+    classDescription: |-
+      During this session we want to talk about what people are doing and why. Get people to refine their problem and project descriptions further. We can support with sample problem and project descriptions and the Public Projects Canvas, which gets people thinking about the arc of their projects.)
+
+      __When:__ Friday, April 10, 2015, from 8 - 10am EST
+
+      __Link to join:__ [https://zoom.us/j/345797363](https://zoom.us/j/345797363)
+
+      __Possible guest speaker:__ TBD (Suggestion: Bring in a guest with a really successful or failed project in your space)
+
+      __To-do:__ Please fill out the GovLab Public Problem Solving Canvas
+
+      *Guest speakers should be people you are also very interested in meeting and you think can learn the most from their experience so please feel free to suggest any changes or additions.*
+  - sys:
+      id: 2DlzQLVOByc208MociAIUM
+    classTitle: Engaging with People and Data
+    shortDescription: During this session we want to talk about how you are getting
+      smarter about who your users are and their needs.
+    classNumber: 2
+    classWeek: 2
+    classDescription: |
+      During this session we want to talk about how you are getting smarter about who your users are and their needs. Please use this session to also talk about how are you doing research, share and trade ideas.
+
+      __When:__ Friday, April 17, 2015 from 8 - 10am EST
+
+      __Link to join:__ [https://zoom.us/j/345797363](https://zoom.us/j/345797363)
+
+      __Possible guest speaker:__ TBD (Suggestion: Guests might include either someone who can talk about how they did research for their own project or a research specialist such as a librarian or data scientist.)
+
+      __Before the session:__ Rewrite the Problem Statements
+    resources:
+    - sys:
+        id: j0nGdQvlUOSY6IIoQwWia
+  - sys:
+      id: 59nkpvti0MYOg8cEGwCY6O
+    classTitle: Measuring Impact
+    shortDescription: During this session the goal is to talk metrics, metrics, metrics
+      and exchange ideas for how to assess impact. We will also discuss how to evolve
+      the project.
+    classNumber: 3
+    classWeek: 3
+    classDescription: |+
+      During this session the goal is to talk metrics, metrics, metrics and exchange ideas for how to assess impact. We will also discuss how to evolve the project.
+
+      __When:__ Friday, April 24, 2015 from, 8 - 10am EST
+
+      __Link to join:__ [https://zoom.us/j/345797363](https://zoom.us/j/345797363)
+
+      __Possible guest speaker:__ TBD
+
+  - sys:
+      id: 2L31ia4bbieoqIMcoeMSQy
+    classTitle: Persuading the Audience
+    shortDescription: Exchange decks and 1-page memos and do your pitch! We will bring
+      in guests to give feedback on presentations so be prepared.
+    classNumber: 4
+    classWeek: 4
+    classDescription: |
+      Exchange decks and 1-page memos and do your pitch! We will bring in guests to give feedback on presentations so be prepared.
+
+      __When:__  Friday, May 1, 2015 from 8 - 10am EST
+
+      __Link to join:__ [https://zoom.us/j/345797363](https://zoom.us/j/345797363)
+
+      __Possible guest speaker:__ TBD
+    resources:
+    - sys:
+        id: j0nGdQvlUOSY6IIoQwWia
+  resources:
+  - sys:
+      id: j0nGdQvlUOSY6IIoQwWia
+  - sys:
+      id: 3hrTJ3Y812AewOmakaw4GU

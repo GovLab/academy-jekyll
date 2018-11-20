@@ -1,0 +1,165 @@
+{
+  "name": "Syllabus",
+  "description": "Create a syllabus",
+  "displayField": "syllabusTitle",
+  "fields": [
+    {
+      "name": "Syllabus Title",
+      "id": "syllabusTitle",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "disabled": false,
+      "omitted": false,
+      "validations": []
+    },
+    {
+      "name": "Faculty",
+      "id": "faculty",
+      "type": "Array",
+      "items": {
+        "type": "Link",
+        "linkType": "Entry",
+        "validations": [
+          {
+            "linkContentType": [
+              "faculty"
+            ]
+          }
+        ]
+      },
+      "validations": []
+    },
+    {
+      "name": "Start Date",
+      "id": "startDate",
+      "type": "Date",
+      "localized": false,
+      "required": false,
+      "disabled": false,
+      "omitted": false,
+      "validations": []
+    },
+    {
+      "name": "End Date",
+      "id": "endDate",
+      "type": "Date",
+      "localized": false,
+      "required": false,
+      "disabled": false,
+      "omitted": false,
+      "validations": []
+    },
+    {
+      "name": "Description",
+      "id": "description",
+      "type": "Text",
+      "localized": false,
+      "required": false,
+      "disabled": false,
+      "omitted": false,
+      "validations": []
+    },
+    {
+      "name": "Objectives",
+      "id": "objectives",
+      "type": "Text",
+      "localized": false,
+      "required": false,
+      "disabled": false,
+      "omitted": false,
+      "validations": []
+    },
+    {
+      "name": "Additional Information",
+      "id": "addlInformation",
+      "type": "Text",
+      "validations": [],
+      "localized": false,
+      "required": false,
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "name": "Class",
+      "id": "class",
+      "type": "Array",
+      "items": {
+        "type": "Link",
+        "linkType": "Entry",
+        "validations": [
+          {
+            "linkContentType": [
+              "syllabusClass"
+            ]
+          }
+        ]
+      },
+      "validations": [],
+      "localized": false,
+      "required": false,
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "name": "Resources",
+      "id": "resources",
+      "type": "Array",
+      "items": {
+        "type": "Link",
+        "linkType": "Entry",
+        "validations": [
+          {
+            "linkContentType": [
+              "resource"
+            ]
+          }
+        ]
+      },
+      "validations": [],
+      "localized": false,
+      "required": false,
+      "disabled": false,
+      "omitted": false
+    }
+  ],
+  "sys": {
+    "id": "syllabus",
+    "type": "ContentType",
+    "createdAt": "2017-02-15T19:48:05.244Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "73bsDHRmfhrFcOfVU24Ww1"
+      }
+    },
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "gvpfsi7zggwe"
+      }
+    },
+    "firstPublishedAt": "2017-02-15T19:48:05.357Z",
+    "publishedCounter": 3,
+    "publishedAt": "2017-02-21T04:10:14.639Z",
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "73bsDHRmfhrFcOfVU24Ww1"
+      }
+    },
+    "publishedVersion": 5,
+    "version": 6,
+    "updatedAt": "2017-02-21T04:10:14.662Z",
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "73bsDHRmfhrFcOfVU24Ww1"
+      }
+    }
+  }
+}

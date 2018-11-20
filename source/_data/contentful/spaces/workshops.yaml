@@ -1,0 +1,194 @@
+---
+workshop:
+- sys:
+    id: UWNm9WO6Qu4C6CMOkyq2M
+  workshopName: Open Data, Law and Licensing
+  workshopType:
+  - Partner Workshop
+  shortDescription: Want to use or publish open data, but need to understand the law
+    and licensing? Designed for non-specialists, this practical morning course will
+    examine the essential information you need to know on open data and the law.
+  website: http://theodi.org/courses/open-data-law-and-licensing
+  partner:
+  - Open Data Institute
+  location: The Open Data Institute, 65 Clifton Street, London, EC2A 4JE
+- sys:
+    id: hi4olMRvJCykSs0iqAuOW
+  workshopName: Finding Stories in Open Data
+  workshopType:
+  - Partner Workshop
+  shortDescription: Want to make open data come to life? This interactive one-day
+    course will show you how to find stories in data and statistics, analyse and interpret
+    your findings, and communicate this to your organisation, peers or the public.
+  website: http://theodi.org/courses/finding-stories-in-open-data
+  partner:
+  - Open Data Institute
+  location: The Open Data Institute, 65 Clifton Street, London, EC2A 4JE
+- sys:
+    id: 110rtPQYRSmSAo40WK6MQ4
+  workshopName: Open Data in Practice
+  workshopType:
+  - Partner Workshop
+  shortDescription: Looking to take advantage of open data in your organisation? This
+    intensive and interactive three day course, is essential for those looking to
+    build on their open data skills. Learn how to publish, consume and exploit open
+    data to act on opportunities.
+  longDescription: |-
+    This is an intensive and interactive three day course, if you are using or looking to use open data within your organisation or company. Suitable for both individuals and teams, it has been redesigned by our experts to minimise your time out of the office and maximise your learning.
+
+    For individuals and teams who want to learn how to publish, consume and exploit open data to improve efficiency, create new services and to act on opportunities. We will cover the very best practice involved in using and publishing open data and the legal and policy requirements in order to remove any potential risks.
+
+    By the end of the course you will be able to:
+    - Apply the (six) steps of publishing open data to a dataset
+    - Choose the most appropriate methodologies for handling your dataset
+    - Know what job roles needs to be involved in an open data project
+    - Validate, clean and enrich a dataset
+    - Know the value of open data across an organisation
+    - Describe how companies are innovating with open data
+    - Explain the benefits of open data
+    - Analyse the risk in opening up your dataset
+    - Examine how law and licensing affects the publication and usage of open data around the world
+    - Summarise the opportunities and challenges involved in managing open data projects
+    - Describe the (five) steps in using open data
+    - Be able to critically evaluate, appraise visualisation techniques for data
+    - Create an interactive visualisation
+  website: http://theodi.org/courses/open-data-in-practice-3days
+  startDate: !ruby/object:DateTime 2017-03-27 09:15:00.000000000 -05:00
+  endDate: !ruby/object:DateTime 2017-03-29 09:15:00.000000000 -05:00
+  partner:
+  - Open Data Institute
+  location: The Open Data Institute, 65 Clifton Street, London, EC2A 4JE
+- sys:
+    id: 4Z1znzmmb6eY8gkKE42EW0
+  workshopName: Open Data in a Day
+  workshopType:
+  - Partner Workshop
+  shortDescription: New to open data? Get started with our one-day interactive course
+    run by our experts. This introductory, jargon free course will enable you to quickly
+    get a 360 degree view of the open data landscape.
+  longDescription: |-
+    Whether you have some knowledge of open data, work in a related field or are completely new to it, this introductory, jargon-free course will give you a 360-degree view of the open data landscape and boost your confidence in working with it.
+
+    Over the course of the day, you will learn:
+    - What open data is, its benefits and opportunities
+    - Case studies of successful open data projects
+    - How to minimise risks by understanding licensing and certificates
+    - How to discover and use open data
+
+    With a mixture of practical exercises, case studies and the latest learnings from the field of open data, our experts will remove the complexity of working within it. Increase your confidence in working with open data. Reserve your place today for our early bird rates.
+
+    The course is split into four sessions. The detailed outcomes of each of these sessions show the broad and essential range of subjects covered on the course.
+  website: http://theodi.org/courses/open-data-day
+  startDate: !ruby/object:DateTime 2017-02-27 00:00:00.000000000 -05:00
+  partner:
+  - Open Data Institute
+  location: Open Data Institute, 65 Clifton Street, London EC2A 4JE
+- sys:
+    id: 13UIW4gvqua4AmAQCQcaW8
+  workshopName: Defining Problems
+  workshopType:
+  - GovLab Workshop
+  shortDescription: A two-day, deep-dive workshop on problem definition – is consistent
+    with the latest approaches to design-thinking. Its purpose is to help participants
+    think more critically about the problem they are trying to solve, maximize the
+    value of their solution by repositioning it upstream when appropriate, and ensure
+    the problem is understood by the end users most affected.
+  website: http://govlabacademy.org/static/files/defining-problems-workshop.pdf
+  partner:
+  - Institute on Governance
+- sys:
+    id: 3DpWVtEa4Ucgi6CgKEeGOg
+  workshopName: Defining Metrics of Success
+  workshopType:
+  - By Request
+  shortDescription: How to shape appropriate, context-specific measures of performance
+    that capture not just the activity associated with an innovation initiative but,
+    more importantly, the value created
+- sys:
+    id: 3LLsulVbo4kuI48AQ2oS22
+  workshopName: Designing Mock-ups and Prototypes
+  workshopType:
+  - By Request
+  shortDescription: How to translate hypotheses based on research and analysis into
+    tangible forms that can be piloted and tested with all relevant user groups and
+    delivery channels
+- sys:
+    id: 2fgnqqbmlSmYEOsqGC2Eim
+  workshopName: Rapid-cycle Research
+  workshopType:
+  - By Request
+  shortDescription: How to design and execute a brief but intensive research effort
+    to map out an issue landscape, including the major unanswered questions, key players,
+    and relevant state of current practice and exploration
+- sys:
+    id: cVQO0hfgNGmUC462wgMcK
+  workshopName: Project Planning
+  workshopType:
+  - By Request
+  shortDescription: How to turn a problem statement and user analysis into a tight
+    workplan against which innovation-focused activities can be efficiently and effectively
+    deployed
+- sys:
+    id: 2mt5fiKHxikyk0uMSWeIAW
+  workshopName: User Segmentation and Analysis
+  workshopType:
+  - By Request
+  shortDescription: How to understand the preferences and priorities of those most
+    likely to be affected by a proposed governance innovation and, then, translate
+    that understanding into the design specs that shape the innovation process
+- sys:
+    id: eQsLJR3H32G8eUiKacKmI
+  workshopName: Urban Analytics for Change
+  workshopType:
+  - GovLab Workshop
+  shortDescription: In this one day program, you will acquire the skills required
+    to frame and commission effective data-driven projects that lead to tangible,
+    real-world outcomes. The program will also help prepare you to partner with senior
+    executives within your organization in order to design, implement, and evaluate
+    analytics projects so that they consistently deliver measurable, scalable results.
+  website: http://cusp.nyu.edu/exec-ed-1day/
+  faculty:
+  - sys:
+      id: 6Ip5C7EfGoGy2AKAaA6qI0
+    firstName: Alan
+    lastName: Kantrow
+    facultyTitle: Senior Advisor at the GovLab
+    affiliation: The GovLab
+    longBio: Alan Kantrow is Senior Advisor of The GovLab. Prior to joining The GovLab,
+      Alan was Managing Partner of Alan Kantrow LLC, where he provided advice on strategy,
+      organization, innovation, communication, and knowledge management to corporations,
+      colleges and universities, and government entities focused on educational and
+      economic development in many different parts of the world. He is also a Senior
+      Advisor to HCD Global in Shanghai. In parallel, he has been Professor of Management
+      and Director of an infrastructure-focused research center at Moscow School of
+      Management/Skolkovo, Visiting Scholar at Sloan School of Management (MIT), and
+      adjunct lecturer in strategy at Babson College. Previously, for more than a
+      dozen years, Alan was a Senior Partner and Chief Knowledge Officer at Monitor
+      Group. Before that has was a Partner and Director of Communications for Asia-Pacific
+      at McKinsey & Company, as well as Editor of the McKinsey Quarterly. Still earlier,
+      he was a Founding Partner of Winthrop Group (business historians) and Senior
+      Editor of Harvard Business Review. He is the author of several books and many
+      articles, and his blog on tertiary education can be found at HBR.org. Alan holds
+      both his AB and PhD from Harvard University.
+    email: alan@thegovlab.org
+    website: http://thegovlab.org/about/team/alan-kantrow/
+    linkedIn: https://www.linkedin.com/pub/alan-kantrow/11/345/4a0
+    facultyImage:
+      title: alan-kantrow
+      description: Alan Kantrow
+      url: "//images.contentful.com/gvpfsi7zggwe/5yt4v0BAcM2kYeQ20a4kUg/cd1e24b4637231473e96149f6957ad06/alan-kantrow.jpg"
+  startDate: !ruby/object:DateTime 2015-02-05 06:00:00.000000000 -05:00
+  endDate: !ruby/object:DateTime 2015-02-06 09:00:00.000000000 -05:00
+  partner:
+  - Center for Urban Science Progress
+  workshopPdf:
+    title: ANALYTICS FOR CHANGE
+    description: 
+    url: "//assets.contentful.com/gvpfsi7zggwe/2tBnW67VjWYsA0c4Aa0OY2/f1bdbd4be650daada8357f355cd7a56b/analytics-for-change-workshop.pdf"
+- sys:
+    id: 4Htnuimglq6QiQoY06Aucg
+  workshopName: Problem Definition
+  workshopType:
+  - By Request
+  shortDescription: Support for efforts to make public all relevant information on
+    government procurement activities and decisions

@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<div class="course-detail course-detail--coaching">
+  <div class="course-header"> {% comment %} This gets the course type class modifier for color coding{% endcomment %}
+    <div class="row align-center">
+      <div class="large-9 column">
+        <h4>Coaching Program</h4>
+        <h2>{{ page.programName }}</h2>
+
+        <div class="course-detail__tagline">{{ page.passion.title }}</div>
+        <div class="course-detail__tagline">{{ page.shortDescription | markdownify }}</div>
+        <div class="course-detail__apply"><a href="#" class="button">Apply</a></div>
+      </div>
+    </div>
+
+    <div class="course-detail__dates">
+      <div class="row align-center">
+        <div class="large-9">
+          <div class="row">
+            <div class="large-4 column">
+              <h5 class="course-detail__date">Application Deadline</h5>
+              <h4 class="course-detail__date">{{ page.applicationDeadline | date: "%B %-d, %Y"  }}</h4>
+            </div>
+            <div class="large-4 column">
+              <h5 class="course-detail__date">starts the week of</h5>
+              <h4 class="course-detail__date">{{ page.startDate | date: "%B %-d, %Y" }}</h4>
+            </div>
+            <div class="large-4 column">
+              <h5 class="course-detail__date">Course Ends on</h5>
+              <h4 class="course-detail__date">{{ page.endDate | date: "%B %-d, %Y" }}</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page-section">
+    <div class="row align-center collapse">
+      <div class="large-9 column">
+        <div class="course-detail__passion">
+          <ul>
+            {% for item in passion.bullets %}
+              <li>{{ page.item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="course-detail__description">
+          <h2>Course Description</h2>
+          {{ page.longDescription | markdownify }}  
+        </div>
+        <div class="course-detail__format">
+          <h2>Course Format</h2>
+          {{ page.courseFormat | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="divider">
+    <div class="row">
+      <div class="large-12 column">
+        <h1>Faculty Members</h1>
+      </div>
+    </div>
+  </div>
+  <div class="faculty-members">
+    <div class="row expanded collapse align-center">
+      {% for person in page.faculty %}
+        <a href="{{site.url}}{{site.baseurl}}/faculty/{{person.lastName | slugify }}.html" target="_blank" class="large-3 column faculty-card {% if person.is_govlab %}faculty-card--govlab {% endif%}">
+          <div class="faculty-card__picture" style="background-image: url({{person.facultyImage.url}});"></div>
+          <h1 class="faculty-card__name ">{{ person.firstName }} {{ person.lastName }}</h1>
+          <p class="faculty-card__description">{{ person.title }}</p>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
