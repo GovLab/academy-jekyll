@@ -15,6 +15,8 @@ $large-up: (min-width 64.063em);
 $orange: #ee5b43;
 $blue: blue;
 $purple: purple;
+$gray: #ccc;
+$white: #fff;
 
 $main-color: $orange;
 
@@ -25,6 +27,7 @@ $masters-color: #f9b26f;
 
 
 $workshop-banner: '../images/workshops.jpg';
+$coaching-banner: '../images/coaching.jpg';
 
 
 @import 'breakpoint';
@@ -44,6 +47,7 @@ $workshop-banner: '../images/workshops.jpg';
 @import 'syllabus';
 @import 'library';
 @import 'community';
+@import 'pages';
 
 @mixin placeholder {
   &::-webkit-input-placeholder { @content }

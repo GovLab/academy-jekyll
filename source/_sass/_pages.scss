@@ -1,0 +1,81 @@
+.course-list {
+  &__overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    &--workshop {
+      background-color: $masters-color;
+    }
+    &--coaching {
+      background-color: $coaching-color;
+    }
+  }
+  &__banner {
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    &--workshop {
+      background-image: url($workshop-banner);
+    }
+    &--coaching {
+      background-image: url($coaching-banner);
+    }
+  }
+}
+
+.coaching-method-timeline {
+  background: transparent;
+  &__text {
+    width: 16.6666666666666%;
+    text-align: center;
+    display: inline-block;
+  }
+  &__unit {
+    width: 16.6666666666666%;
+    display: inline-block;
+    position: relative;
+    margin-right: -5px;
+    &__circle {
+      margin: 0 auto;
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      border: solid 4px $coaching-color;
+      background-color: $white;
+    }
+    &__line {
+      z-index: -1;
+      width: 50%;
+      height: 8px;
+      background-color: $gray;
+      position: absolute;
+      top: 16px;
+      &--left {
+        left: 0;
+      }
+      &--right {
+        right: 0;
+      }
+    }
+  }
+}
+
+.coaching-method-highlight {
+  &__unit {
+    border-radius: 5px;
+    color: $white;
+    text-align: center;
+    &__1 {
+      background-color: $blue;
+    }
+    &__2 {
+      background-color: $orange;
+    }
+    &__3 {
+      background-color: $purple;
+    }
+  }
+}

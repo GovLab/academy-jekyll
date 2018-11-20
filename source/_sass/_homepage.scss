@@ -94,8 +94,8 @@
       color: white;
     }
 
-    :first-child,
-    :last-child { margin: 0; }
+    // :first-child,
+    // :last-child { margin: 0; }
   }
 // }
 
@@ -154,23 +154,4 @@
 
 shadow {
   display: none;
-}
-
-.course-list {
-  &__workshop-overlay {
-    // z-index: 1;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: $masters-color;
-    opacity: 0.5;
-  }
-  &--workshop-banner {
-    position: relative;
-    background-image: url($workshop-banner);
-    background-size: cover;
-    background-position: center center;
-  }
 }
