@@ -29,22 +29,22 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
 
   &__item {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     display: block;
   }
 
 
-  &--canvas { 
-    background-color: $orange; 
+  &--canvas {
+    background-color: $orange;
   }
-  &--noi { 
-    background-color: $blue; 
+  &--noi {
+    background-color: $blue;
   }
 }
 
@@ -152,6 +152,25 @@
 }
 
 
-  shadow {
-    display: none;
+shadow {
+  display: none;
+}
+
+.course-list {
+  &__workshop-overlay {
+    // z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: $masters-color;
+    opacity: 0.5;
   }
+  &--workshop-banner {
+    position: relative;
+    background-image: url($workshop-banner);
+    background-size: cover;
+    background-position: center center;
+  }
+}
