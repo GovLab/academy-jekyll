@@ -24,7 +24,7 @@ faculty:
   facultyImage:
     title: jos-berens
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/13O8VY9W52KMW64qiGEEq2/72eb62785a1b04f340e52dd1c3bfd423/jos-berens.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/13O8VY9W52KMW64qiGEEq2/72eb62785a1b04f340e52dd1c3bfd423/jos-berens.jpg"
 - sys:
     id: 5gSD74RzVSgSa2uC6wGScS
   firstName: Brian
@@ -50,7 +50,7 @@ faculty:
   facultyImage:
     title: brian-behlendorf
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/3qjaiUVqk0GWucaqooGy4y/4b8b259e3a54a8d2b2c6c6b84c2ebbbe/brian-behlendorf.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/3qjaiUVqk0GWucaqooGy4y/4b8b259e3a54a8d2b2c6c6b84c2ebbbe/brian-behlendorf.jpg"
 - sys:
     id: 52NJACTaNO2QQgM2owqCIm
   firstName: Karin
@@ -69,7 +69,7 @@ faculty:
   facultyImage:
     title: karin-christiansen
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/1ZcZ7NmT6g2ss0mEQsE0iw/22e737dcb4bf7af23699030fbccb7a35/karin-christiansen.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/1ZcZ7NmT6g2ss0mEQsE0iw/22e737dcb4bf7af23699030fbccb7a35/karin-christiansen.jpg"
 - sys:
     id: t7GAsnfeU0QGAsemoewSu
   firstName: Alexandra
@@ -85,7 +85,7 @@ faculty:
   facultyImage:
     title: alexandra-clare
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/207eivvPOYQEEqGK8YWGSC/5ff19c5302f33a0a6d0f41d7b84d6ed6/alexandra-clare.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/207eivvPOYQEEqGK8YWGSC/5ff19c5302f33a0a6d0f41d7b84d6ed6/alexandra-clare.jpg"
 - sys:
     id: 4Qfo2nOXK0yAK0wYyy4q84
   firstName: Geoff
@@ -110,7 +110,7 @@ faculty:
   facultyImage:
     title: geoff-mulgan
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/2gSPgvPT6QUqkEQIEGCyqm/ffc583e232ede0b100d89b4fe74ff1b4/geoff-mulgan.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/2gSPgvPT6QUqkEQIEGCyqm/ffc583e232ede0b100d89b4fe74ff1b4/geoff-mulgan.jpg"
 - sys:
     id: 76jQmCfNmweoqWUoQIIYiy
   firstName: Benjamin
@@ -137,7 +137,7 @@ faculty:
   facultyImage:
     title: benjamin-kallos
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/46LT94LxmoIi0Og0oI6E2i/568b607f884146d3726465b0e8b9b024/benjamin-kallos.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/46LT94LxmoIi0Og0oI6E2i/568b607f884146d3726465b0e8b9b024/benjamin-kallos.jpg"
 - sys:
     id: 1an2paUAwwukcKuGO8Coew
   firstName: Tiago
@@ -166,7 +166,7 @@ faculty:
   facultyImage:
     title: tiago-peixoto
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/7b3bWWUMzmykmiuOy4IcmK/6364a2b6599c77e6c2541ecb28596fa5/tiago-peixoto.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/7b3bWWUMzmykmiuOy4IcmK/6364a2b6599c77e6c2541ecb28596fa5/tiago-peixoto.jpg"
 - sys:
     id: 7hGouXC4fuEeO8o6SAISI4
   firstName: Miriam
@@ -185,7 +185,7 @@ faculty:
   facultyImage:
     title: miriam-nisbet
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/4w6lgWOqsoEkSWmq0K8cKk/d8dffd8921f422a313a16ab3e4622eea/miriam-nisbet.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/4w6lgWOqsoEkSWmq0K8cKk/d8dffd8921f422a313a16ab3e4622eea/miriam-nisbet.jpg"
 - sys:
     id: 2qZW4xsqSgWMuys6w8Ki4w
   firstName: Hollie
@@ -215,7 +215,7 @@ faculty:
   facultyImage:
     title: hollie-russon-gilman
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/7u6DcwtfawMM8gQWqCKacI/2922aabdac987d43b2165f9105c4109f/hollie-russon-gilman.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/7u6DcwtfawMM8gQWqCKacI/2922aabdac987d43b2165f9105c4109f/hollie-russon-gilman.jpg"
 - sys:
     id: n4HlUiwcKcyWeKYEQWSiE
   firstName: Beth Simone
@@ -258,7 +258,7 @@ faculty:
   facultyImage:
     title: beth-simone-noveck
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/vZdtkl22762QQiWSsQkea/26c08114f807b31970dd828b28a817f0/beth-simone-noveck.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/vZdtkl22762QQiWSsQkea/26c08114f807b31970dd828b28a817f0/beth-simone-noveck.jpg"
 - sys:
     id: 6Ip5C7EfGoGy2AKAaA6qI0
   firstName: Alan
@@ -287,7 +287,7 @@ faculty:
   facultyImage:
     title: alan-kantrow
     description: Alan Kantrow
-    url: "//images.contentful.com/gvpfsi7zggwe/5yt4v0BAcM2kYeQ20a4kUg/cd1e24b4637231473e96149f6957ad06/alan-kantrow.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/5yt4v0BAcM2kYeQ20a4kUg/cd1e24b4637231473e96149f6957ad06/alan-kantrow.jpg"
 - sys:
     id: 6DNzfgavEkkqqIskcGKO6s
   firstName: Andrew
@@ -315,7 +315,7 @@ faculty:
   facultyImage:
     title: andrew-young
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/4p9UEkTBHaw2CiM8W2IeG4/53d71f8565911e2e565381e81687d7b9/andrew-young.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/4p9UEkTBHaw2CiM8W2IeG4/53d71f8565911e2e565381e81687d7b9/andrew-young.jpg"
 - sys:
     id: 1lA9oSyatOy8wWUIM2SAkA
   firstName: Arnaud
@@ -345,7 +345,7 @@ faculty:
   facultyImage:
     title: arnaud-sahuguet
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/48rqkGSTUQwgG4wwcQ6coO/15b9dac9c67b929741d294d667a52057/arnaud-sahuguet.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/48rqkGSTUQwgG4wwcQ6coO/15b9dac9c67b929741d294d667a52057/arnaud-sahuguet.jpg"
 - sys:
     id: 5gfjFvZYdiAgkgaY0muu80
   firstName: Dinorah
@@ -380,7 +380,7 @@ faculty:
   facultyImage:
     title: dinorah-cantu-pedraza
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/6vQYf3IQiA4qkUYKM6q8EQ/f1e968663e59fac91027cb3de707bf27/dinorah-cantu-pedraza.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/6vQYf3IQiA4qkUYKM6q8EQ/f1e968663e59fac91027cb3de707bf27/dinorah-cantu-pedraza.jpg"
 - sys:
     id: 5kS5wQk33qWKoA4e4AEwiG
   firstName: Stefaan
@@ -436,7 +436,7 @@ faculty:
   facultyImage:
     title: stefaan-verhulst
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/6RojjcYhck8Kq2GqWKG8gu/c125d0bb55023f3c02995f39eb2ca75c/stefaan-verhulst.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/6RojjcYhck8Kq2GqWKG8gu/c125d0bb55023f3c02995f39eb2ca75c/stefaan-verhulst.jpg"
 - sys:
     id: 3OrVaJWUdGqKOeSOmEIkyY
   firstName: Francois
@@ -473,7 +473,7 @@ faculty:
   facultyImage:
     title: francois-grey
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/5DAjZUN8zus8gmwwsqWwOa/f5792113aba57442894b0e1f1532c0de/francois-grey.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/5DAjZUN8zus8gmwwsqWwOa/f5792113aba57442894b0e1f1532c0de/francois-grey.jpg"
 - sys:
     id: 6gfUomlYC4QQq6QIOceKqW
   firstName: Clay
@@ -502,7 +502,7 @@ faculty:
   facultyImage:
     title: clay-johnson
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/7chS2pU9rOCAWm80MO2sUi/9d72e15192946b6678540abefa3e0f6a/clay-johnson.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/7chS2pU9rOCAWm80MO2sUi/9d72e15192946b6678540abefa3e0f6a/clay-johnson.jpg"
 - sys:
     id: 4VUV824TYkG0S8qqCwi6SS
   firstName: Joeri
@@ -525,7 +525,7 @@ faculty:
   facultyImage:
     title: joeri-van-den-steenhoven
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/4Rcjmox8xWsA6Q4EQw0KeE/82430edd2c4caf36cd1cb6cb357315da/joeri-van-den-steenhoven.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/4Rcjmox8xWsA6Q4EQw0KeE/82430edd2c4caf36cd1cb6cb357315da/joeri-van-den-steenhoven.jpg"
 - sys:
     id: nYPHeMVMpU8qaSUuMkwKE
   firstName: Karim
@@ -545,7 +545,7 @@ faculty:
   facultyImage:
     title: karim-lakhani
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/5sncZbgrKwWE2mOUkkke0i/0b6f080845a7f0d8b9cf1e8db17d58cf/karim-lakhani.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/5sncZbgrKwWE2mOUkkke0i/0b6f080845a7f0d8b9cf1e8db17d58cf/karim-lakhani.jpg"
 - sys:
     id: 39NgtCQES4QUWe2yyc880a
   firstName: Gavin
@@ -560,7 +560,7 @@ faculty:
   facultyImage:
     title: gavin-hayman
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/20aU61SkPGCw6AcAsMkyC/806294fd712a8bb3d3a196f88caf66a8/gavin-hayman.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/20aU61SkPGCw6AcAsMkyC/806294fd712a8bb3d3a196f88caf66a8/gavin-hayman.jpg"
 - sys:
     id: 1H0CMTHvEcsCUgmiyeI0Is
   firstName: Amen Ra
@@ -586,7 +586,7 @@ faculty:
   facultyImage:
     title: amen-ra-mashariki
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/2D0RTkT7YIOQ68mWmi6ikU/59c73ee787dc2855cd24f592a5e86bfe/amen-ra-mashariki.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/2D0RTkT7YIOQ68mWmi6ikU/59c73ee787dc2855cd24f592a5e86bfe/amen-ra-mashariki.jpg"
 - sys:
     id: 5x6EMlJNW8cO8qSQSiiUgK
   firstName: Liz
@@ -609,7 +609,7 @@ faculty:
   facultyImage:
     title: liz-barry
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/3uWgwFPrIIOUCKmCmesiMQ/4a589a1bb3ebeed8ee4818f1106dd954/liz-barry.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/3uWgwFPrIIOUCKmCmesiMQ/4a589a1bb3ebeed8ee4818f1106dd954/liz-barry.jpg"
 - sys:
     id: 3OblSnyffy6WcQ4E2Ck0Oo
   firstName: Puneet
@@ -629,7 +629,7 @@ faculty:
   facultyImage:
     title: puneet-kishor
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/1GMKhDNmEM0i82yiYEwKgc/f936d4f72e5ef2638e93ce460c8aa979/puneet-kishor.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/1GMKhDNmEM0i82yiYEwKgc/f936d4f72e5ef2638e93ce460c8aa979/puneet-kishor.jpg"
 - sys:
     id: 6o4mPD58aWK6YS8q8GukyY
   firstName: Daren C.
@@ -654,7 +654,7 @@ faculty:
   facultyImage:
     title: daren-brabham
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/5kq1p7ceg8AaAEGIuUUy8q/948303272679aedb5dcc4863f6a76bf1/daren-brabham.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/5kq1p7ceg8AaAEGIuUUy8q/948303272679aedb5dcc4863f6a76bf1/daren-brabham.jpg"
 - sys:
     id: 1zapWeT8k8iwOu0gM2mQ0m
   firstName: Henry
@@ -681,7 +681,7 @@ faculty:
   facultyImage:
     title: henry-timms
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/48B2OLNoE0OoaKMmoKwGgC/93a63088a624f70971bf1bdce0a36968/henry-timms.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/48B2OLNoE0OoaKMmoKwGgC/93a63088a624f70971bf1bdce0a36968/henry-timms.jpg"
 - sys:
     id: 6eIh9c6RFYmwSwsYCiMiUW
   firstName: Julian
@@ -705,7 +705,7 @@ faculty:
   facultyImage:
     title: julian-carver
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/zim4h1qde8WWoqcgiu4gy/e1055537b0e3a943735315b9388ba01f/julian-carver.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/zim4h1qde8WWoqcgiu4gy/e1055537b0e3a943735315b9388ba01f/julian-carver.jpg"
 - sys:
     id: 1GNls55iM0sSAuwY646MUW
   firstName: María
@@ -735,7 +735,7 @@ faculty:
   facultyImage:
     title: maria-hermosilla
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/2NZfQ4mvN6qq4qSYUkIaCC/9c7fd972483885a6a435f1d78df5e91b/maria-hermosilla.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/2NZfQ4mvN6qq4qSYUkIaCC/9c7fd972483885a6a435f1d78df5e91b/maria-hermosilla.jpg"
 - sys:
     id: J1oe5ZIAACqeumUYAuM2q
   firstName: Ana
@@ -758,7 +758,7 @@ faculty:
   facultyImage:
     title: ana-tovar
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/2vvDBqXho40QYqqYuac8SE/5233b0499609ab30a89baa451cf315fc/ana-tovar.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/2vvDBqXho40QYqqYuac8SE/5233b0499609ab30a89baa451cf315fc/ana-tovar.jpg"
 - sys:
     id: 19NzSNrZxiSSw8aCE4YKmo
   firstName: Uthman
@@ -777,7 +777,7 @@ faculty:
   facultyImage:
     title: uthman-olagoke
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/4dHSTxCRNeWiog4C6uOqOA/8038eafe2cd9fc54c8aa23d6494474cc/uthman-olagoke.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/4dHSTxCRNeWiog4C6uOqOA/8038eafe2cd9fc54c8aa23d6494474cc/uthman-olagoke.jpg"
 - sys:
     id: 41jcliotLG4IAAcaMOiQwy
   firstName: Claus
@@ -796,7 +796,7 @@ faculty:
   facultyImage:
     title: claus-mullie
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/57PrLJLQkMoEkcmMSkmqGs/6ebb6e0c85d80ada6830afbbe22dad55/claus-mullie.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/57PrLJLQkMoEkcmMSkmqGs/6ebb6e0c85d80ada6830afbbe22dad55/claus-mullie.jpg"
 - sys:
     id: 4KlleCGndeUg2WmcukAwKS
   firstName: Sascha
@@ -829,7 +829,7 @@ faculty:
   facultyImage:
     title: sascha-haselmayer
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/13SdeN0SL8AMGaqSccmkeO/b3a436e0fd24836ea58bdb584bb4408f/sascha-haselmayer.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/13SdeN0SL8AMGaqSccmkeO/b3a436e0fd24836ea58bdb584bb4408f/sascha-haselmayer.jpg"
 - sys:
     id: 3wl1z9JkX6iAOq2qQCeaWu
   firstName: Philippa
@@ -849,7 +849,7 @@ faculty:
   facultyImage:
     title: philippa-parry
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/3p2VCGbw6cc08KcucESsCg/ec27e1d01a426c73bec37ef11f53041f/philippa-parry.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/3p2VCGbw6cc08KcucESsCg/ec27e1d01a426c73bec37ef11f53041f/philippa-parry.jpg"
 - sys:
     id: 6DnfIkrlD2uEYI0iYKi0uE
   firstName: Nina
@@ -868,4 +868,4 @@ faculty:
   facultyImage:
     title: nina-robbins
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/42zmcO8t5KOqisQwSMg0m0/be737f3c1513d740e132ca2d1fd877b9/nina-robbins.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/42zmcO8t5KOqisQwSMg0m0/be737f3c1513d740e132ca2d1fd877b9/nina-robbins.jpg"

@@ -1,20 +1,23 @@
 ---
-layout: default
+layout: default_no_logo
 custom_body: homepage
 ---
 
-<section class="top-section highlights highlight--purple">
-  <div class="row expanded collapse small-unstack">
-    <div class="large-12 medium-12 small-12 columns">
-      <h3>{{site.data.contentful.spaces.index_page.page_subtitle}}</h3>
+<div class="top-section banner banner--index">
+  <div class="row banner__content">
+    <div class="large-12 column">
+      <img src="{{site.url}}{{site.baseurl}}/images/govlab-academy-logo-dark.png" alt="GovLab Academy">
+      <h3>{{site.data.contentful.spaces.index_page.indexPage[0].pageSubtitle}}</h3>
     </div>
   </div>
-</section>
+  <div class="banner__overlay banner__overlay--index">&nbsp;</div>
+</div>
 
 <section class="team-bullets">
   <div class="row">
     <div class="columns">
-      {{site.data.contentful.spaces.index_page.offers_list | markdownify }}
+      <p>&nbsp;</p>
+      {{site.data.contentful.spaces.index_page.indexPage[0].offersList | markdownify }}
     </div>
   </div>
 </section>
@@ -22,132 +25,173 @@ custom_body: homepage
 <section class="stats">
   <div class="row">
     <div class="large-12 columns">
-      <h3>{{site.data.contentful.spaces.index_page.learn_from_title}}</h3>
+      <center><h6>{{site.data.contentful.spaces.index_page.indexPage[0].learnFromTitle}}</h6></center>
     </div>
+  </div>
+  <div class="row">
     <div class="large-3 columns">
-      <div class="stats__number">
-        {{site.data.contentful.spaces.index_page.instructor_number}}
-      </div>
-      <div class="stats__image">
-        <i class="material-icons">school</i>
-      </div>
-      <div class="stats__text">
-        {{site.data.contentful.spaces.index_page.instructor_text}}
-      </div>
-    </div>
-    <div class="large-3 columns">
-      <div class="stats__number">
-        {{site.data.contentful.spaces.index_page.mentor_number}}
-      </div>
-      <div class="stats__image">
-        <i class="material-icons">device_hub</i>
-      </div>
-      <div class="stats__text">
-        {{site.data.contentful.spaces.index_page.mentor_text}}
+      <div class="stats__panel stats__panel--1">
+        <div class="stats__number">
+          {{site.data.contentful.spaces.index_page.indexPage[0].instructorNumber}}
+        </div>
+        <div class="stats__image stats__image--1">
+          <i class="material-icons">school</i>
+        </div>
+        <div class="stats__text">
+          {{site.data.contentful.spaces.index_page.indexPage[0].instructorText}}
+        </div>
       </div>
     </div>
     <div class="large-3 columns">
-      <div class="stats__number">
-        {{site.data.contentful.spaces.index_page.participants_number}}
-      </div>
-      <div class="stats__image">
-        <i class="material-icons">import_contacts</i>
-      </div>
-      <div class="stats__text">
-        {{site.data.contentful.spaces.index_page.participants_text}}
+      <div class="stats__panel stats__panel--2">
+        <div class="stats__number">
+          {{site.data.contentful.spaces.index_page.indexPage[0].mentorNumber}}
+        </div>
+        <div class="stats__image stats__image--2">
+          <i class="material-icons">device_hub</i>
+        </div>
+        <div class="stats__text">
+          {{site.data.contentful.spaces.index_page.indexPage[0].mentorText}}
+        </div>
       </div>
     </div>
     <div class="large-3 columns">
-      <div class="stats__number">
-        {{site.data.contentful.spaces.index_page.courses_number}}
+      <div class="stats__panel stats__panel--3">
+        <div class="stats__number">
+          {{site.data.contentful.spaces.index_page.indexPage[0].participantsNumber}}
+        </div>
+        <div class="stats__image stats__image--3">
+          <i class="material-icons">import_contacts</i>
+        </div>
+        <div class="stats__text">
+          {{site.data.contentful.spaces.index_page.indexPage[0].participantsText}}
+        </div>
       </div>
-      <div class="stats__image">
-        <i class="material-icons">create</i>
+    </div>
+    <div class="large-3 columns">
+      <div class="stats__panel stats__panel--4">
+        <div class="stats__number">
+          {{site.data.contentful.spaces.index_page.indexPage[0].coursesNumber}}
+        </div>
+        <div class="stats__image stats__image--4">
+          <i class="material-icons">create</i>
+        </div>
+        <div class="stats__text">
+          {{site.data.contentful.spaces.index_page.indexPage[0].coursesShortText}}
+        </div>
       </div>
-      <div class="stats__text">
-        {{site.data.contentful.spaces.index_page.courses_text}}
+    </div>
+  </div>
+
+  <div class="row" style="height: 100px;">
+    &nbsp;
+  </div>
+</section>
+
+<section class="divider">
+  <h1>{{site.data.contentful.spaces.index_page.indexPage[0].programsTitle}}</h1>
+</section>
+
+<section class="page-section page-section--sequence panel-section">
+  <div class="row expanded">
+    <div class="columns medium-6">
+      <div class="page-panel page-section__content--coaching">
+        <h2>{{site.data.contentful.spaces.index_page.indexPage[0].coachingProgramsTitle}}</h2>
+        <p>{{site.data.contentful.spaces.index_page.indexPage[0].coachingProgramsText}}</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><a href="{{site.url}}{{site.baseurl}}/coaching-programs.html" class="button button--transparent">{{site.data.contentful.spaces.index_page.indexPage[0].moreInformationLabel}}</a></p>
+      </div>
+    </div>
+    <div class="columns medium-6">
+      <div class="page-panel page-section__content--masters">
+        <h2>{{site.data.contentful.spaces.index_page.indexPage[0].workshopsTitle}}</h2>
+        <p>{{site.data.contentful.spaces.index_page.indexPage[0].workshopsText}}</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><a href="{{site.url}}{{site.baseurl}}/workshops.html" class="button button--transparent">{{site.data.contentful.spaces.index_page.indexPage[0].moreInformationLabel}}</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row expanded">
+    <div class="columns medium-6">
+      <div class="page-panel page-section__content--workshop">
+        <h2>{{site.data.contentful.spaces.index_page.indexPage[0].coursesTitle}}</h2>
+        <p>{{site.data.contentful.spaces.index_page.indexPage[0].coursesText}}</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><a href="{{site.url}}{{site.baseurl}}/master-classes.html" class="button button--transparent">{{site.data.contentful.spaces.index_page.indexPage[0].moreInformationLabel}}</a></p>
+      </div>
+    </div>
+    <div class="columns medium-6">
+      <div class="page-panel page-section__content--clinics">
+        <h2>{{site.data.contentful.spaces.index_page.indexPage[0].projectClinicsTitle}}</h2>
+        <p>{{site.data.contentful.spaces.index_page.indexPage[0].projectClinicsText}}</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><a href="{{site.url}}{{site.baseurl}}/courses.html" class="button button--transparent">{{site.data.contentful.spaces.index_page.indexPage[0].moreInformationLabel}}</a></p>
       </div>
     </div>
   </div>
 </section>
 
 <section class="divider">
-  <h1>{{site.data.contentful.spaces.index_page.programs_title}}</h1>
+  <h1>{{site.data.contentful.spaces.index_page.indexPage[0].howWeWorkLabel}}</h1>
 </section>
 
 <section class="page-section page-section--sequence" style="">
   <div class="row">
-    <div class="columns medium-6 page-section__content page-section__content--coaching">
-      <h2>{{site.data.contentful.spaces.index_page.coaching_programs_title}}</h2>
-      <p>{{site.data.contentful.spaces.index_page.coaching_programs_text}}</p>
-      <p><a href="{{site.url}}{{site.baseurl}}/coaching-programs.html" class="button button--transparent">{{site.data.contentful.spaces.index_page.more_information_label}}</a></p>
-    </div>
-    <div class="columns medium-6 page-section__content page-section__content--workshop">
-      <h2>{{site.data.contentful.spaces.index_page.workshops_title}}</h2>
-      <p>{{site.data.contentful.spaces.index_page.workshops_text}}</p>
-      <p><a href="{{site.url}}{{site.baseurl}}/workshops.html" class="button button--transparent">{{site.data.contentful.spaces.index_page.more_information_label}}</a></p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="columns medium-6 page-section__content page-section__content--masters">
-      <h2>{{site.data.contentful.spaces.index_page.courses_title}}</h2>
-      <p>{{site.data.contentful.spaces.index_page.courses_text}}</p>
-      <p><a href="{{site.url}}{{site.baseurl}}/master-classes.html" class="button button--transparent">{{site.data.contentful.spaces.index_page.more_information_label}}</a></p>
-    </div>
-    <div class="columns medium-6 page-section__content page-section__content--clinics">
-      <h2>{{site.data.contentful.spaces.index_page.project_clinics_title}}</h2>
-      <p>{{site.data.contentful.spaces.index_page.project_clinics_text}}</p>
-      <p><a href="{{site.url}}{{site.baseurl}}/courses.html" class="button button--transparent">{{site.data.contentful.spaces.index_page.more_information_label}}</a></p>
-    </div>
-  </div>
-</section>
-
-<section class="divider">
-  <h1>{{site.data.contentful.spaces.index_page.how_we_work_label}}</h1>
-</section>
-
-<section class="page-section page-section--sequence" style="">
-  <div class="row">
-    <div class="columns medium-6 medium-offset-3 page-section__content page-section__content--coaching">
+    <div class="columns medium-12">
       <img src="{{site.url}}{{site.baseurl}}/images/intro-canvas.png">
     </div>
   </div>
 </section>
 
-<section class="divider">
-  <h1>{{site.data.contentful.spaces.index_page.participants_label}}</h1>
-</section>
 
-<section class="page-section page-section--sequence" style="">
+<section class="page-section page-section--sequence" style="text-align: center;">
   <div class="row">
-    <div class="columns medium-6 medium-offset-3 page-section__content page-section__content--coaching">
-    </div>
-  </div>
-</section>
-
-<div class="divider divider--dark-teal">
-  <div class="row">
-    <div class="large-12 column">
-      <div>
-        {{site.data.contentful.spaces.index_page.mailing_list_label}}
-        </div>
-        <form class="form form--negative" method="post" action="//thegovlab.us6.list-manage.com/subscribe/post?u=1a990feb5c&amp;id=d90a01c7ff" target="_blank" >
-          <div style="position: absolute; left: -5000px;"><input type="text" name="b_1a990feb5c_d90a01c7ff" tabindex="-1" value=""></div>
-          <input type="email" name="EMAIL" placeholder="Email">
-          <button type="submit">Subscribe</button>
-        </form>
+    <div class="columns medium-12">
+      <h4>{{site.data.contentful.spaces.index_page.indexPage[0].participantsLabel}}</h4>
+      <div class="participant-logos">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/fci.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/usda.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/nyc-parks.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/oas.gif">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/barcelona-activa.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/tcf.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/ogp.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/bac.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/nestle.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/unigeneve.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/canada.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/hackerlab.png">
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<div class="divider divider--dark-teal">
+<div class="divider" style="padding: 80px 0;">
   <div class="row">
     <div class="large-12 column">
       <div>
-        <h4><strong>Subscribe</strong>
-          {{site.data.contentful.spaces.index_page.digest_label}}
+        <h4><strong>Subscribe</strong>{{site.data.contentful.spaces.index_page.indexPage[0].mailingListLabel}}</h4>
+      </div>
+      <form class="form form--negative" method="post" action="//thegovlab.us6.list-manage.com/subscribe/post?u=1a990feb5c&amp;id=d90a01c7ff" target="_blank" >
+        <div style="position: absolute; left: -5000px;"><input type="text" name="b_1a990feb5c_d90a01c7ff" tabindex="-1" value=""></div>
+        <input type="email" name="EMAIL" placeholder="Email">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="divider divider--dark-purple" style="padding: 80px 0;">
+  <div class="row">
+    <div class="large-12 column">
+      <div>
+        <h4><strong>Subscribe</strong>{{site.data.contentful.spaces.index_page.indexPage[0].digestLabel}}</h4>
         </div>
         <form class="form form--negative" method="post" action="//thegovlab.us6.list-manage.com/subscribe/post?u=1a990feb5c&amp;id=d90a01c7ff" target="_blank" >
           <div style="position: absolute; left: -5000px;"><input type="text" name="b_1a990feb5c_d90a01c7ff" tabindex="-1" value=""></div>
@@ -161,5 +205,5 @@ custom_body: homepage
 
 
 <section class="page-section" style="padding: 0;">
-    <img src="{{site.url}}{{site.baseurl}}/images/dfd-banner.png">
+  <img src="{{site.url}}{{site.baseurl}}/images/dfd-banner.png">
 </section>

@@ -29,7 +29,7 @@ syllabus:
     facultyImage:
       title: brian-behlendorf
       description: 
-      url: "//images.contentful.com/gvpfsi7zggwe/3qjaiUVqk0GWucaqooGy4y/4b8b259e3a54a8d2b2c6c6b84c2ebbbe/brian-behlendorf.jpg"
+      url: "//images.ctfassets.net/gvpfsi7zggwe/3qjaiUVqk0GWucaqooGy4y/4b8b259e3a54a8d2b2c6c6b84c2ebbbe/brian-behlendorf.jpg"
   - sys:
       id: 5gfjFvZYdiAgkgaY0muu80
     firstName: Dinorah
@@ -65,7 +65,7 @@ syllabus:
     facultyImage:
       title: dinorah-cantu-pedraza
       description: 
-      url: "//images.contentful.com/gvpfsi7zggwe/6vQYf3IQiA4qkUYKM6q8EQ/f1e968663e59fac91027cb3de707bf27/dinorah-cantu-pedraza.jpg"
+      url: "//images.ctfassets.net/gvpfsi7zggwe/6vQYf3IQiA4qkUYKM6q8EQ/f1e968663e59fac91027cb3de707bf27/dinorah-cantu-pedraza.jpg"
   - sys:
       id: t7GAsnfeU0QGAsemoewSu
     firstName: Alexandra
@@ -81,7 +81,7 @@ syllabus:
     facultyImage:
       title: alexandra-clare
       description: 
-      url: "//images.contentful.com/gvpfsi7zggwe/207eivvPOYQEEqGK8YWGSC/5ff19c5302f33a0a6d0f41d7b84d6ed6/alexandra-clare.jpg"
+      url: "//images.ctfassets.net/gvpfsi7zggwe/207eivvPOYQEEqGK8YWGSC/5ff19c5302f33a0a6d0f41d7b84d6ed6/alexandra-clare.jpg"
   - sys:
       id: 39NgtCQES4QUWe2yyc880a
     firstName: Gavin
@@ -96,7 +96,7 @@ syllabus:
     facultyImage:
       title: gavin-hayman
       description: 
-      url: "//images.contentful.com/gvpfsi7zggwe/20aU61SkPGCw6AcAsMkyC/806294fd712a8bb3d3a196f88caf66a8/gavin-hayman.jpg"
+      url: "//images.ctfassets.net/gvpfsi7zggwe/20aU61SkPGCw6AcAsMkyC/806294fd712a8bb3d3a196f88caf66a8/gavin-hayman.jpg"
   startDate: !ruby/object:DateTime 2016-04-15 00:00:00.000000000 -05:00
   endDate: !ruby/object:DateTime 2017-05-01 00:00:00.000000000 -05:00
   description: 'More and more organizations are turning to crowds for help in solving

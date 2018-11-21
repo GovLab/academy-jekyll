@@ -11,7 +11,7 @@ carousel:
   slideImage:
     title: 1-1RQowxpN6ALf0Onr71RDmw
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/a7XBfJL7d6SkwSWMWoIw/32d4fc5adbfa36e5981064bc63edb3ee/1-1RQowxpN6ALf0Onr71RDmw.png"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/a7XBfJL7d6SkwSWMWoIw/32d4fc5adbfa36e5981064bc63edb3ee/1-1RQowxpN6ALf0Onr71RDmw.png"
 - sys:
     id: 3I4ItQ01WgW8kSwi2qqm4w
   slideTitle: Lorem ipsum dolor sit amet
@@ -23,4 +23,4 @@ carousel:
   slideImage:
     title: 1-1RQowxpN6ALf0Onr71RDmw
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/a7XBfJL7d6SkwSWMWoIw/32d4fc5adbfa36e5981064bc63edb3ee/1-1RQowxpN6ALf0Onr71RDmw.png"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/a7XBfJL7d6SkwSWMWoIw/32d4fc5adbfa36e5981064bc63edb3ee/1-1RQowxpN6ALf0Onr71RDmw.png"

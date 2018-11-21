@@ -9,7 +9,7 @@ project:
   projectLogo:
     title: logo-beacon
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/5x82bxmXsc42cU40U0isaa/d582e3ff2e6b603bab01cee7a1b4e69c/logo-beacon.png"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/5x82bxmXsc42cU40U0isaa/d582e3ff2e6b603bab01cee7a1b4e69c/logo-beacon.png"
   progress:
   - Launched
   category:
@@ -55,16 +55,16 @@ project:
   images:
   - title: C5YTw BVEAEgO1m
     description: Some guy mentioned by FACT (Fancy Headband)
-    url: "//images.contentful.com/gvpfsi7zggwe/2J6AfItie4iMaqokyCaAcI/a55fc5c56c4028de4d7047e70d1b8b78/C5YTw_BVEAEgO1m.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/2J6AfItie4iMaqokyCaAcI/a55fc5c56c4028de4d7047e70d1b8b78/C5YTw_BVEAEgO1m.jpg"
   - title: C5YBeLXWQAEKTrw
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/7IcJ6qVDaMo0WCmMe6ui4I/ac1b769f28e5cdeacb5a724da61a203e/C5YBeLXWQAEKTrw.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/7IcJ6qVDaMo0WCmMe6ui4I/ac1b769f28e5cdeacb5a724da61a203e/C5YBeLXWQAEKTrw.jpg"
   - title: C5QL65QVMAAfYFu
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/35at39AHokY02mcA02Aoou/907ee4d2510dcd23731d0ded441013f5/C5QL65QVMAAfYFu.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/35at39AHokY02mcA02Aoou/907ee4d2510dcd23731d0ded441013f5/C5QL65QVMAAfYFu.jpg"
   - title: C5QQ22aUcAMI9RQ
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/1CbfkSB1O0MCAKEYAsCQEK/bf0d73d8abea80c56fb2e4ef922b3886/C5QQ22aUcAMI9RQ.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/1CbfkSB1O0MCAKEYAsCQEK/bf0d73d8abea80c56fb2e4ef922b3886/C5QQ22aUcAMI9RQ.jpg"
 - sys:
     id: 6jW9F20WrYGIAeSCsGQIWk
   projectName: FONDEN Transparente
@@ -74,7 +74,7 @@ project:
   projectLogo:
     title: logo-fonden-transparente
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/4BES9X6Pw4C2QIeMOo02EK/99aa16a9aeafca42352c0ca5fc3471c9/logo-fonden-transparente.png"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/4BES9X6Pw4C2QIeMOo02EK/99aa16a9aeafca42352c0ca5fc3471c9/logo-fonden-transparente.png"
   progress:
   - Public Beta
   category:
@@ -111,7 +111,7 @@ project:
   projectLogo:
     title: logo-greenarchives
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/7GUKaGh14cQymeU4Ucouy/f91737120a811a7602988f39ced1438e/logo-greenarchives.png"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/7GUKaGh14cQymeU4Ucouy/f91737120a811a7602988f39ced1438e/logo-greenarchives.png"
   progress:
   - Ideation
   category:
@@ -159,7 +159,7 @@ project:
   projectLogo:
     title: logo-linq
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/43d0p3CMykCC0ksg2a8gI0/a10da029ca25ba4619fa1ef9d9949abe/logo-linq.png"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/43d0p3CMykCC0ksg2a8gI0/a10da029ca25ba4619fa1ef9d9949abe/logo-linq.png"
   progress:
   - Launched
   category:
@@ -209,7 +209,7 @@ project:
   projectLogo:
     title: logo-noulab
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/6eQXZPB86ksySe0wa0Wqaw/a87d66450aa37207c18e4e78dd4151bf/logo-noulab.png"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/6eQXZPB86ksySe0wa0Wqaw/a87d66450aa37207c18e4e78dd4151bf/logo-noulab.png"
   progress:
   - Launched
   category:
@@ -256,7 +256,7 @@ project:
   projectLogo:
     title: logo-ny-councilmatic
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/gFNFoP4VwIEyIAe28i4IK/10acf073de7524a833e95ed20c8b77b9/logo-ny-councilmatic.png"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/gFNFoP4VwIEyIAe28i4IK/10acf073de7524a833e95ed20c8b77b9/logo-ny-councilmatic.png"
   progress:
   - Launched
   category:
@@ -335,7 +335,7 @@ project:
   projectLogo:
     title: logo-nyc-prepared
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/6pRZUSVBGoiSW26UasK20i/4358654ade541a4cfd3b0f92a4f07b6a/logo-nyc-prepared.png"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/6pRZUSVBGoiSW26UasK20i/4358654ade541a4cfd3b0f92a4f07b6a/logo-nyc-prepared.png"
   progress:
   - Public Beta
   category:
@@ -391,7 +391,7 @@ project:
   projectLogo:
     title: logo-presupuesto-abierto
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/6KKaauox7UEOEwy8Suskwe/84f17b2fb39fa62def824f85b3d3afc0/logo-presupuesto-abierto.png"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/6KKaauox7UEOEwy8Suskwe/84f17b2fb39fa62def824f85b3d3afc0/logo-presupuesto-abierto.png"
   progress:
   - Public Beta
   category:
@@ -433,7 +433,7 @@ project:
   projectLogo:
     title: logo-democratic-regeneration-through-technology
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/2hiLIyij4UkoaGoOUciMOm/64a27c94a96c239ffc55e741f46bacb1/logo-democratic-regeneration-through-technology.jpg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/2hiLIyij4UkoaGoOUciMOm/64a27c94a96c239ffc55e741f46bacb1/logo-democratic-regeneration-through-technology.jpg"
   progress:
   - Launched
   category:
@@ -494,7 +494,7 @@ project:
   projectLogo:
     title: logo-ldln
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/6IKTUM86mAw8EMUUCw46uA/e2ebfff830292c83f06c15e81b966759/logo-ldln.jpeg"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/6IKTUM86mAw8EMUUCw46uA/e2ebfff830292c83f06c15e81b966759/logo-ldln.jpeg"
   progress:
   - Launched
   category:
@@ -552,7 +552,7 @@ project:
   projectLogo:
     title: logo-muckrock
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/2CR4VwIg5WyaySwqS866wq/8a0d85a798139226a8a90a0205dd5c7a/logo-muckrock.png"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/2CR4VwIg5WyaySwqS866wq/8a0d85a798139226a8a90a0205dd5c7a/logo-muckrock.png"
   progress:
   - Launched
   category:
@@ -604,7 +604,7 @@ project:
   projectLogo:
     title: logo-open-journalism
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/1UWHQNyQms0goGeCA0KGek/467b9edaa6ce5db0a2e8233a1830a045/logo-open-journalism.png"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/1UWHQNyQms0goGeCA0KGek/467b9edaa6ce5db0a2e8233a1830a045/logo-open-journalism.png"
   progress:
   - Prototyping
   category:
@@ -650,7 +650,7 @@ project:
   projectLogo:
     title: logo-policyatlas
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/4Xg630uIwUIsI4wOI6MYK0/4720c9acc419c28cebd8c9c69470baa2/logo-policyatlas.png"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/4Xg630uIwUIsI4wOI6MYK0/4720c9acc419c28cebd8c9c69470baa2/logo-policyatlas.png"
   progress:
   - Launched
   category:
@@ -666,8 +666,8 @@ project:
   email: policyatlas_exec@googlegroups.com
   team: |-
     - Kevin Hansen, [http://www.kevinmhansen.com/about/](http://www.kevinmhansen.com/about/)
-    - Matt Lisiecki, http://linkedin.com/in/malisiecki
-    - Neil Reilly, http://reilly.nyc
+    - Matt Lisiecki, [http://linkedin.com/in/malisiecki](http://linkedin.com/in/malisiecki)
+    - Neil Reilly, [http://reilly.nyc](http://reilly.nyc)
   partners: |-
     - Occupy Sandy Spokescouncil
     - Staten Island Long Term Recovery Group
@@ -706,7 +706,7 @@ project:
   projectLogo:
     title: logo-pps
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/3AhGTATAzmcouKKsYwcG6K/30ec45f4b3fa61e1726055d6644be225/logo-pps.png"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/3AhGTATAzmcouKKsYwcG6K/30ec45f4b3fa61e1726055d6644be225/logo-pps.png"
   progress:
   - Launched
   category:
@@ -747,7 +747,7 @@ project:
   projectLogo:
     title: logo-commune
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/6DR46Pygc8wmyIGgw4uYK0/455a0eefe6c2326bb0ea4165bc69b354/logo-commune.png"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/6DR46Pygc8wmyIGgw4uYK0/455a0eefe6c2326bb0ea4165bc69b354/logo-commune.png"
   progress:
   - Private Beta
   category:
@@ -792,7 +792,7 @@ project:
   projectLogo:
     title: logo-codeando
     description: 
-    url: "//images.contentful.com/gvpfsi7zggwe/5RWJ0hxxlYeyCImWYGYwe/5731ca48acb19260529e236023f5c715/logo-codeando.png"
+    url: "//images.ctfassets.net/gvpfsi7zggwe/5RWJ0hxxlYeyCImWYGYwe/5731ca48acb19260529e236023f5c715/logo-codeando.png"
   progress:
   - Private Beta
   category:

@@ -176,7 +176,7 @@ workshop:
     facultyImage:
       title: alan-kantrow
       description: Alan Kantrow
-      url: "//images.contentful.com/gvpfsi7zggwe/5yt4v0BAcM2kYeQ20a4kUg/cd1e24b4637231473e96149f6957ad06/alan-kantrow.jpg"
+      url: "//images.ctfassets.net/gvpfsi7zggwe/5yt4v0BAcM2kYeQ20a4kUg/cd1e24b4637231473e96149f6957ad06/alan-kantrow.jpg"
   startDate: !ruby/object:DateTime 2015-02-05 06:00:00.000000000 -05:00
   endDate: !ruby/object:DateTime 2015-02-06 09:00:00.000000000 -05:00
   partner:
@@ -184,7 +184,7 @@ workshop:
   workshopPdf:
     title: ANALYTICS FOR CHANGE
     description: 
-    url: "//assets.contentful.com/gvpfsi7zggwe/2tBnW67VjWYsA0c4Aa0OY2/f1bdbd4be650daada8357f355cd7a56b/analytics-for-change-workshop.pdf"
+    url: "//assets.ctfassets.net/gvpfsi7zggwe/2tBnW67VjWYsA0c4Aa0OY2/f1bdbd4be650daada8357f355cd7a56b/analytics-for-change-workshop.pdf"
 - sys:
     id: 4Htnuimglq6QiQoY06Aucg
   workshopName: Problem Definition
