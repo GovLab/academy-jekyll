@@ -2,6 +2,7 @@
   @extend .top-section;
   padding-bottom: 0;
   padding-top: 30px;
+  color: $white;
 }
 
 .course-detail {
@@ -21,7 +22,7 @@
     background-color: rgba(black, .1);
   }
 
-  h2 { 
+  h2 {
     font-size: 1.5rem;
     font-weight: 500;
     margin: 0;
@@ -35,7 +36,7 @@
   }
 
   h5 {
-    margin: 0; 
+    margin: 0;
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: 400;
@@ -47,9 +48,9 @@
 
 .faculty-card {
   text-align: center;
-
+  &:hover { text-decoration: none; }
   &:nth-of-type(odd) {background-color: rgba(black, .05);}
-  &--govlab .faculty-card__name { background-color: $purple; }  
+  &--govlab .faculty-card__name { background-color: $purple; }
 
   &__picture {
     background-size: cover;
@@ -70,7 +71,7 @@
     color: white;
     font-weight: 300;
     letter-spacing: .5px;
-    background-color: black;
+    background-color: $main-color;
     opacity: .9;
   }
 

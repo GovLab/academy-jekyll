@@ -11,7 +11,7 @@ layout: default
 
         <div class="course-detail__tagline">{{ page.passion.title }}</div>
         <div class="course-detail__tagline">{{ page.shortDescription | markdownify }}</div>
-        <div class="course-detail__apply"><a href="#" class="button">Apply</a></div>
+        <div class="course-detail__apply"><a href="#" class="button">Start Learning</a></div>
       </div>
     </div>
 
@@ -47,11 +47,11 @@ layout: default
           </ul>
         </div>
         <div class="course-detail__description">
-          <h2>Course Description</h2>
-          {{ page.longDescription | markdownify }}  
+          {% if page.longDescription %}<h2>Course Description</h2>{% endif %}
+          {{ page.longDescription | markdownify }}
         </div>
         <div class="course-detail__format">
-          <h2>Course Format</h2>
+          {% if page.courseFormat %}<h2>Course Format</h2>{% endif %}
           {{ page.courseFormat | markdownify }}
         </div>
       </div>
@@ -70,7 +70,7 @@ layout: default
         <a href="{{site.url}}{{site.baseurl}}/faculty/{{person.lastName | slugify }}.html" target="_blank" class="large-3 column faculty-card {% if person.is_govlab %}faculty-card--govlab {% endif%}">
           <div class="faculty-card__picture" style="background-image: url({{person.facultyImage.url}});"></div>
           <h1 class="faculty-card__name ">{{ person.firstName }} {{ person.lastName }}</h1>
-          <p class="faculty-card__description">{{ person.title }}</p>
+          <p class="faculty-card__description">{% if person.shortBio %}{{ person.shortBio }}{% else %}{{ person.longBio | truncatewords: 50 }}{% endif %}</p>
         </a>
       {% endfor %}
     </div>

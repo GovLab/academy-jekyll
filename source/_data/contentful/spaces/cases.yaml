@@ -294,6 +294,12 @@ faculty:
   lastName: Young
   facultyTitle: Associate Director of Research at the GovLab
   affiliation: The GovLab
+  shortBio: 'Andrew Young is the GovLab’s Associate Director of Research. He earned
+    his Master’s degree in the Media, Culture and Communication department of NYU’s
+    Steinhardt School of Culture, Education and Human Development, with a focus on
+    Technology and Society. In addition to open governance, his research interests
+    include privacy, Internet activism, values in design and the ethical implications
+    of the use of new technologies in politics. '
   longBio: Andrew Young is the GovLab’s Associate Director of Research. He earned
     his Master’s degree in the Media, Culture and Communication department of NYU’s
     Steinhardt School of Culture, Education and Human Development, with a focus on
@@ -352,6 +358,11 @@ faculty:
   lastName: Cantú-Pedraza
   facultyTitle: The GovLab Academy Coordinator
   affiliation: The GovLab
+  shortBio: Dinorah Cantu coordinates the GovLab Academy, an online institute aimed
+    at helping government and social innovators take innovative projects from idea
+    to implementation. Under her direction, the Academy has worked with over five
+    hundred innovators from more than 30 countries online and off over the last two
+    years.
   longBio: Dinorah Cantu coordinates the GovLab Academy, an online institute aimed
     at helping government and social innovators take innovative projects from idea
     to implementation. Under her direction, the Academy has worked with over five
@@ -2560,6 +2571,12 @@ coachingProgram:
     lastName: Young
     facultyTitle: Associate Director of Research at the GovLab
     affiliation: The GovLab
+    shortBio: 'Andrew Young is the GovLab’s Associate Director of Research. He earned
+      his Master’s degree in the Media, Culture and Communication department of NYU’s
+      Steinhardt School of Culture, Education and Human Development, with a focus
+      on Technology and Society. In addition to open governance, his research interests
+      include privacy, Internet activism, values in design and the ethical implications
+      of the use of new technologies in politics. '
     longBio: Andrew Young is the GovLab’s Associate Director of Research. He earned
       his Master’s degree in the Media, Culture and Communication department of NYU’s
       Steinhardt School of Culture, Education and Human Development, with a focus
@@ -2588,6 +2605,11 @@ coachingProgram:
     lastName: Cantú-Pedraza
     facultyTitle: The GovLab Academy Coordinator
     affiliation: The GovLab
+    shortBio: Dinorah Cantu coordinates the GovLab Academy, an online institute aimed
+      at helping government and social innovators take innovative projects from idea
+      to implementation. Under her direction, the Academy has worked with over five
+      hundred innovators from more than 30 countries online and off over the last
+      two years.
     longBio: Dinorah Cantu coordinates the GovLab Academy, an online institute aimed
       at helping government and social innovators take innovative projects from idea
       to implementation. Under her direction, the Academy has worked with over five
@@ -2635,6 +2657,12 @@ coachingProgram:
     lastName: Young
     facultyTitle: Associate Director of Research at the GovLab
     affiliation: The GovLab
+    shortBio: 'Andrew Young is the GovLab’s Associate Director of Research. He earned
+      his Master’s degree in the Media, Culture and Communication department of NYU’s
+      Steinhardt School of Culture, Education and Human Development, with a focus
+      on Technology and Society. In addition to open governance, his research interests
+      include privacy, Internet activism, values in design and the ethical implications
+      of the use of new technologies in politics. '
     longBio: Andrew Young is the GovLab’s Associate Director of Research. He earned
       his Master’s degree in the Media, Culture and Communication department of NYU’s
       Steinhardt School of Culture, Education and Human Development, with a focus
@@ -2663,6 +2691,11 @@ coachingProgram:
     lastName: Cantú-Pedraza
     facultyTitle: The GovLab Academy Coordinator
     affiliation: The GovLab
+    shortBio: Dinorah Cantu coordinates the GovLab Academy, an online institute aimed
+      at helping government and social innovators take innovative projects from idea
+      to implementation. Under her direction, the Academy has worked with over five
+      hundred innovators from more than 30 countries online and off over the last
+      two years.
     longBio: Dinorah Cantu coordinates the GovLab Academy, an online institute aimed
       at helping government and social innovators take innovative projects from idea
       to implementation. Under her direction, the Academy has worked with over five
@@ -2952,6 +2985,11 @@ syllabus:
     lastName: Cantú-Pedraza
     facultyTitle: The GovLab Academy Coordinator
     affiliation: The GovLab
+    shortBio: Dinorah Cantu coordinates the GovLab Academy, an online institute aimed
+      at helping government and social innovators take innovative projects from idea
+      to implementation. Under her direction, the Academy has worked with over five
+      hundred innovators from more than 30 countries online and off over the last
+      two years.
     longBio: Dinorah Cantu coordinates the GovLab Academy, an online institute aimed
       at helping government and social innovators take innovative projects from idea
       to implementation. Under her direction, the Academy has worked with over five
