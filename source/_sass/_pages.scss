@@ -208,6 +208,10 @@
 }
 
 .page-section__content {
+  &--projects > * {
+  color: $black;
+  text-align: center;
+}
   &--courses-panel {
   background-color: transparentize($workshop-color, 0.2);
   height: 100%;
@@ -269,5 +273,9 @@
   img {
   margin: 15px;
 }
+}
 
+.filter-buttons {
+  padding: 20px;
+  text-align: center;
 }
