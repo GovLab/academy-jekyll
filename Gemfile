@@ -11,6 +11,7 @@ ruby RUBY_VERSION
 # Happy Jekylling!
 # gem "jekyll", "3.3.0"
 gem "jekyll", "3.6.3"
+gem "nokogiri", ">= 1.8.2"
 
 gem 'byebug'
 require 'rake'
