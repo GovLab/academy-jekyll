@@ -3,71 +3,94 @@ layout: default
 ---
 
 <div class="about-page">
-  <div class="top-section top-section--orange">
+  <div class="top-section banner top-section--orange">
     <div class="row">
       <div class="large-12 column">
-        <h1>{{site.data.contentful.spaces.community_page.page_title}}</h1>
-        <h3>{{site.data.contentful.spaces.community_page.description}}</h3>
+        <h1>{{site.data.contentful.spaces.community_page.communityPage[0].pageTitle}}</h1>
+        <h3>{{site.data.contentful.spaces.community_page.communityPage[0].description}}</h3>
       </div>
     </div>
   </div>
 
-  <div class="divider">
+<!--   <div class="divider">
     <div class="row">
       <div class="large-12 column">
-        <h1>{{site.data.contentful.spaces.community_page.noi_title}}</h1>
+        <h1>{{site.data.contentful.spaces.community_page.communityPage[0].noiTitle}}</h1>
       </div>
     </div>
   </div>
-
-  <div class="page-section noi-section">
-    <div class="row align-center">
-      <div class="column large-8">
-        <img class="noi-logo" src="{{site.url}}{{baseurl}}/images/noi-logo.svg" alt="">
-      </div>
-      <div class="large-12 small-12 column">
-        <p>{{site.data.contentful.spaces.community_page.noi_text}}</p>
-        <a href="https://networkofinnovators.org/" class="button button--blue">Join us<i class="material-icons">arrow_forward</i></a>
-      </div>
+-->
+<div class="page-section noi-section">
+  <div class="row align-center">
+    <div class="column large-8">
+      <p>&nbsp;</p>
+      <img class="noi-logo" src="{{site.url}}{{baseurl}}/images/noi-logo.svg" alt="">
     </div>
-
-    <div class="page-section page-section--noi-panels">
-      <div class="row">
-        <div class="column medium-2">
-          <h2>{{site.data.contentful.spaces.community_page.noi_panel_1_title}}</h2>
-          <p>{{site.data.contentful.spaces.community_page.noi_panel_1_text}}</p>
-        </div>
-        <div class="column medium-2">
-          <h2>{{site.data.contentful.spaces.community_page.noi_panel_2_title}}</h2>
-          <p>{{site.data.contentful.spaces.community_page.noi_panel_2_text}}</p>
-        </div>
-        <div class="column medium-2">
-          <h2>{{site.data.contentful.spaces.community_page.noi_panel_3_title}}</h2>
-          <p>{{site.data.contentful.spaces.community_page.noi_panel_3_text}}</p>
-        </div>
-        <div class="column medium-2">
-          <h2>{{site.data.contentful.spaces.community_page.noi_panel_4_title}}</h2>
-          <p>{{site.data.contentful.spaces.community_page.noi_panel_4_text}}</p>
-        </div>
-        <div class="column medium-2">
-          <h2>{{site.data.contentful.spaces.community_page.noi_panel_5_title}}</h2>
-          <p>{{site.data.contentful.spaces.community_page.noi_panel_5_text}}</p>
-        </div>
-      </div>
+    <div class="large-12 small-12 column">
+      <p>{{site.data.contentful.spaces.community_page.communityPage[0].noiText}}</p>
+      <center><a href="https://networkofinnovators.org/" class="button button--blue">Join us<i class="material-icons">arrow_forward</i></a></center>
     </div>
-
   </div>
 
-  <div class="divider">
-    <h1>{{site.data.contentful.spaces.community_page.partners_title}}</h1>
+  <div class="page-section page-section--noi-panels">
+    <div class="noi-panel">
+      <h5>{{site.data.contentful.spaces.community_page.communityPage[0].noiPanel1Title}}</h5>
+      <img src="{{site.url}}{{baseurl}}/images/noi1.png">
+      <p>{{site.data.contentful.spaces.community_page.communityPage[0].noiPanel1Text}}</p>
+    </div>
+    <div class="noi-panel">
+      <h5>{{site.data.contentful.spaces.community_page.communityPage[0].noiPanel2Title}}</h5>
+      <img src="{{site.url}}{{baseurl}}/images/noi2.png">
+      <p>{{site.data.contentful.spaces.community_page.communityPage[0].noiPanel2Text}}</p>
+    </div>
+    <div class="noi-panel">
+      <h5>{{site.data.contentful.spaces.community_page.communityPage[0].noiPanel3Title}}</h5>
+      <img src="{{site.url}}{{baseurl}}/images/noi3.png">
+      <p>{{site.data.contentful.spaces.community_page.communityPage[0].noiPanel3Text}}</p>
+    </div>
+    <div class="noi-panel">
+      <h5>{{site.data.contentful.spaces.community_page.communityPage[0].noiPanel4Title}}</h5>
+      <img src="{{site.url}}{{baseurl}}/images/noi4.png">
+      <p>{{site.data.contentful.spaces.community_page.communityPage[0].noiPanel4Text}}</p>
+    </div>
+    <div class="noi-panel">
+      <h5>{{site.data.contentful.spaces.community_page.communityPage[0].noiPanel5Title}}</h5>
+      <img src="{{site.url}}{{baseurl}}/images/noi5.png">
+      <p>{{site.data.contentful.spaces.community_page.communityPage[0].noiPanel5Text}}</p>
+    </div>
   </div>
+
+</div>
+
+<div class="divider">
+  <div class="community-partners row">
+    <div class="column large-12">
+      <h1>{{site.data.contentful.spaces.community_page.communityPage[0].partnersTitle}}</h1>
+      <img src="{{site.url}}{{baseurl}}/images/partner1.png">
+      <img src="{{site.url}}{{baseurl}}/images/partner2.png">
+      <img src="{{site.url}}{{baseurl}}/images/partner3.png">
+      <img src="{{site.url}}{{baseurl}}/images/partner4.png">
+      <img src="{{site.url}}{{baseurl}}/images/partner5.png">
+      <img src="{{site.url}}{{baseurl}}/images/partner6.png">
+      <img src="{{site.url}}{{baseurl}}/images/partner7.png">
+      <img src="{{site.url}}{{baseurl}}/images/partner8.png">
+    </div>
+  </div>
+</div>
 
 <div class="divider divider--dark-teal">
   <div class="row">
     <div class="large-12 column">
       <div>
-        <h4><strong>{{site.data.contentful.spaces.community_page.testimonials_title}}</strong>
-          <p><a href="{{site.url}}{{site.baseurl}}/workshops.html" class="button button--transparent">{{site.data.contentful.spaces.community_page.testimonials_label}}</a></p>
+        <h4><strong>{{site.data.contentful.spaces.community_page.communityPage[0].testimonialsTitle}}</strong></h4>
+        {% for entry in site.data.contentful.spaces.testimonials.testimonials %}
+        <div class="testimonial">
+          <h3>{{entry.firstName}} {{entry.lastName}}</h3>
+          <h4>{{entry.title}}, {{entry.affiliation}}</h4>
+          <blockquote>{{entry.quote}}</blockquote>
+        </div>
+        {% endfor %}
+        <p><a href="{{site.url}}{{site.baseurl}}/workshops.html" class="button button--transparent">{{site.data.contentful.spaces.community_page.communityPage[0].testimonialsLabel}}</a></p>
       </div>
     </div>
   </div>

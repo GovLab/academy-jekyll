@@ -247,3 +247,27 @@
   background-position: center center;
   background-size: cover;
 }
+
+.noi-panel {
+  height: 100%;
+  width: 20%;
+  float: left;
+  padding: 15px;
+  text-align: center;
+}
+
+.page-section--noi-panels {
+  &::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+}
+
+.community-partners {
+  padding: 40px;
+  img {
+  margin: 15px;
+}
+
+}
