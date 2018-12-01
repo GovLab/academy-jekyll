@@ -5,6 +5,9 @@
   position: relative;
   background-size: cover;
   background-position: center center;
+  &--courses {
+    background-image: url($courses-banner);
+  }
   &--clinics {
     background-image: url($clinics-banner);
     h1, h2, h3, h4, h5 {
@@ -38,6 +41,9 @@
     top: 0px;
     left: 0px;
     opacity: 0.85;
+    &--courses {
+      background-color: $workshop-color;
+    }
     &--clinics {
       background-color: $clinics-color;
     }
@@ -202,6 +208,12 @@
 }
 
 .page-section__content {
+  &--courses-panel {
+  background-color: transparentize($workshop-color, 0.2);
+  height: 100%;
+  padding: 30px;
+  position: relative;
+}
   &--workshops-program-panel {
     background-color: $dark-gray;
     height: 100%;

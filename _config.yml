@@ -156,6 +156,15 @@ contentful:
           limit: 1000
         base_path: ./source
         all_entries: true
+    - courses_page:
+        space: gvpfsi7zggwe
+        access_token: 3a7e015d277bfd033bc1fc10b8399e0672a3fe1729df8575db21f19e76832d64
+        cda_query:
+          content_type: coursesPage
+          include: 2
+          limit: 1000
+        base_path: ./source
+        all_entries: true
 
 
 page_gen:
