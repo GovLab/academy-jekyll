@@ -3201,10 +3201,10 @@ coachingProgramsPage:
   programInfoTitle: Program Information
   programInfoText: |2
 
-    - __WHO__: Public entreprenuers with an identified project on a specific civic-tech theme. Maximum of 12 individuals and/or teams per program. By application only.
-    - __WHAT__: A blend of group sessions, peer-to-peer coaching, expert mentoring and private office hours with academy faculty.
-    - __WHEN__: Every week (for 5 weeks) or every other week (for 10 weeks)
-    - __WHERE__: Online
+    - __WHO__ - Public entreprenuers with an identified project on a specific civic-tech theme. Maximum of 12 individuals and/or teams per program. By application only.
+    - __WHAT__ - A blend of group sessions, peer-to-peer coaching, expert mentoring and private office hours with academy faculty.
+    - __WHEN__ - Every week (for 5 weeks) or every other week (for 10 weeks)
+    - __WHERE__ - Online
   methodTitle: Our Method
   methodStep1: Defining the problem
   methodStep2: Describing the project
@@ -3224,6 +3224,8 @@ coachingProgramsPage:
     - Mentoring and coaching from experts with a track record of leading successful social change
     - High-quality original and curated content, tools, and resources
     - Successful participants receive an authenticated, digital certificate upon completion
+  suggestProgramLabel: Suggest a Coaching Program
+  faqLabel: FAQs
 workshopsPage:
 - sys:
     id: 33nAxtT4cUaYAKcGiG6A6U
@@ -3238,9 +3240,27 @@ workshopsPage:
     exercises designed to bring out one’s innate creativity and problem solving skills "
   programInfoTitle: Program Information
   programInfoText: |
-    __WHO__ - Teams of civic entrepreneurs, especially in government or other organizations. Maximum of 30 individuals and/or 6 teams
-    __WHAT__ - Highly interactive workshop, leveraging a combination of mini-lectures, team-based exercises, and post-session follow-up
-    __WHEN__ - 1-2 day sessions by arrangement
-    __WHERE__ - In-person
+    - __WHO__ - Teams of civic entrepreneurs, especially in government or other organizations. Maximum of 30 individuals and/or 6 teams
+    - __WHAT__ - Highly interactive workshop, leveraging a combination of mini-lectures, team-based exercises, and post-session follow-up
+    - __WHEN__ - 1-2 day sessions by arrangement
+    - __WHERE__ - In-person
   workshopsDescriptionText: A few workshops, duly noted, are offered on specific dates
     and open to application by all
+projectClinicsPage:
+- sys:
+    id: 1mAXoyZ0kIWQ2KISEeQwo2
+  pageTitle: Project Clinics
+  description: Project based clinics that lead students, public officials and public
+    entrepreneurs through the governance innovation process, culminating with innovative,
+    technologically-based solutions to public problems.
+  programsOfferTitle: Programs Offer
+  programsOfferText: "- Short clinics designed to develop one’s ideation and prototyping
+    skills \n- An interdisciplinary blend of law, policy, and technology\n- Student-mentor
+    partnerships with private or public institutions\n- Human-centered design as an
+    approach for problem solving"
+  programInfoTitle: Program Info
+  programInfoText: "- __WHO__ - Potential civic innovators who'd like to develop solutions
+    to institutional problems\n- __WHAT__ - Hands-on project clinics that lead students
+    from problem definition to prototyping\n- __WHEN__ - Individually or during the
+    academic year through an affiliated University. \n- __WHERE__ - Fully available
+    online or In-person through an affiliated University."

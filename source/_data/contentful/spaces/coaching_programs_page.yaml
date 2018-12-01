@@ -18,10 +18,10 @@ coachingProgramsPage:
   programInfoTitle: Program Information
   programInfoText: |2
 
-    - __WHO__: Public entreprenuers with an identified project on a specific civic-tech theme. Maximum of 12 individuals and/or teams per program. By application only.
-    - __WHAT__: A blend of group sessions, peer-to-peer coaching, expert mentoring and private office hours with academy faculty.
-    - __WHEN__: Every week (for 5 weeks) or every other week (for 10 weeks)
-    - __WHERE__: Online
+    - __WHO__ - Public entreprenuers with an identified project on a specific civic-tech theme. Maximum of 12 individuals and/or teams per program. By application only.
+    - __WHAT__ - A blend of group sessions, peer-to-peer coaching, expert mentoring and private office hours with academy faculty.
+    - __WHEN__ - Every week (for 5 weeks) or every other week (for 10 weeks)
+    - __WHERE__ - Online
   methodTitle: Our Method
   methodStep1: Defining the problem
   methodStep2: Describing the project
@@ -41,3 +41,5 @@ coachingProgramsPage:
     - Mentoring and coaching from experts with a track record of leading successful social change
     - High-quality original and curated content, tools, and resources
     - Successful participants receive an authenticated, digital certificate upon completion
+  suggestProgramLabel: Suggest a Coaching Program
+  faqLabel: FAQs

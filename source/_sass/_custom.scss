@@ -2,7 +2,7 @@
 // color coding for the top section
 .top-section {
   .course-detail.m-clinics &,
-  .course-list--clinics &   { background-color: $clinics-color; }
+  .course-list--clinics &   { color: $black; background-color: $clinics-color; }
   .course-detail--coaching &,
   .course-list--coaching &   { background-color: $coaching-color; }
   .course-detail.m-masters  &,

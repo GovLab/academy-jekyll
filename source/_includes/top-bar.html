@@ -2,14 +2,12 @@
   <span class="top-bar__button js-trigger-menu" style="visibility: hidden;">menu</span>
 
   <nav class="main-menu js-target-menu main-menu--left">
-    {% include menu.html %}
   </nav>
 
   <a class="top-bar__logo" href="{{site.url}}{{site.baseurl}}"><img src="{{site.url}}{{site.baseurl}}/images/govlab-academy-logo.png" alt="The GovLab"></a>
 
   <span class="top-bar__button js-trigger-menu">more_vert</span>
   <nav class="main-menu js-target-menu main-menu--right">
-    <a href="https://twitter.com/TheGovLab" target="_blank">Twitter</a>
-    <a href="https://www.youtube.com/user/TheGovLab" target="_blank">Youtube</a>
+    {% include menu.html %}
   </nav>
 </header>
