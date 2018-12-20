@@ -126,8 +126,10 @@
 }
 
 .team-bullets {
-  background-color: $main-color;
-  color: white;
+  color: $black;
+  // background-color: rgba(34,34,34,0.4);
+  text-align: left;
+  padding: 20px;
   h6 {
     font-weight: bold;
     margin-bottom: 0;
@@ -141,7 +143,7 @@
     li:before{
       width: 0;
       height: 0;
-      border-left: 6px solid lighten($main-color, 15);
+      border-left: 6px solid lighten($black, 15);
       border-top: 6px solid transparent;
       border-bottom: 6px solid transparent;
       content: "";

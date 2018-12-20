@@ -3,15 +3,85 @@ layout: default_no_logo
 custom_body: homepage
 ---
 
-<div class="top-section banner banner--index">
+<!-- <div class="top-section banner banner--index" style=""> -->
+<div class="top-section banner banner--index" style="background-color: white; background-position: top; background-size: contain; background-repeat: no-repeat;">
   <div class="row banner__content">
     <div class="large-12 column">
       <img src="{{site.url}}{{site.baseurl}}/images/govlab-academy-logo-dark.png" alt="GovLab Academy">
       <h3>{{site.data.contentful.spaces.index_page.indexPage[0].pageSubtitle}}</h3>
+      <div class="team-bullets">
+        <!-- <div style="max-width: 400px; text-align: center; margin: 0 auto;"><h6>GovLab Academy offers passionate teams and individuals, inside and outside of government:</h6></div> -->
+        <!-- {{site.data.contentful.spaces.index_page.indexPage[0].offersList | markdownify }} -->
+
+        <section class="page-section page-section--sequence" style="background-color: transparent; padding-top: 0;">
+          <div class="row flex-center">
+            <div class="column medium-4 page-section__content" style="padding: 10px;">
+              <div class="page-section__content--index-panel page-section__content--index-panel--1">
+                <div>
+                  <img src="{{site.url}}{{site.baseurl}}/images/flex-w.svg" alt="GovLab Academy" style="height: 120px">
+                  <p>Flexible, customized programs responsive to the participants’ specific needs and challenges</p>
+                </div>
+              </div>
+            </div>
+            <div class="column medium-4 page-section__content" style="padding: 10px">
+              <div class="page-section__content--index-panel page-section__content--index-panel--2">
+                <div>
+                  <img src="{{site.url}}{{site.baseurl}}/images/data.svg" alt="GovLab Academy" style="height: 120px">
+                  <p>Rigorous diagnosis of impediments to project implementation</p>
+                </div>
+              </div>
+            </div>
+            <div class="column medium-4 page-section__content" style="padding: 10px">
+              <div class="page-section__content--index-panel page-section__content--index-panel--3">
+                <div>
+                  <img src="{{site.url}}{{site.baseurl}}/images/problemsolve-w.svg" alt="GovLab Academy" style="height: 120px">
+                  <p>Emphasis on specific and evidence-based problem definition to ensure that the project solves a well-defined problem</p>
+                </div>
+              </div>
+            </div>
+            <div class="column medium-4 page-section__content" style="padding: 10px">
+              <div class="page-section__content--index-panel page-section__content--index-panel--4">
+                <div>
+                  <img src="{{site.url}}{{site.baseurl}}/images/knowledge-w.svg" alt="GovLab Academy" style="height: 120px">
+                  <p>A combination of subject-matter and skills-based training to address both deficits in knowledge about innovation and in know how about how to apply that knowledge to one’s own project</p>
+                </div>
+              </div>
+            </div>
+            <div class="column medium-4 page-section__content" style="padding: 10px">
+              <div class="page-section__content--index-panel page-section__content--index-panel--5">
+                <div>
+                  <img src="{{site.url}}{{site.baseurl}}/images/peer.svg" alt="GovLab Academy" style="height: 120px">
+                  <p>Peer-to-peer support where similarly situated public entrepreneurs counsel and support each other through challenges together</p>
+                </div>
+              </div>
+            </div>
+            <div class="column medium-4 page-section__content" style="padding: 10px">
+              <div class="page-section__content--index-panel page-section__content--index-panel--6">
+                <div>
+                  <img src="{{site.url}}{{site.baseurl}}/images/teaching.svg" alt="GovLab Academy" style="height: 120px">
+                  <p>Mentoring and coaching from experts with a track record of leading successful social change</p>
+                </div>
+              </div>
+            </div>
+            <div class="column medium-4 page-section__content" style="padding: 10px">
+              <div class="page-section__content--index-panel page-section__content--index-panel--7">
+                <div>
+                  <img src="{{site.url}}{{site.baseurl}}/images/tools.svg" alt="GovLab Academy" style="height: 120px">
+                  <p>High-quality original and curated content, tools, and resources</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
     </div>
   </div>
+
   <div class="banner__overlay banner__overlay--index">&nbsp;</div>
 </div>
+
+{% comment %}
 
 <section class="team-bullets">
   <div class="row">
@@ -21,6 +91,8 @@ custom_body: homepage
     </div>
   </div>
 </section>
+
+
 
 <section class="stats">
   <div class="row">
@@ -35,7 +107,8 @@ custom_body: homepage
           {{site.data.contentful.spaces.index_page.indexPage[0].instructorNumber}}
         </div>
         <div class="stats__image stats__image--1">
-          <i class="material-icons">school</i>
+          <img src="{{site.url}}{{site.baseurl}}/images/instructor.jpg" alt="Instructors">
+          <!-- <i class="material-icons">school</i> -->
         </div>
         <div class="stats__text">
           {{site.data.contentful.spaces.index_page.indexPage[0].instructorText}}
@@ -48,7 +121,8 @@ custom_body: homepage
           {{site.data.contentful.spaces.index_page.indexPage[0].mentorNumber}}
         </div>
         <div class="stats__image stats__image--2">
-          <i class="material-icons">device_hub</i>
+          <img src="{{site.url}}{{site.baseurl}}/images/peoplenetwork.svg" alt="Mentors">
+          <!-- <i class="material-icons">device_hub</i> -->
         </div>
         <div class="stats__text">
           {{site.data.contentful.spaces.index_page.indexPage[0].mentorText}}
@@ -61,7 +135,7 @@ custom_body: homepage
           {{site.data.contentful.spaces.index_page.indexPage[0].participantsNumber}}
         </div>
         <div class="stats__image stats__image--3">
-          <i class="material-icons">import_contacts</i>
+          <img src="{{site.url}}{{site.baseurl}}/images/networklearn.svg" alt="Mentors">
         </div>
         <div class="stats__text">
           {{site.data.contentful.spaces.index_page.indexPage[0].participantsText}}
@@ -88,11 +162,32 @@ custom_body: homepage
   </div>
 </section>
 
+{% endcomment %}
+
+<section class="stats" style="background-color: #008ab3; background-image: url('{{site.url}}{{site.baseurl}}/images/networklearn-text.svg'); background-size: cover; background-repeat: no-repeat;">
+  <div class="row">
+    <div class="large-12 columns">
+      <center><h6>{{site.data.contentful.spaces.index_page.indexPage[0].learnFromTitle}}</h6></center>
+    </div>
+  </div>
+  <div class="row" style="height: 100px;"> &nbsp; </div>
+  <div class="row" style="height: 100px;"> &nbsp; </div>
+  <div class="row" style="height: 100px;"> &nbsp; </div>
+  <div class="row" style="height: 100px;"> &nbsp; </div>
+  <div class="row" style="height: 100px;"> &nbsp; </div>
+  <div class="row" style="height: 100px;"> &nbsp; </div>
+  <div class="row" style="height: 100px;"> &nbsp; </div>
+  <div class="row" style="height: 100px;"> &nbsp; </div>
+  <div class="row" style="height: 100px;"> &nbsp; </div>
+  <div class="row" style="height: 100px;"> &nbsp; </div>
+  <div class="row" style="height: 100px;"> &nbsp; </div>
+</section>
+
 <section class="divider">
   <h1>{{site.data.contentful.spaces.index_page.indexPage[0].programsTitle}}</h1>
 </section>
 
-<section class="page-section page-section--sequence panel-section">
+<section class="page-section page-section--sequence panel-section" style="background-image: url('{{site.url}}{{site.baseurl}}/images/instructor.jpg');">
   <div class="row expanded">
     <div class="columns medium-6">
       <div class="page-panel page-section__content--coaching">
@@ -137,15 +232,212 @@ custom_body: homepage
 </section>
 
 <section class="divider">
+  <h1>Featured Program</h1>
+</section>
+
+<section class="page-section page-section--sequence" style="padding: 0;">
+ <ul class="course-list course-list--past-courses">
+
+  {% assign coachingPrograms = site.data.contentful.spaces.coaching_programs.coachingProgram %}
+
+  {% assign pastCoachingPrograms = coachingPrograms | find_past_data: 'applicationDeadline'  | sort: "endDate" | reverse %}
+
+  {% for course in pastCoachingPrograms %}
+  {% if course.featured %}
+  <li class="course-item">
+    <div class="row">
+      <div class="large-6 medium-6 small-12 column">
+        <h2 class="course-item__title">{{ course.programName }}</h2>
+        <p class="course-item__application">STARTED THE WEEK OF: {{ course.startDate | date: "%B %-d, %Y" }}</p>
+        <div class="course-item__faculty-team">
+          {% for person in course.faculty %}
+          <a href="{{site.url}}{{site.baseurl}}/faculty/{{ person.lastName | slugify | replace_diacritics }}.html" target="_blank">
+            <div class="course-item__faculty column large-3 end" style="background-image: url({{person.facultyImage.url}});">
+              <p>{{ person.firstName }} {{ person.lastName }}</p>
+            </div>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="large-6 medium-6 small-12 column">
+        <p class="course-item__description">{{ course.shortDescription | markdownify }}</p>
+        {% assign link = course.programName %}
+        {% assign char = "-" %}
+
+        {% capture link %}
+        {{ link | replace: char, "0101010" }}
+        {% endcapture %}
+
+        {% assign slugged-link = link %}
+
+        {% capture slugged-link %}
+        {{ slugged-link | slugify }}
+        {% endcapture %}
+        <a href="{{site.url}}{{site.baseurl}}/coaching/{{ slugged-link | replace: "0101010", char  | rstrip | lstrip }}.html" class="button">more info</a>
+      </div>
+    </div>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+
+
+
+</section>
+
+
+<section class="divider">
   <h1>{{site.data.contentful.spaces.index_page.indexPage[0].howWeWorkLabel}}</h1>
 </section>
 
-<section class="page-section page-section--sequence" style="">
+<section class="page-section page-section--sequence" style="padding: 0;">
+  <div class="row canvas-viz align-center">
+    <div class="large-12 column canvas-viz__section canvas-viz__section--0">
+      <center>
+        <div class="switch">
+          <label>
+            METHODOLOGY
+            <input id="viz-switch" type="checkbox">
+            <span id="viz-button" class="lever"></span>
+            EXAMPLE
+          </label>
+        </div>
+      </center>
+    </div>
+  </div>
+  <div class="row canvas-viz">
+    <div class="columns medium-12 canvas-viz__section canvas-viz__section--1">
+      <div class="row">
+        <div class="columns medium-12 canvas-viz__section">
+          <span class="canvas-item">The problem I am tackling</span>
+          <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+        </div>
+        <div class="columns medium-3 canvas-viz__section canvas-viz__section--1--1">
+          <span class="canvas-item">The people most impacted</span>
+          <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+        </div>
+        <div class="columns medium-3 canvas-viz__section canvas-viz__section--1--2">
+          <span class="canvas-item">The major causes</span>
+          <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+        </div>
+        <div class="columns medium-3 canvas-viz__section canvas-viz__section--1--3">
+          <span class="canvas-item">The evidence</span>
+          <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+        </div>
+        <div class="columns medium-3 canvas-viz__section canvas-viz__section--1--4">
+          <span class="canvas-item">The big idea</span>
+          <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+        </div>
+      </div>
+    </div>
+    <div class="columns medium-12 canvas-viz__section canvas-viz__section--2">
+      <div class="row">
+        <div class="columns medium-12 canvas-viz__section">
+          <span class="canvas-item">Changes that need to occur</span>
+          <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+        </div>
+        <div class="columns medium-3 canvas-viz__section canvas-viz__section--2--1">
+          <span class="canvas-item">The mechanisms of change</span>
+          <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+        </div>
+        <div class="columns medium-3 canvas-viz__section canvas-viz__section--2--2">
+          <span class="canvas-item">The measurable impacts</span>
+          <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+        </div>
+        <div class="columns medium-3 canvas-viz__section canvas-viz__section--2--3">
+          <div class="row">
+            <div class="columns medium-6 canvas-viz__section canvas-viz__section--2--3--1">
+              <span class="canvas-item">Those who want the change</span>
+              <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+            </div>
+            <div class="columns medium-6 canvas-viz__section canvas-viz__section--2--3--2">
+              <span class="canvas-item">Those opposed to the change</span>
+              <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+            </div>
+          </div>
+        </div>
+        <div class="columns medium-3 canvas-viz__section canvas-viz__section--2--4">
+          <span class="canvas-item">The way it will work</span>
+          <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row canvas-viz">
+    <div class="columns medium-6 canvas-viz__section canvas-viz__section--3">
+      <div class="row">
+        <div class="columns medium-6 canvas-viz__section canvas-viz__section--3--1">
+          <span class="canvas-item">Key resources</span>
+          <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+        </div>
+        <div class="columns medium-6 canvas-viz__section canvas-viz__section--3--2">
+          <span class="canvas-item">Key partners</span>
+          <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+        </div>
+      </div>
+      <div class="row canvas-viz__section canvas-viz__section--3--3">
+        <div class="columns medium-4 canvas-viz__section canvas-viz__section--3--3--1">
+          <span class="canvas-item">Why now</span>
+          <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+        </div>
+        <div class="columns medium-4 canvas-viz__section canvas-viz__section--3--3--2">
+          <span class="canvas-item">Others in the field</span>
+          <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+        </div>
+        <div class="columns medium-4 canvas-viz__section canvas-viz__section--3--3--3">
+          <span class="canvas-item">What is not being done</span>
+          <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+        </div>
+      </div>
+    </div>
+    <div class="columns medium-6 canvas-viz__section canvas-viz__section--4">
+      <div class="row">
+        <div class="columns medium-12 canvas-viz__section">
+          <span class="canvas-item">Rollout strategy</span>
+          <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+        </div>
+        <div class="columns medium-4 canvas-viz__section canvas-viz__section--4--1">
+          <span class="canvas-item">Project sustainability</span>
+          <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+        </div>
+        <div class="columns medium-4 canvas-viz__section canvas-viz__section--4--2">
+          <span class="canvas-item">Risks</span>
+          <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+        </div>
+        <div class="columns medium-4 canvas-viz__section canvas-viz__section--4--3">
+          <span class="canvas-item">Promotion</span>
+          <span class="canvas-example">Example Lorem ipsum dolor sit amet.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="columns medium-12">
+      <p>Paragraph about methodology - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
   <div class="row">
     <div class="columns medium-12">
       <img src="{{site.url}}{{site.baseurl}}/images/intro-canvas.png">
+      <center><a class="button" href="http://canvas.govlabacademy.org/">Create a Canvas</a></center>
     </div>
   </div>
+  <div class="row" style="height: 100px;"> &nbsp; </div>
+</section>
+
+<section class="page-section page-section--dark banner" style="background-image: url('{{site.url}}{{site.baseurl}}/images/d4d.jpg'); background-size: cover;">
+  <div class="row banner__content">
+    <div class="columns medium-12">
+      <div class="row" style="height: 100px;"> &nbsp; </div>
+      <h2 style="margin-bottom: 0;"><img src="{{site.url}}{{site.baseurl}}/images/govlab-logo-white.png" style="height: 70px; vertical-align: middle;"> <span style="vertical-align: middle;">Demos for Democracy</span></h2>
+      <p style=""><a href="https://twitter.com/search?q=%23democracydemos" target="_blank" style="font-size: 1.8rem; font-weight: 100; text-decoration: none; font-style: italic;">#democracydemos</a></p>
+      <p style="font-size: 1.4rem;">Demos for Democracy is an ongoing series of interactive online demos featuring designers and builders of new governance platforms, tools or methods designed to foster greater openness and collaboration to how we govern.</p>
+      <p style="text-align: center; padding-top: 40px;"><a href="http://thegovlab.org/democracy-demos/" class="button" target="_blank">Learn More <i class="material-icons">launch</i></a></p>
+      <div class="row" style="height: 100px;"> &nbsp; </div>
+    </div>
+  </div>
+  <div class="banner__overlay banner__overlay--dark">&nbsp;</div>
 </section>
 
 
@@ -154,56 +446,46 @@ custom_body: homepage
     <div class="columns medium-12">
       <h4>{{site.data.contentful.spaces.index_page.indexPage[0].participantsLabel}}</h4>
       <div class="participant-logos">
-        <img src="{{site.url}}{{site.baseurl}}/images/logos/fci.png">
-        <img src="{{site.url}}{{site.baseurl}}/images/logos/usda.png">
-        <img src="{{site.url}}{{site.baseurl}}/images/logos/nyc-parks.png">
-        <img src="{{site.url}}{{site.baseurl}}/images/logos/oas.gif">
-        <img src="{{site.url}}{{site.baseurl}}/images/logos/barcelona-activa.png">
-        <img src="{{site.url}}{{site.baseurl}}/images/logos/tcf.png">
-        <img src="{{site.url}}{{site.baseurl}}/images/logos/ogp.png">
-        <img src="{{site.url}}{{site.baseurl}}/images/logos/bac.png">
-        <img src="{{site.url}}{{site.baseurl}}/images/logos/nestle.png">
-        <img src="{{site.url}}{{site.baseurl}}/images/logos/unigeneve.png">
-        <img src="{{site.url}}{{site.baseurl}}/images/logos/canada.png">
-        <img src="{{site.url}}{{site.baseurl}}/images/logos/hackerlab.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/bw/fci.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/bw/usda.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/bw/nyc-parks.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/bw/oas.gif">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/bw/barcelona-activa.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/bw/tcf.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/bw/ogp.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/bw/bac.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/bw/nestle.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/bw/unigeneve.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/bw/canada.png">
+        <img src="{{site.url}}{{site.baseurl}}/images/logos/bw/hackerlab.png">
       </div>
     </div>
   </div>
+  <div class="row" style="height: 100px;"> &nbsp; </div>
 </section>
 
 <div class="divider" style="padding: 80px 0;">
   <div class="row">
-    <div class="large-12 column">
+    <div class="large-6 column">
       <div>
         <h4><strong>Subscribe</strong> {{site.data.contentful.spaces.index_page.indexPage[0].mailingListLabel}}</h4>
       </div>
       <form class="form form--negative" method="post" action="//thegovlab.us6.list-manage.com/subscribe/post?u=1a990feb5c&amp;id=d90a01c7ff" target="_blank" >
         <div style="position: absolute; left: -5000px;"><input type="text" name="b_1a990feb5c_d90a01c7ff" tabindex="-1" value=""></div>
-        <input type="email" name="EMAIL" placeholder="Email">
-        <button type="submit">Subscribe</button>
+        <input type="email" name="EMAIL" placeholder="Email" style="display: inline;    width: 250px;">
+        <button type="submit" style="display: inline;">Subscribe</button>
+      </form>
+    </div>
+    <div class="large-6 column">
+      <div>
+        <h4><strong>Subscribe</strong> {{site.data.contentful.spaces.index_page.indexPage[0].digestLabel}}</h4>
+      </div>
+      <form class="form form--negative" method="post" action="//thegovlab.us6.list-manage.com/subscribe/post?u=1a990feb5c&amp;id=d90a01c7ff" target="_blank" >
+        <div style="position: absolute; left: -5000px;"><input type="text" name="b_1a990feb5c_d90a01c7ff" tabindex="-1" value=""></div>
+        <input type="email" name="EMAIL" placeholder="Email" style="display: inline;    width: 250px;">
+        <button type="submit" style="display: inline;">Subscribe</button>
       </form>
     </div>
   </div>
 </div>
 </div>
-
-<div class="divider divider--dark-purple" style="padding: 80px 0;">
-  <div class="row">
-    <div class="large-12 column">
-      <div>
-        <h4><strong>Subscribe</strong> {{site.data.contentful.spaces.index_page.indexPage[0].digestLabel}}</h4>
-        </div>
-        <form class="form form--negative" method="post" action="//thegovlab.us6.list-manage.com/subscribe/post?u=1a990feb5c&amp;id=d90a01c7ff" target="_blank" >
-          <div style="position: absolute; left: -5000px;"><input type="text" name="b_1a990feb5c_d90a01c7ff" tabindex="-1" value=""></div>
-          <input type="email" name="EMAIL" placeholder="Email">
-          <button type="submit">Subscribe</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<section class="page-section" style="padding: 0;">
-  <img src="{{site.url}}{{site.baseurl}}/images/dfd-banner.png">
-</section>

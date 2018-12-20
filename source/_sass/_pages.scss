@@ -1,3 +1,7 @@
+.main-menu {
+  box-shadow: none;
+}
+
 .banner {
   h1, h2, h3, h4, h5 {
     opacity: 1;
@@ -41,6 +45,10 @@
     top: 0px;
     left: 0px;
     opacity: 0.85;
+    &--dark {
+      background-color: #523080;
+      opacity: 0.8;
+    }
     &--courses {
       background-color: $workshop-color;
     }
@@ -202,22 +210,58 @@
 
 .participant-logos {
   img {
+    opacity: 0.8;
     max-height: 100px;
     margin: 20px;
   }
 }
 
+$t: 0.0;
 .page-section__content {
   &--projects > * {
-  color: $black;
-  text-align: center;
-}
+    color: $black;
+    text-align: center;
+  }
+  &--index-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: transparentize($workshop-color, $t);
+    border-radius: 20px;
+    height: 300px;
+    padding: 30px;
+    position: relative;
+    &--1 {
+      background-color: transparentize($hl-color-1, $t);
+    }
+    &--2 {
+      background-color: transparentize($coaching-color, $t);
+    }
+    &--3 {
+      background-color: transparentize($hl-color-3, $t);
+    }
+    &--4 {
+      background-color: transparentize($community-color, $t);
+    }
+    &--5 {
+      background-color: transparentize($projects-color, $t);
+    }
+    &--6 {
+      background-color: transparentize($workshop-color, $t);
+    }
+    &--7 {
+      background-color: transparentize($hl-color-2, $t);
+    }
+  }
   &--courses-panel {
-  background-color: transparentize($workshop-color, 0.2);
-  height: 100%;
-  padding: 30px;
-  position: relative;
-}
+    background-color: transparentize($workshop-color, 0.2);
+    height: 100%;
+    padding: 30px;
+    position: relative;
+  }
   &--workshops-program-panel {
     background-color: $dark-gray;
     height: 100%;
@@ -262,20 +306,188 @@
 
 .page-section--noi-panels {
   &::after {
-  content: " ";
-  display: block;
-  clear: both;
-}
+    content: " ";
+    display: block;
+    clear: both;
+  }
 }
 
 .community-partners {
   padding: 40px;
   img {
-  margin: 15px;
-}
+    margin: 15px;
+  }
 }
 
 .filter-buttons {
   padding: 20px;
   text-align: center;
+}
+
+.canvas-viz {
+  width: 100%;
+  max-width: unset;
+  &__section {
+    min-height: 100px;
+    color: $white;
+    &--0 {
+      padding-top: 12.5px;
+      min-height: 50px;
+      background-color: $main-color;
+    }
+    &--1 {
+      background-color: $viz-color-1;
+      &--1 {
+        background-color: transparentize($black, 0.9);
+      }
+      &--2 {
+        background-color: transparentize($black, 0.8);
+      }
+      &--3 {
+        background-color: transparentize($black, 0.7);
+      }
+      &--4 {
+        background-color: transparentize($black, 0.6);
+      }
+    }
+    &--2 {
+      background-color: $viz-color-2;
+      &--1 {
+        background-color: transparentize($black, 0.9);
+      }
+      &--2 {
+        background-color: transparentize($black, 0.8);
+      }
+      &--3 {
+        &--1 {
+          background-color: transparentize($black, 0.9);
+        }
+        &--2 {
+          background-color: transparentize($black, 0.8);
+        }
+      }
+      &--4 {
+        background-color: transparentize($black, 0.6);
+      }
+    }
+    &--3 {
+      background-color: $viz-color-3;
+      &--1 {
+        background-color: transparentize($black, 0.9);
+      }
+      &--2 {
+        background-color: transparentize($black, 0.8);
+      }
+      &--3 {
+        &--1 {
+          background-color: transparentize($black, 0.9);
+        }
+        &--2 {
+          background-color: transparentize($black, 0.8);
+        }
+        &--3 {
+          background-color: transparentize($black, 0.7);
+        }
+      }
+    }
+    &--4 {
+      background-color: $viz-color-4;
+      &--1 {
+        background-color: transparentize($black, 0.9);
+      }
+      &--2 {
+        background-color: transparentize($black, 0.8);
+      }
+      &--3 {
+        background-color: transparentize($black, 0.7);
+      }
+    }
+  }
+}
+
+.canvas-example {
+  opacity: 0.5;
+  display: none;
+  &--show {
+    display: block;
+  }
+}
+
+/***************
+     Switch
+***************/
+.switch,
+.switch * {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+
+.switch label {
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+
+.switch label input[type=checkbox]{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch label input[type=checkbox]:checked + .lever {
+    background-color: rgba(white, .3);
+}
+
+
+
+.switch label input[type=checkbox]:checked + .lever:after {
+    background-color: rgba(white, .8);
+}
+
+.switch label .lever {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 15px;
+    background-color: rgba(white, .2);
+    border-radius: 15px;
+    margin-right: 10px;
+    transition: background 0.3s ease;
+    vertical-align: middle;
+    margin: 0 16px;
+}
+
+.switch label .lever:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background-color: rgba(white, .8);
+    border-radius: 21px;
+    box-shadow: 0 1px 3px 1px rgba(0,0,0,.4);
+    left: -5px;
+    top: -3px;
+    transition: left 0.3s ease, background .3s ease, box-shadow 0.1s ease;
+}
+
+// Switch active style
+input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
+       box-shadow: 0 1px 3px 1px rgba(0,0,0,.4), 0 0 0 15px transparentize(rgba(black, .5), .9);
+}
+
+input[type=checkbox]:not(:disabled) ~ .lever:active:after {
+       box-shadow: 0 1px 3px 1px rgba(0,0,0,.4), 0 0 0 15px rgba(0, 0, 0, .08);
+}
+
+.switch label input[type=checkbox]:checked + .lever:after {
+    left: 24px;
+}
+
+
+.page-section--dark {
+  color: $white;
 }

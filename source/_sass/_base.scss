@@ -1,6 +1,8 @@
 .top-bar {
   &--orange {
-    background-color: $orange;
+    // background-color: transparentize($workshop-color, 0.2);
+    // background-color: transparentize(#523080, 0.2);
+    background-color: transparentize(#333, 0.2);
   }
 
   .menu-item {
@@ -18,4 +20,10 @@
 
 .footer--sections a {
   text-align: left;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

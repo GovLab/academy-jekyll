@@ -1,4 +1,12 @@
 $(document).ready(function () {
+    $('.switch label').click(function () {
+        if ($('#viz-switch').prop("checked")) {
+            $('.canvas-example').addClass('canvas-example--show');
+        } else {
+            $('.canvas-example').removeClass('canvas-example--show');
+        }
+    });
+
     // Smooth Scrolling Function
     $('a[href*=#]:not([href=#])').click(function () {
         var $targ = $(this.hash),

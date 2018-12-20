@@ -2408,6 +2408,7 @@ coachingProgram:
       title: stefaan-verhulst
       description: 
       url: "//images.ctfassets.net/gvpfsi7zggwe/6RojjcYhck8Kq2GqWKG8gu/c125d0bb55023f3c02995f39eb2ca75c/stefaan-verhulst.jpg"
+  featured: true
 - sys:
     id: 1l7V2iMx1aqoA4WmIcuCQk
   programName: Tech Innovation in Procurement
