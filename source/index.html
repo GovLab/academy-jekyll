@@ -4,50 +4,56 @@ custom_body: homepage
 ---
 
 <!-- <div class="top-section banner banner--index" style=""> -->
-<div class="top-section banner banner--index" style="background-color: white; background-position: top; background-size: contain; background-repeat: no-repeat;">
-  <div class="row banner__content">
-    <div class="large-12 column">
-      <img src="{{site.url}}{{site.baseurl}}/images/govlab-academy-logo-dark.png" alt="GovLab Academy">
-      <h3>{{site.data.contentful.spaces.index_page.indexPage[0].pageSubtitle}}</h3>
-      <div class="team-bullets">
-        <!-- <div style="max-width: 400px; text-align: center; margin: 0 auto;"><h6>GovLab Academy offers passionate teams and individuals, inside and outside of government:</h6></div> -->
-        <!-- {{site.data.contentful.spaces.index_page.indexPage[0].offersList | markdownify }} -->
+<div class="top-section banner banner--index" style="background-color: white; background-position: top; background-size: contain; background-repeat: no-repeat; padding: 0;">
+  <div class="row banner__content expanded">
+    <div class="large-12 column" style="position: relative;">
+      <div style="max-width: 62.5rem; margin: 0 auto; padding-top: 70px; z-index: 10; position: relative;">
+        <img src="{{site.url}}{{site.baseurl}}/images/govlab-academy-logo-dark.png" alt="GovLab Academy">
+        <h3>{{site.data.contentful.spaces.index_page.indexPage[0].pageSubtitle}}</h3>
+        <div class="row" style="height: 50px;"> &nbsp; </div>
+      </div>
+      <div class="banner__overlay banner__overlay--index">&nbsp;</div>
+    </div>
 
-        <section class="page-section page-section--sequence" style="background-color: transparent; padding-top: 0;">
-          <div class="row flex-center">
-            <div class="column medium-4 page-section__content" style="padding: 10px;">
-              <div class="page-section__content--index-panel page-section__content--index-panel--1">
-                <div>
-                  <img src="{{site.url}}{{site.baseurl}}/images/flex-w.svg" alt="GovLab Academy" style="height: 120px">
-                  <p>Flexible, customized programs responsive to the participants’ specific needs and challenges</p>
-                </div>
-              </div>
+    <section class="divider" style="width: 100%; background-color: rgba(51, 51, 51, 0.8);">
+      <p style="color: #fff;">GovLab Academy offers passionate teams and individuals, inside and outside of government:</p>
+    </section>
+
+    <section class="page-section page-section--sequence" style="background-color: transparent; padding-top: 0; padding-bottom: 0;">
+      <div class="row flex-center">
+        <div class="column medium-4 small-12 page-section__content" style="padding: 0;">
+          <div class="page-section__content--index-panel page-section__content--index-panel--1" style="padding-bottom: 0;">
+            <div>
+              <img src="{{site.url}}{{site.baseurl}}/images/flex-w.svg" alt="GovLab Academy" style="height: 120px">
+              <p>Flexible, customized programs responsive to the participants’ specific needs and challenges and rigorous diagnosis of impediments to project implementation</p>
             </div>
-            <div class="column medium-4 page-section__content" style="padding: 10px">
+          </div>
+        </div>
+<!--             <div class="column medium-3 page-section__content" style="padding: 0">
               <div class="page-section__content--index-panel page-section__content--index-panel--2">
                 <div>
                   <img src="{{site.url}}{{site.baseurl}}/images/data.svg" alt="GovLab Academy" style="height: 120px">
-                  <p>Rigorous diagnosis of impediments to project implementation</p>
+                  <p></p>
                 </div>
               </div>
-            </div>
-            <div class="column medium-4 page-section__content" style="padding: 10px">
+            </div> -->
+            <div class="column medium-4 small-12 page-section__content" style="padding: 0">
               <div class="page-section__content--index-panel page-section__content--index-panel--3">
                 <div>
-                  <img src="{{site.url}}{{site.baseurl}}/images/problemsolve-w.svg" alt="GovLab Academy" style="height: 120px">
+                  <img src="{{site.url}}{{site.baseurl}}/images/problemsolve2.svg" alt="GovLab Academy" style="height: 120px">
                   <p>Emphasis on specific and evidence-based problem definition to ensure that the project solves a well-defined problem</p>
                 </div>
               </div>
             </div>
-            <div class="column medium-4 page-section__content" style="padding: 10px">
-              <div class="page-section__content--index-panel page-section__content--index-panel--4">
+            <div class="column medium-4 small-12 page-section__content" style="padding: 0">
+              <div class="page-section__content--index-panel page-section__content--index-panel--2">
                 <div>
                   <img src="{{site.url}}{{site.baseurl}}/images/knowledge-w.svg" alt="GovLab Academy" style="height: 120px">
                   <p>A combination of subject-matter and skills-based training to address both deficits in knowledge about innovation and in know how about how to apply that knowledge to one’s own project</p>
                 </div>
               </div>
             </div>
-            <div class="column medium-4 page-section__content" style="padding: 10px">
+            <div class="column medium-4 small-12 page-section__content" style="padding: 0">
               <div class="page-section__content--index-panel page-section__content--index-panel--5">
                 <div>
                   <img src="{{site.url}}{{site.baseurl}}/images/peer.svg" alt="GovLab Academy" style="height: 120px">
@@ -55,7 +61,7 @@ custom_body: homepage
                 </div>
               </div>
             </div>
-            <div class="column medium-4 page-section__content" style="padding: 10px">
+            <div class="column medium-4 small-12 page-section__content" style="padding: 0">
               <div class="page-section__content--index-panel page-section__content--index-panel--6">
                 <div>
                   <img src="{{site.url}}{{site.baseurl}}/images/teaching.svg" alt="GovLab Academy" style="height: 120px">
@@ -63,8 +69,8 @@ custom_body: homepage
                 </div>
               </div>
             </div>
-            <div class="column medium-4 page-section__content" style="padding: 10px">
-              <div class="page-section__content--index-panel page-section__content--index-panel--7">
+            <div class="column medium-4 small-12 page-section__content" style="padding: 0">
+              <div class="page-section__content--index-panel page-section__content--index-panel--4">
                 <div>
                   <img src="{{site.url}}{{site.baseurl}}/images/tools.svg" alt="GovLab Academy" style="height: 120px">
                   <p>High-quality original and curated content, tools, and resources</p>
@@ -73,13 +79,8 @@ custom_body: homepage
             </div>
           </div>
         </section>
-
       </div>
     </div>
-  </div>
-
-  <div class="banner__overlay banner__overlay--index">&nbsp;</div>
-</div>
 
 {% comment %}
 
@@ -92,6 +93,8 @@ custom_body: homepage
   </div>
 </section>
 
+{% endcomment %}
+
 
 
 <section class="stats">
@@ -101,60 +104,71 @@ custom_body: homepage
     </div>
   </div>
   <div class="row">
-    <div class="large-3 columns">
-      <div class="stats__panel stats__panel--1">
-        <div class="stats__number">
-          {{site.data.contentful.spaces.index_page.indexPage[0].instructorNumber}}
-        </div>
-        <div class="stats__image stats__image--1">
-          <img src="{{site.url}}{{site.baseurl}}/images/instructor.jpg" alt="Instructors">
-          <!-- <i class="material-icons">school</i> -->
-        </div>
-        <div class="stats__text">
-          {{site.data.contentful.spaces.index_page.indexPage[0].instructorText}}
+    <div class="large-12 small-12 columns">
+      <div class="row align-center">
+        <div class="large-4 small-12 columns">
+          <div class="stats__panel stats__panel--1">
+            <div class="stats__number">
+              {{site.data.contentful.spaces.index_page.indexPage[0].instructorNumber}}
+            </div>
+            <div class="stats__text">
+              {{site.data.contentful.spaces.index_page.indexPage[0].instructorText}}
+            </div>
+            <div class="stats__image stats__image--1">
+              {% for num in (1..25) %}
+              <i class="material-icons">school</i>
+              {% endfor %}
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="large-3 columns">
+    <div class="large-6 small-12 columns">
       <div class="stats__panel stats__panel--2">
         <div class="stats__number">
-          {{site.data.contentful.spaces.index_page.indexPage[0].mentorNumber}}
-        </div>
-        <div class="stats__image stats__image--2">
-          <img src="{{site.url}}{{site.baseurl}}/images/peoplenetwork.svg" alt="Mentors">
-          <!-- <i class="material-icons">device_hub</i> -->
-        </div>
-        <div class="stats__text">
-          {{site.data.contentful.spaces.index_page.indexPage[0].mentorText}}
-        </div>
-      </div>
-    </div>
-    <div class="large-3 columns">
-      <div class="stats__panel stats__panel--3">
-        <div class="stats__number">
-          {{site.data.contentful.spaces.index_page.indexPage[0].participantsNumber}}
-        </div>
-        <div class="stats__image stats__image--3">
-          <img src="{{site.url}}{{site.baseurl}}/images/networklearn.svg" alt="Mentors">
-        </div>
-        <div class="stats__text">
-          {{site.data.contentful.spaces.index_page.indexPage[0].participantsText}}
-        </div>
-      </div>
-    </div>
-    <div class="large-3 columns">
-      <div class="stats__panel stats__panel--4">
-        <div class="stats__number">
           {{site.data.contentful.spaces.index_page.indexPage[0].coursesNumber}}
-        </div>
-        <div class="stats__image stats__image--4">
-          <i class="material-icons">create</i>
         </div>
         <div class="stats__text">
           {{site.data.contentful.spaces.index_page.indexPage[0].coursesShortText}}
         </div>
+        <div class="stats__image stats__image--2">
+          {% for num in (1..30) %}
+          <i class="material-icons">create</i>
+          {% endfor %}
+        </div>
       </div>
     </div>
+    <div class="large-6 small-12 columns">
+      <div class="stats__panel stats__panel--3">
+        <div class="stats__number">
+          {{site.data.contentful.spaces.index_page.indexPage[0].mentorNumber}}
+        </div>
+        <div class="stats__text">
+          {{site.data.contentful.spaces.index_page.indexPage[0].mentorText}}
+        </div>
+        <div class="stats__image stats__image--3">
+          {% for num in (1..100) %}
+          <i class="material-icons">device_hub</i>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="large-12 small-12 columns">
+      <div class="stats__panel stats__panel--4">
+        <div class="stats__number">
+          {{site.data.contentful.spaces.index_page.indexPage[0].participantsNumber}}
+        </div>
+        <div class="stats__text">
+          {{site.data.contentful.spaces.index_page.indexPage[0].participantsText}}
+        </div>
+        <div class="stats__image stats__image--4">
+          {% for num in (1..1000) %}
+          <i class="material-icons">person</i>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <div class="row" style="height: 100px;">
@@ -162,9 +176,8 @@ custom_body: homepage
   </div>
 </section>
 
-{% endcomment %}
 
-<section class="stats" style="background-color: #008ab3; background-image: url('{{site.url}}{{site.baseurl}}/images/networklearn-text.svg'); background-size: cover; background-repeat: no-repeat;">
+<!-- <section class="stats" style="background-color: #008ab3; background-image: url('{{site.url}}{{site.baseurl}}/images/networklearn-text.svg'); background-size: cover; background-repeat: no-repeat;">
   <div class="row">
     <div class="large-12 columns">
       <center><h6>{{site.data.contentful.spaces.index_page.indexPage[0].learnFromTitle}}</h6></center>
@@ -182,7 +195,7 @@ custom_body: homepage
   <div class="row" style="height: 100px;"> &nbsp; </div>
   <div class="row" style="height: 100px;"> &nbsp; </div>
 </section>
-
+-->
 <section class="divider">
   <h1>{{site.data.contentful.spaces.index_page.indexPage[0].programsTitle}}</h1>
 </section>
@@ -216,7 +229,7 @@ custom_body: homepage
         <p>{{site.data.contentful.spaces.index_page.indexPage[0].coursesText}}</p>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
-        <p><a href="{{site.url}}{{site.baseurl}}/master-classes.html" class="button button--transparent">{{site.data.contentful.spaces.index_page.indexPage[0].moreInformationLabel}}</a></p>
+        <p><a href="http://sppd.thegovlab.org" class="button button--transparent" target="_blank">{{site.data.contentful.spaces.index_page.indexPage[0].moreInformationLabel}}</a></p>
       </div>
     </div>
     <div class="columns medium-6">
@@ -225,14 +238,14 @@ custom_body: homepage
         <p>{{site.data.contentful.spaces.index_page.indexPage[0].projectClinicsText}}</p>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
-        <p><a href="{{site.url}}{{site.baseurl}}/courses.html" class="button button--transparent">{{site.data.contentful.spaces.index_page.indexPage[0].moreInformationLabel}}</a></p>
+        <p><a href="http://publicentrepreneur.org" class="button button--transparent" target="_blank">{{site.data.contentful.spaces.index_page.indexPage[0].moreInformationLabel}}</a></p>
       </div>
     </div>
   </div>
 </section>
 
 <section class="divider">
-  <h1>Featured Program</h1>
+  <h1>{{site.data.contentful.spaces.index_page.indexPage[0].featuredProgramTitle}}</h1>
 </section>
 
 <section class="page-section page-section--sequence" style="padding: 0;">
@@ -287,7 +300,7 @@ custom_body: homepage
 </section>
 
 
-<section class="divider">
+<!-- <section class="divider">
   <h1>{{site.data.contentful.spaces.index_page.indexPage[0].howWeWorkLabel}}</h1>
 </section>
 
@@ -424,16 +437,30 @@ custom_body: homepage
     </div>
   </div>
   <div class="row" style="height: 100px;"> &nbsp; </div>
-</section>
+</section> -->
 
 <section class="page-section page-section--dark banner" style="background-image: url('{{site.url}}{{site.baseurl}}/images/d4d.jpg'); background-size: cover;">
   <div class="row banner__content">
     <div class="columns medium-12">
       <div class="row" style="height: 100px;"> &nbsp; </div>
-      <h2 style="margin-bottom: 0;"><img src="{{site.url}}{{site.baseurl}}/images/govlab-logo-white.png" style="height: 70px; vertical-align: middle;"> <span style="vertical-align: middle;">Demos for Democracy</span></h2>
-      <p style=""><a href="https://twitter.com/search?q=%23democracydemos" target="_blank" style="font-size: 1.8rem; font-weight: 100; text-decoration: none; font-style: italic;">#democracydemos</a></p>
-      <p style="font-size: 1.4rem;">Demos for Democracy is an ongoing series of interactive online demos featuring designers and builders of new governance platforms, tools or methods designed to foster greater openness and collaboration to how we govern.</p>
-      <p style="text-align: center; padding-top: 40px;"><a href="http://thegovlab.org/democracy-demos/" class="button" target="_blank">Learn More <i class="material-icons">launch</i></a></p>
+      <h2 style="margin-bottom: 0;"><img src="{{site.url}}{{site.baseurl}}/images/govlab-logo-white.png" style="height: 70px; vertical-align: middle;"> <span style="vertical-align: middle;">CrowdLaw Interviews</span></h2>
+      <p style=""><a href="https://twitter.com/search?q=%23crowdlaw" target="_blank" style="font-size: 1.8rem; font-weight: 100; text-decoration: none; font-style: italic;">#crowdlaw</a></p>
+      <p style="font-size: 1.4rem;">The GovLab invited a group of experts to meet at the Rockefeller Foundation’s Bellagio conference center for the CrowdLaw Conference. In this series of interviews, we asked them about their favorite CrowdLaw platforms, the challenges they foresee for participatory lawmaking and, in general, about the future of CrowdLaw.</p>
+      <p style="text-align: center; padding-top: 40px;"><a href="https://www.youtube.com/playlist?list=PL2zpEc-7YPYwd-yGuJ6XHD8Vd7x0WImy8" class="button" target="_blank">Learn More <i class="material-icons">launch</i></a></p>
+      <div class="row" style="height: 100px;"> &nbsp; </div>
+    </div>
+  </div>
+  <div class="banner__overlay banner__overlay--dark">&nbsp;</div>
+</section>
+
+<section class="page-section page-section--dark banner" style="background-image: url('{{site.url}}{{site.baseurl}}/images/publicent.png'); background-size: cover;">
+  <div class="row banner__content">
+    <div class="columns medium-12">
+      <div class="row" style="height: 100px;"> &nbsp; </div>
+      <h2 style="margin-bottom: 0;"><img src="{{site.url}}{{site.baseurl}}/images/govlab-logo-white.png" style="height: 70px; vertical-align: middle;"> <span style="vertical-align: middle;">Public Entrepreneurship</span></h2>
+      <!--       <p style=""><a href="https://twitter.com/search?q=%23crowdlaw" target="_blank" style="font-size: 1.8rem; font-weight: 100; text-decoration: none; font-style: italic;">#crowdlaw</a></p> -->
+      <p style="font-size: 1.4rem;">The ability to adopt new technological innovations for governing, especially to use technology to collaborate with others, demands, first and foremost, the ability to define the problem one is trying to solve. In this video, Professor Beth Simone Noveck speaks about the art of problem definition.</p>
+      <p style="text-align: center; padding-top: 40px;"><a href="https://www.youtube.com/watch?v=iDAcR4w4RK8" class="button" target="_blank">Learn More <i class="material-icons">launch</i></a></p>
       <div class="row" style="height: 100px;"> &nbsp; </div>
     </div>
   </div>

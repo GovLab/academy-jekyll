@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<div class="course-detail course-detail--coaching">
+  <div class="course-header" style="background-color: #366473;"> {% comment %} This gets the course type class modifier for color coding{% endcomment %}
+    <div class="row align-center">
+      <div class="large-12 column">
+        <h4>Video Course</h4>
+        <h2>{{ page.title }}</h2>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 column">
+        <iframe width="100%" height="600px" src="https://www.youtube.com/embed/jO7onTaloRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="row align-center">
+      <div class="large-9 column">
+        <div class="course-detail__tagline" style="margin-top: 0;">{{ page.description | markdownify }}</div>
+      </div>
+      <div class="large-3 column">
+        <p style="margin-top: 30px;"><a href="#" class="button">Self Assessment</a></p>
+        <p><a href="#" class="button">Required Reading</a></p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-9 column">
+        <h6>Additional Resources</h6>
+        <ul style="list-style: none;">
+          {% for link in page.additionalResources %}
+          <li><i class="material-icons" style="vertical-align: middle;">launch</i> <a href="{{link.link}}" target="_blank">{{ link.text }}</a></li>
+          {% endfor %}
+        </ul>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+
+    <div class="course-detail__dates">
+      <div class="row align-center">
+        <div class="large-9">
+          <div class="row" style="text-align: center;">
+            <div class="large-4 column">
+              <h5 class="course-detail__date"><i class="material-icons" style="vertical-align: middle;">keyboard_arrow_left
+</i> Previous Video</h5>
+            </div>
+            <div class="large-4 column">
+              <h5 class="course-detail__date">Table of Contents</h5>
+            </div>
+            <div class="large-4 column">
+              <h5 class="course-detail__date">Next Video <i class="material-icons" style="vertical-align: middle;">keyboard_arrow_right
+</i></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="divider">
+    <div class="row">
+      <div class="large-12 column">
+
+      </div>
+    </div>
+  </div>
+  <div class="faculty-members">
+    <div class="row expanded collapse align-center">
+    </div>
+  </div>
+</div>

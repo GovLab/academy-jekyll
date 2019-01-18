@@ -1,0 +1,26 @@
+---
+video:
+- sys:
+    id: ZpPol9jfosiEuQcwqAqce
+  title: Introduction to People-Led Innovation
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+    culpa qui officia deserunt mollit anim id est laborum.
+  selfAssessment:
+    title: 05-DC-Public-Schools Key-Provisions-from-the-DCPS-Confidentiality-Agreement
+      (1)
+    description: 
+    url: "//assets.ctfassets.net/gvpfsi7zggwe/nt4kTFe9R6OUI8CMyGKYs/bf357d191d1b6a5504cb81c8689b925b/05-DC-Public-Schools_Key-Provisions-from-the-DCPS-Confidentiality-Agreement__1_.pdf"
+  requiredReading:
+    title: 05-DC-Public-Schools Key-Provisions-from-the-DCPS-Confidentiality-Agreement
+      (1)
+    description: 
+    url: "//assets.ctfassets.net/gvpfsi7zggwe/nt4kTFe9R6OUI8CMyGKYs/bf357d191d1b6a5504cb81c8689b925b/05-DC-Public-Schools_Key-Provisions-from-the-DCPS-Confidentiality-Agreement__1_.pdf"
+  additionalResources:
+  - sys:
+      id: 29PVdD5cOokOw4W66E2qu
+    text: The GovLab
+    link: http://thegovlab.org/

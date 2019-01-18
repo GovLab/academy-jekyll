@@ -183,8 +183,22 @@ contentful:
           limit: 1000
         base_path: ./source
         all_entries: true
+    - videos:
+        space: gvpfsi7zggwe
+        access_token: 3a7e015d277bfd033bc1fc10b8399e0672a3fe1729df8575db21f19e76832d64
+        cda_query:
+          content_type: video
+          include: 2
+          limit: 1000
+        base_path: ./source
+        all_entries: true
 
 page_gen:
+  - data: 'contentful.spaces.videos.video'
+    template: 'video_template'
+    name: 'title'
+    dir: 'videos'
+
   - data: 'contentful.spaces.coaching_programs.coachingProgram'
     template: 'coaching_template'
     name: 'programName'

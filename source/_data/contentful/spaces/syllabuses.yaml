@@ -198,3 +198,148 @@ syllabus:
       id: j0nGdQvlUOSY6IIoQwWia
   - sys:
       id: 3hrTJ3Y812AewOmakaw4GU
+- sys:
+    id: xh54Zkd4e6EedmvBopAsR
+  syllabusTitle: Solving Public Problems With Data
+  description: "__Introduction to Why Data Matters? Why Data Science Matters? __ \n*Led
+    by Ben Wellington*\n\nExamples and stories of how can data and data science help
+    solve Public Problems.\n\n__Introduction to Evidence-Based Decision-Making: Examples
+    in Economic Development__\n*Led by Quentin Palfrey*\n\nIf you invest in things
+    that do not work rather than those that do, real people’s lives may be affected
+    in dramatic ways. However, how do you know what works? Through real-world examples
+    and contemporary debates (e.g., the expansion of health insurance, or  crime and
+    violence prevention), you will understand the basic principles of evidence-based
+    decision making, how this relates to “counterfactual” reasoning, and frameworks
+    for thinking about how to apply rigorous, scientifically-based methods to solve
+    problems in ways that are  both effective and cost-effective. \n\n__Read:__\n“Introduction
+    to Evaluations” by JPAL - an overarching summary of “impact evaluations”, their
+    history, how to randomize effectively in experiments, why randomization is important,
+    and common concerns in study design\n“Promoting Policies that work: Six steps
+    for the Commission on Evidence-Based Policymaking” by Quentin Palfrey - a list
+    of six concrete steps policymakers “can take to institutionalize the use of administrative
+    data to support policy-relevant research and evidence-informed policymaking.”\n“Incentives
+    for Immunization” by JPAL - a write-up of a study referenced in Quentin’s lecture,
+    on how using costly incentives in an evaluation may actually decrease the marginal
+    cost of participation in a social program.\n\n__Watch:__\nWatch “Social experiments
+    to fight poverty” by Esther Duflo, Professor of Economics at MIT, explain in further
+    detail why social experiments may help policymakers with poverty alleviation,
+    and why experimental designs provide compelling and unforeseen insights where
+    other study approaches may fail.\n\n__How-To:__\nUtilize the Methods Guides an
+    online experimental Tools written by Evidence in Governance and Politics (EGAP).
+    These guides provide both technical and non-technical discussions on challenges
+    commonly faced in causal inference, why randomization is important to experimental
+    design and causal attribution, but also cases when of non-experimental designs
+    may lead to causal insights. Example code, written in the R programming language,
+    is accessible here online, as well as example vignettes.\n\n__Data Analytical
+    Thinking and Methods I: How To Define a Research Question and Introduction to
+    Statistical Approaches to Draw Inference__\n*Led by Julia Lane*\n\nDuring this
+    session you will learn about quantitative data—including so-called “big data”—
+    and some of the statistical techniques researchers and policy officials  use  to
+    derive value from it. The lecture emphasizes  the broad structure and necessary
+    steps  needed in any data-related inquiry: define a research question, formulate
+    a testable hypothesis,  think about what data is available, what data is missing,
+    issues of measurement error, and other applied concerns, such as how to  link
+    datasets. At the end, we will discuss some of the statistical paradigms  that
+    can be used to draw inferences, as well as some of the key ideas when addressing
+    the privacy and confidentiality issues. \n\n__Read:__\nBig Data and Social Science:
+    A Practical Guide to Methods and Tools by Ian Foster, Rayid Ghani, Ron S. Jarmin,
+    Frauke Kreuter, and Julia Lane\n__How-To:__\nFor an in-depth training, check out
+    the Applied Data Analytics Training Program, the first-of-its-kind program to
+    give working professionals an opportunity to develop the key computer science
+    and data science skill sets necessary to harness the wealth of newly-available
+    data and to creatively address real civic problems.\n\n__Machine Learning Applications
+    for the Public Sector__\n*Led by Gideon Mann*\n\nOftentimes a business or organization
+    may wish to do the same task over and over again, and there is a lot of data at
+    its disposal. In such settings, machine learning algorithms may be a useful way
+    forward to help solve many problems that would be too burdensome for humans to
+    do each time by hand. The lecture discusses differences between prediction systems
+    and recommendation tasks, supplemented by examples from industry that include
+    e-commerce applications, language modeling, and image analysis. The lecture discusses
+    challenges machine learning algorithms face when the underlying data collected
+    are “biased” or not representative of your target population or problem.\n\n__Read:__\nA
+    visual introduction to machine learning by R2D3 - machine learning explained in
+    interactive visualizations.\nAn executive’s guide to machine learning by McKinsey
+    - read how are traditional industries using machine learning to gather fresh business
+    insights?\nAutomation Beyond the Physical: AI in the Public Sector by Government
+    Technology - 26 ways artificial intelligence is, or could, help government do
+    its job.\n\n__Discovering and Collecting Data: Practical Advice for Government
+    Managers__\n*Led by Carter Hewgley *\n\nThis session will focus on strategies
+    for identifying, finding and getting data: where to locate information; when and
+    how you can collect your own data internally and externally (e.g. through FOIA
+    requests or crowdsourcing) as well as techniques to verify and validate your data
+    sources. We also discuss questions of data quality and how to identify what skills
+    you need to have access to in order to make use of the data you need. \n\n__Read:__\nData
+    for Development: The Case for Information, Not Just Data by Daniela Ligiero -
+    an article that explores the importance of not only having more and better data,
+    but also the need to make better use of the data we already have, transforming
+    it into useful information to guide action for the betterment of people and planet.\nInnovations
+    in Federal Statistics: Combining Data Sources While Protecting Privacy by the
+    National Academies of Sciences’s Panel on Improving Federal Statistics for Policy
+    and Social Science - a report that examines the opportunities and risks of using
+    government administrative and private sector data sources to foster a paradigm
+    shift in federal statistical programs that would combine diverse data sources
+    in a secure manner to enhance federal statistics.\n\n__Platforms and Where to
+    Store the Data?__\n*Led by Arnaud Sahuguet *\n\nIn this session, we discuss the
+    state of the art in technologies for collecting, storing, analyzing and visualizing
+    data. In particular, we focus on four hypothetical applications for each topic
+    in order that you understand what’s possible and what options are available for
+    you to be able to perform each activity. \n\n__Read: __\nOpen Data Resource Kit
+    by Jun Matsushita and Arnaud Sahuguet - Everything you ever wanted to know when
+    starting your open data project… but were too afraid to ask.\n\n\n__Data Analytical
+    Thinking and Methods II: Correlation, Causation and Decision-Making__\n*Led by
+    Daniel L. Goroff*\n\nThis lecture discusses common inferential challenges and
+    risks people face when working with data, including: thinking about conditional
+    probability, the distinction between association (or correlation) and causation,
+    what it means for events to be “independent,” and how to claim a result is “statistically
+    significant” is related to an implicit theory of randomness. The lecture closes
+    by giving some practical advice about how to think through these concepts in your
+    own domain.\n\n__Barriers to Building a Data Practice in Government__\n*Led by
+    Beth Blauer*\n\nDuring this session we will discuss the risks of collecting and
+    using data in government  including financial costs, lack of institutional readiness,
+    lack of skills and available talent, lack of a governance framework, ethical concerns
+    including privacy, security, confidentiality, and questions of how to share data
+    between organizations and with researchers. We discuss strategies for overcoming
+    these risks. \n\n__Read:__\nSelected Readings on Data Governance by The GovLab
+    - an annotated and curated collection of recommended works on Data Governance.\n\n__Data
+    Collaboratives and Corporate Data Philanthropy__\n*Led by Stefaan Verhulst*\n\nMuch
+    of the data that would be valuable to access and analyze resides with the private
+    sector—in the form of, for instance, Web clicks, online purchases, sensor data,
+    and call data records. With consumers connected to more and more platforms as
+    well as the increasing prevalence of sensing technologies (i.e. the Internet of
+    Things), data on how people and societies behave is becoming even more privately
+    owned. In this session, we discuss private sources of data to solve public problems
+    and best practices for how data can be shared between private and public organizations.
+    \n\n__Read:__ \nData Collaboratives: Exchanging Data to Improve People’s Lives,
+    by Stefaan Verhulst and David Sangokoya - an essay on leveraging the potential
+    of data to solve complex public problems through data collaboratives and four
+    critical accelerators towards responsible data sharing and collaboration.\nData
+    Collaboratives: Matching Demand with Supply of (Corporate) Data to solve Public
+    Problems, by Stefaan Verhulst, Iryna SUsha and Alexander Kostura - a report describing
+    emerging practice, opportunities and challenges in data collaboratives as identified
+    at the International Data Responsibility Conference.\nData Responsibility: A New
+    Social Good for the Information Age, by Stefaan Verhulst - an essay offering a
+    new understanding of data responsibility comprising a duty to share, a data to
+    protect, and a duty to act.\nMore readings at Data Collaboratives section of the
+    Open Governance Research Exchange.\n__Watch:__\nWatch “Your Company’s Data Could
+    Help End World Hunger” by Mallory Soldner, UPS Advanced Analytics Manager, explain
+    what is data philanthropy and how the next generation of corporate social responsibility
+    is using data and companies’ decision-scientist expertise to solve the big problems
+    our world is facing.\n__How-To:__ \nThinking about designing your own Data Collaborative?
+    Use our canvas and find out what would be your next steps.\n\n__Strengthening
+    a Data Analytic Culture __\n*Led by Amen-Ra Mashariki*\n\nThis session will cover
+    how to institutionalize and build a culture of data analytics in your organization
+    and how to engage stakeholders in the creation of data governance policies and
+    frameworks. \n\nRead:\nChanging Culture by GovEx - a practical guide to help governments
+    advance open data, analytics and performance management practices by shaping their
+    organizational culture.\n"
+  objectives: "At the end of this course you will be able to...\n\nArticulate the
+    value-proposition for using data to solve the problems you work on in your job,
+    including how to leverage data to improve decision-making\nUnderstand the data
+    science techniques and tools that can be applied to transform data to information
+    and insights\nUnderstand how data may be used in your work to determine the costs
+    and benefits of important decisions \nIdentify the benefits and risks of collecting,
+    processing, using and sharing data\nKnow the questions to ask when deciding which
+    platforms to use for storing and publishing data\nKnow how to craft a data sharing
+    policy to facilitate use of data across agencies and sectors\nKnow how others
+    are collecting, using and sharing responsibly by other public and international
+    entities\n\n"

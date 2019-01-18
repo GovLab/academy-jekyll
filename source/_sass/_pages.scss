@@ -44,7 +44,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    opacity: 0.85;
+    opacity: 0.8;
     &--dark {
       background-color: #523080;
       opacity: 0.8;
@@ -134,47 +134,59 @@
 }
 
 .stats {
-  background-color: $black;
-  color: $white;
+  background-color: #f1f1f1;
+  color: $black;
   &__number {
     font-size: 1.5rem;
     font-weight: bold;
+  }
+  &__text {
+    padding-bottom: 10px;
   }
   &__panel {
     height: 100%;
     width: 100%;
     border-radius: 20px;
-    border: solid 4px $white;
+    // border: solid 4px $white;
     padding: 5px;
     text-align: center;
     &--1 {
-      border-color: $coaching-color;
+      // border-color: $coaching-color;
     }
     &--2 {
-      border-color: $community-color;
+      // border-color: $community-color;
     }
     &--3 {
-      border-color: $masters-color;
+      // border-color: $masters-color;
     }
     &--4 {
-      border-color: $projects-color;
+      // border-color: $projects-color;
     }
   }
   &__image {
     .material-icons {
-      font-size: 100px;
+      font-size: 30px;
     }
+    color: rgba(0,0,0,0.1);
     &--1 {
-      color: $coaching-color;
+      // color: $coaching-color;
     }
     &--2 {
-      color: $community-color;
+      // color: $community-color;
     }
     &--3 {
-      color: $masters-color;
+      .material-icons {
+        font-size: 20px;
+      }
+      // color: $masters-color;
     }
     &--4 {
-      color: $projects-color;
+      text-align: left;
+      .material-icons {
+        font-size: 12px;
+      }
+      line-height: 0.4;
+      // color: $projects-color;
     }
   }
 }
@@ -216,7 +228,7 @@
   }
 }
 
-$t: 0.0;
+$t: 0.3;
 .page-section__content {
   &--projects > * {
     color: $black;
@@ -224,13 +236,13 @@ $t: 0.0;
   }
   &--index-panel {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    // align-items: center;
+    // justify-content: center;
     text-align: center;
     font-size: 1rem;
     line-height: 1;
     background-color: transparentize($workshop-color, $t);
-    border-radius: 20px;
+    // border-radius: 20px;
     height: 300px;
     padding: 30px;
     position: relative;
