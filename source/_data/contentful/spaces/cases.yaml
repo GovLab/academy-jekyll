@@ -2295,7 +2295,7 @@ coachingProgram:
       title: stefaan-verhulst
       description: 
       url: "//images.ctfassets.net/gvpfsi7zggwe/6RojjcYhck8Kq2GqWKG8gu/c125d0bb55023f3c02995f39eb2ca75c/stefaan-verhulst.jpg"
-  featured: true
+  featured: false
 - sys:
     id: 1l7V2iMx1aqoA4WmIcuCQk
   programName: Tech Innovation in Procurement
@@ -2610,6 +2610,7 @@ coachingProgram:
       title: mrm-2
       description: 
       url: "//images.ctfassets.net/gvpfsi7zggwe/3bI1Pl6fW4SCQYNqXK2eZ9/f2ffb069836355de02607020898ecd2c/mrm-2.jpg"
+  featured: true
 syllabusClass:
 - sys:
     id: 5fOzllL7gWu6iyCua6GwGM
@@ -3219,11 +3220,11 @@ indexPage:
   instructorNumber: 25+
   instructorText: World Class Instructors and Coaches
   mentorNumber: " 100+"
-  mentorText: Mentors
+  mentorText: Mentors<br>&nbsp;
   participantsNumber: " 1000+"
-  participantsText: " GovLab Academy Participants"
+  participantsText: " GovLab Academy <br>Participants"
   coursesNumber: 30+
-  coursesShortText: Courses and Project Clinics
+  coursesShortText: Courses and Project <br>Clinics
   programsTitle: The Programs We Offer
   coachingProgramsTitle: COACHING PROGRAMS
   coachingProgramsText: Online coaching sessions designed to help purpose-driven participants
@@ -3351,6 +3352,8 @@ coursesPage:
     for both the traditional classroom environment and online learning \n- __WHEN__
     - Anytime or during the academic year through an affiliated University. \n- __WHERE__
     - Fully available online or In-person through an affiliated University."
+  upcomingCoursesText: Current &amp; Upcoming Courses
+  pastCoursesText: Past Courses
 communityPage:
 - sys:
     id: 6IGrjDUFYkA8EKqEIe8Iuo

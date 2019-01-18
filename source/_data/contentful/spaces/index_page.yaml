@@ -17,11 +17,11 @@ indexPage:
   instructorNumber: 25+
   instructorText: World Class Instructors and Coaches
   mentorNumber: " 100+"
-  mentorText: Mentors
+  mentorText: Mentors<br>&nbsp;
   participantsNumber: " 1000+"
-  participantsText: " GovLab Academy Participants"
+  participantsText: " GovLab Academy <br>Participants"
   coursesNumber: 30+
-  coursesShortText: Courses and Project Clinics
+  coursesShortText: Courses and Project <br>Clinics
   programsTitle: The Programs We Offer
   coachingProgramsTitle: COACHING PROGRAMS
   coachingProgramsText: Online coaching sessions designed to help purpose-driven participants

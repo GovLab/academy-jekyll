@@ -165,7 +165,7 @@
   }
   &__image {
     .material-icons {
-      font-size: 30px;
+      font-size: 80px;
     }
     color: rgba(0,0,0,0.1);
     &--1 {
@@ -175,17 +175,17 @@
       // color: $community-color;
     }
     &--3 {
-      .material-icons {
-        font-size: 20px;
-      }
+      // .material-icons {
+        // font-size: 20px;
+      // }
       // color: $masters-color;
     }
     &--4 {
-      text-align: left;
-      .material-icons {
-        font-size: 12px;
-      }
-      line-height: 0.4;
+      // text-align: left;
+      // .material-icons {
+      //   font-size: 12px;
+      // }
+      // line-height: 0.4;
       // color: $projects-color;
     }
   }

@@ -92,20 +92,17 @@ layout: default
     </div>
   </div>
 
+  {% assign currentCoachingPrograms = coachingPrograms | find_upcoming_data: 'endDate' | sort: "applicationDeadline" %}
+  {% assign courseSize = currentCoachingPrograms | size %}
+  {% unless courseSize == 0 %}
   <div class="divider">
     <div class="row">
       <div class="large-12 column">
-        <h1>Upcoming courses</h1>
+        <h1>Current &amp; Upcoming Courses</h1>
       </div>
     </div>
   </div>
   <ul class="course-list">
-
-    {% assign currentCoachingPrograms = coachingPrograms | find_upcoming_data: 'applicationDeadline' | sort: "applicationDeadline" %}
-    {% assign courseSize = currentCoachingPrograms | size %}
-    {% if courseSize == 0 %}
-    <center><p>There are currently no upcoming courses.</p></center>
-    {% else%}
     {% for course in currentCoachingPrograms %}
     <li class="course-item">
       <div class="row">
@@ -142,19 +139,19 @@ layout: default
       </div>
     </li>
     {% endfor %}
-    {% endif %}
   </ul>
+  {% endunless %}
 
   <div class="divider">
     <div class="row">
       <div class="large-12 column">
-        <h1>Past courses</h1>
+        <h1>Past Courses</h1>
       </div>
     </div>
   </div>
   <ul class="course-list course-list--past-courses">
 
-    {% assign pastCoachingPrograms = coachingPrograms | find_past_data: 'applicationDeadline'  | sort: "endDate" | reverse %}
+    {% assign pastCoachingPrograms = coachingPrograms | find_past_data: 'endDate'  | sort: "endDate" | reverse %}
 
     {% for course in pastCoachingPrograms %}
     <li class="course-item">

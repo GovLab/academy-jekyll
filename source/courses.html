@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% assign courses = site.data.contentful.spaces.courses.course %}
+
 <div class="course-list">
   <div class="top-section banner banner--courses">
     <div class="row banner__content">
@@ -32,6 +34,10 @@ layout: default
     </div>
   </section>
 
+
+  {% assign currentCourses = courses | find_upcoming_data: 'endDate' | sort: "applicationDeadline" %}
+  {% assign courseSize = currentCourses | size %}
+  {% unless courseSize == 0 %}
   <div class="divider">
     <div class="row">
       <div class="large-12 column">
@@ -40,7 +46,7 @@ layout: default
     </div>
   </div>
   <ul class="course-list">
-    {% for course in site.data.contentful.spaces.courses.course %}
+    {% for course in currentCourses %}
     <li class="course-item">
       <div class="row">
         <div class="large-12 column">
@@ -68,47 +74,7 @@ layout: default
     </li>
     {% endfor %}
   </ul>
-<!--
-  <div class="divider">
-    <div class="row">
-      <div class="large-12 column">
-        <h1>Courses offered by partner organizations</h1>
-      </div>
-    </div>
-  </div>
-  <ul class="course-list course-list--past-courses">
-    {% for course in site.data.courses %}
-    {% if course.is_crosslisted %}
-    {% comment %}TODO: Filter past events only{% endcomment %}
-    <li class="course-item">
-      <div class="row">
-        <div class="large-6 column">
-          <h2 class="course-item__title">{{ course.programName }}</h2>
-          <p class="course-item__application">STARTED THE WEEK OF: {{ course.date.week_start }}</p>
-          <div class="course-item__faculty-team">
-            {% for name in course.faculty_members %}
-            {% assign person = site.data.people | where:"title", name | first %}
-            {% if person %}
-            <a href="{{person.name.slug}}.html" target="_blank">
-              <div class="course-item__faculty column large-3 end" style="background-image: url('/images/faculty/{{ person.name.slug }}.jpg');">
-                <p>{{ person.name.first }} {{ person.name.last }}</p>
-              </div>
-            </a>
-            {% else %}
-            <div class="course-item__faculty column large-3 end" style="background-image: url('/images/faculty/{{ person.name.slug  }}.jpg');">
-              <p>{{name}}</p>
-            </div>
-            {% endif %}
-            {% endfor %}
-          </div>
-        </div>
-        <div class="large-6 column">
-          <p class="course-item__description">{{ course.description_short | safe }}</p>
-          <a href="/coaching/{{ course.name | downcase | replace: " ", "-" }}.html" class="button">more info</a>
-        </div>
-      </div>
-    </li>
-    {% endif %}
-    {% endfor %}
-  </ul> -->
+  {% endunless %}
+
+
 </div>

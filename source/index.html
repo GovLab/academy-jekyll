@@ -104,26 +104,20 @@ custom_body: homepage
     </div>
   </div>
   <div class="row">
-    <div class="large-12 small-12 columns">
-      <div class="row align-center">
-        <div class="large-4 small-12 columns">
-          <div class="stats__panel stats__panel--1">
-            <div class="stats__number">
-              {{site.data.contentful.spaces.index_page.indexPage[0].instructorNumber}}
-            </div>
-            <div class="stats__text">
-              {{site.data.contentful.spaces.index_page.indexPage[0].instructorText}}
-            </div>
-            <div class="stats__image stats__image--1">
-              {% for num in (1..25) %}
-              <i class="material-icons">school</i>
-              {% endfor %}
-            </div>
-          </div>
+    <div class="large-3 small-12 columns">
+      <div class="stats__panel stats__panel--1">
+        <div class="stats__number">
+          {{site.data.contentful.spaces.index_page.indexPage[0].instructorNumber}}
+        </div>
+        <div class="stats__text">
+          {{site.data.contentful.spaces.index_page.indexPage[0].instructorText}}
+        </div>
+        <div class="stats__image stats__image--1">
+          <i class="material-icons">school</i>
         </div>
       </div>
     </div>
-    <div class="large-6 small-12 columns">
+    <div class="large-3 small-12 columns">
       <div class="stats__panel stats__panel--2">
         <div class="stats__number">
           {{site.data.contentful.spaces.index_page.indexPage[0].coursesNumber}}
@@ -132,13 +126,11 @@ custom_body: homepage
           {{site.data.contentful.spaces.index_page.indexPage[0].coursesShortText}}
         </div>
         <div class="stats__image stats__image--2">
-          {% for num in (1..30) %}
           <i class="material-icons">create</i>
-          {% endfor %}
         </div>
       </div>
     </div>
-    <div class="large-6 small-12 columns">
+    <div class="large-3 small-12 columns">
       <div class="stats__panel stats__panel--3">
         <div class="stats__number">
           {{site.data.contentful.spaces.index_page.indexPage[0].mentorNumber}}
@@ -147,13 +139,11 @@ custom_body: homepage
           {{site.data.contentful.spaces.index_page.indexPage[0].mentorText}}
         </div>
         <div class="stats__image stats__image--3">
-          {% for num in (1..100) %}
           <i class="material-icons">device_hub</i>
-          {% endfor %}
         </div>
       </div>
     </div>
-    <div class="large-12 small-12 columns">
+    <div class="large-3 small-12 columns">
       <div class="stats__panel stats__panel--4">
         <div class="stats__number">
           {{site.data.contentful.spaces.index_page.indexPage[0].participantsNumber}}
@@ -162,9 +152,7 @@ custom_body: homepage
           {{site.data.contentful.spaces.index_page.indexPage[0].participantsText}}
         </div>
         <div class="stats__image stats__image--4">
-          {% for num in (1..1000) %}
           <i class="material-icons">person</i>
-          {% endfor %}
         </div>
       </div>
     </div>
@@ -253,9 +241,7 @@ custom_body: homepage
 
   {% assign coachingPrograms = site.data.contentful.spaces.coaching_programs.coachingProgram %}
 
-  {% assign pastCoachingPrograms = coachingPrograms | find_past_data: 'applicationDeadline'  | sort: "endDate" | reverse %}
-
-  {% for course in pastCoachingPrograms %}
+  {% for course in coachingPrograms %}
   {% if course.featured %}
   <li class="course-item">
     <div class="row">
