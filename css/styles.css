@@ -842,6 +842,8 @@ shadow {
     .banner__overlay--dark {
       background-color: #523080;
       opacity: 0.8; }
+    .banner__overlay--alt {
+      background-color: rgba(0, 0, 0, 0.8); }
     .banner__overlay--courses {
       background-color: #366473; }
     .banner__overlay--clinics {
