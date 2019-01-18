@@ -1,4 +1,10 @@
 $(document).ready(function () {
+
+    $('.syllabus__collapse').click(function () {
+        $(this).next('.syllabus__collapsible').toggleClass('syllabus__collapsible--collapsed');
+        $(this).toggleClass('syllabus__collapse--collapsed')
+    });
+
     $('.switch label').click(function () {
         if ($('#viz-switch').prop("checked")) {
             $('.canvas-example').addClass('canvas-example--show');
