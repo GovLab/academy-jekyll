@@ -922,14 +922,7 @@ shadow {
   .stats__image {
     color: rgba(0, 0, 0, 0.1); }
     .stats__image .material-icons {
-      font-size: 30px; }
-    .stats__image--3 .material-icons {
-      font-size: 20px; }
-    .stats__image--4 {
-      text-align: left;
-      line-height: 0.4; }
-      .stats__image--4 .material-icons {
-        font-size: 12px; }
+      font-size: 80px; }
 
 .page-panel {
   opacity: 1;
