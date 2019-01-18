@@ -201,7 +201,7 @@ syllabus:
 - sys:
     id: xh54Zkd4e6EedmvBopAsR
   syllabusTitle: Solving Public Problems With Data
-  description: "__Introduction to Why Data Matters? Why Data Science Matters? __ \n*Led
+  description: "__Introduction to Why Data Matters? Why Data Science Matters?__ \n*Led
     by Ben Wellington*\n\nExamples and stories of how can data and data science help
     solve Public Problems.\n\n__Introduction to Evidence-Based Decision-Making: Examples
     in Economic Development__\n*Led by Quentin Palfrey*\n\nIf you invest in things
@@ -263,12 +263,12 @@ syllabus:
     insights?\nAutomation Beyond the Physical: AI in the Public Sector by Government
     Technology - 26 ways artificial intelligence is, or could, help government do
     its job.\n\n__Discovering and Collecting Data: Practical Advice for Government
-    Managers__\n*Led by Carter Hewgley *\n\nThis session will focus on strategies
-    for identifying, finding and getting data: where to locate information; when and
-    how you can collect your own data internally and externally (e.g. through FOIA
-    requests or crowdsourcing) as well as techniques to verify and validate your data
-    sources. We also discuss questions of data quality and how to identify what skills
-    you need to have access to in order to make use of the data you need. \n\n__Read:__\nData
+    Managers__\n*Led by Carter Hewgley*\n\nThis session will focus on strategies for
+    identifying, finding and getting data: where to locate information; when and how
+    you can collect your own data internally and externally (e.g. through FOIA requests
+    or crowdsourcing) as well as techniques to verify and validate your data sources.
+    We also discuss questions of data quality and how to identify what skills you
+    need to have access to in order to make use of the data you need. \n\n__Read:__\nData
     for Development: The Case for Information, Not Just Data by Daniela Ligiero -
     an article that explores the importance of not only having more and better data,
     but also the need to make better use of the data we already have, transforming
@@ -279,11 +279,11 @@ syllabus:
     government administrative and private sector data sources to foster a paradigm
     shift in federal statistical programs that would combine diverse data sources
     in a secure manner to enhance federal statistics.\n\n__Platforms and Where to
-    Store the Data?__\n*Led by Arnaud Sahuguet *\n\nIn this session, we discuss the
+    Store the Data?__\n*Led by Arnaud Sahuguet*\n\nIn this session, we discuss the
     state of the art in technologies for collecting, storing, analyzing and visualizing
     data. In particular, we focus on four hypothetical applications for each topic
     in order that you understand what’s possible and what options are available for
-    you to be able to perform each activity. \n\n__Read: __\nOpen Data Resource Kit
+    you to be able to perform each activity. \n\n__Read:__\nOpen Data Resource Kit
     by Jun Matsushita and Arnaud Sahuguet - Everything you ever wanted to know when
     starting your open data project… but were too afraid to ask.\n\n\n__Data Analytical
     Thinking and Methods II: Correlation, Causation and Decision-Making__\n*Led by
@@ -326,7 +326,7 @@ syllabus:
     is using data and companies’ decision-scientist expertise to solve the big problems
     our world is facing.\n__How-To:__ \nThinking about designing your own Data Collaborative?
     Use our canvas and find out what would be your next steps.\n\n__Strengthening
-    a Data Analytic Culture __\n*Led by Amen-Ra Mashariki*\n\nThis session will cover
+    a Data Analytic Culture__\n*Led by Amen-Ra Mashariki*\n\nThis session will cover
     how to institutionalize and build a culture of data analytics in your organization
     and how to engage stakeholders in the creation of data governance policies and
     frameworks. \n\nRead:\nChanging Culture by GovEx - a practical guide to help governments

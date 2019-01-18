@@ -169,38 +169,31 @@ layout: default
                 <p>{{ person.firstName }} {{ person.lastName }}</p>
               </div>
             </a>
-                    {%comment%}
-<!--                   {% else %}
-                    <div class="course-item__faculty column large-3 end" style="background-image: url('/images/faculty/{{ person.name.slug  }}.jpg');">
-                      <p>{{name}}</p>
-                    </div>
-                  {% endif %} -->
-                  {%endcomment%}
-                  {% endfor %}
-                </div>
-              </div>
-              <div class="large-6 medium-6 small-12 column">
-                <p class="course-item__description">{{ course.shortDescription | markdownify }}</p>
-                {% assign link = course.programName %}
-                {% assign char = "-" %}
+            {% endfor %}
+          </div>
+        </div>
+        <div class="large-6 medium-6 small-12 column">
+          <p class="course-item__description">{{ course.shortDescription | markdownify }}</p>
+          {% assign link = course.programName %}
+          {% assign char = "-" %}
 
-                {% capture link %}
-                {{ link | replace: char, "0101010" }}
-                {% endcapture %}
+          {% capture link %}
+          {{ link | replace: char, "0101010" }}
+          {% endcapture %}
 
-                {% assign slugged-link = link %}
+          {% assign slugged-link = link %}
 
-                {% capture slugged-link %}
-                {{ slugged-link | slugify }}
-                {% endcapture %}
-                <a href="{{site.url}}{{site.baseurl}}/coaching/{{ slugged-link | replace: "0101010", char  | rstrip | lstrip }}.html" class="button">more info</a>
-              </div>
-            </div>
-          </li>
-
-          {% endfor %}
-        </ul>
-
+          {% capture slugged-link %}
+          {{ slugged-link | slugify }}
+          {% endcapture %}
+          <a href="{{site.url}}{{site.baseurl}}/coaching/{{ slugged-link | replace: "0101010", char  | rstrip | lstrip }}.html" class="button">more info</a>
+        </div>
       </div>
+    </li>
 
-    </div>
+    {% endfor %}
+  </ul>
+
+</div>
+
+</div>

@@ -24,7 +24,7 @@ github_username:
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
 
 exclude:
@@ -228,8 +228,8 @@ page_gen:
     name: 'syllabusTitle'
     dir: 'syllabus'
 
-  - data: 'contentful.spaces.syllabuses.course'
-    template: 'course_template'
+  - data: 'contentful.spaces.courses.course'
+    template: 'courses_template'
     name: 'programName'
     dir: 'courses'
 

@@ -2,19 +2,19 @@
 layout: default
 ---
 
-<div class="course-detail course-detail--coaching">
+<div class="course-detail m-masters">
   <div class="course-header"> {% comment %} This gets the course type class modifier for color coding{% endcomment %}
     <div class="row align-center">
       <div class="large-9 column">
-        <h4>Coaching Program</h4>
+        <h4>Course</h4>
         <h2>{{ page.programName }}</h2>
 
         <div class="course-detail__tagline">{{ page.passion.title }}</div>
         <div class="course-detail__tagline">{{ page.shortDescription | markdownify }}</div>
-        <div class="course-detail__apply"><a href="#" class="button">Start Learning</a></div>
+        <div class="course-detail__apply"><a href="{{ page.courseLink }}" class="button" target="_blank">Start Learning</a></div>
       </div>
     </div>
-
+    {% unless page.selfPaced %}
     <div class="course-detail__dates">
       <div class="row align-center">
         <div class="large-9">
@@ -35,6 +35,7 @@ layout: default
         </div>
       </div>
     </div>
+    {% endunless %}
   </div>
   <div class="page-section">
     <div class="row align-center collapse">
@@ -42,7 +43,7 @@ layout: default
         <div class="course-detail__passion">
           <ul>
             {% for item in passion.bullets %}
-              <li>{{ page.item }}</li>
+            <li>{{ page.item }}</li>
             {% endfor %}
           </ul>
         </div>
@@ -53,6 +54,194 @@ layout: default
         <div class="course-detail__format">
           {% if page.courseFormat %}<h2>Course Format</h2>{% endif %}
           {{ page.courseFormat | markdownify }}
+        </div>
+        <div class="course-detail__syllabus">
+          {% if page.syllabus %}<h2>Syllabus</h2>{% endif %}
+
+
+          {% assign all_resources = site.data.contentful.spaces.resources.resource %}
+
+          <div class="syllabus">
+
+            <div class="syllabus__section">
+              <div class="row medium-uncollapse expanded">
+                <div class="column medium-12 large-12 small-12 columns">
+                  <h4 class="syllabus__description-text syllabus__header syllabus__collapse syllabus__collapse--collapsed">Description</h4>
+                  <div class="syllabus__description syllabus__collapsible syllabus__collapsible--collapsed"><p>{{page.syllabus.description | markdownify }}</p></div>
+
+                  <h6 id="pdf-title" class="syllabus__title" style="display:none; font-weight:bold">{{page.syllabusTitle}}</h6>
+                  <p style="display:none" id="pdf-start">{{page.startDate | date: "%B %d, %Y"}} - {{page.endDate | date: "%B %d, %Y"}}</p>
+                  <p id="pdf-desc" class="syllabus__description" style="display:none; font-size:12px;">{{page.syllabus.description}}</p>
+                  <img id="gov-logo" src="../images/pdf-header.png" alt="" style="display:none;">
+                  <img id="gov-footer" src="../images/pdf-footer.png" alt="" style="display:none;">
+
+                </div>
+              </div>
+            </div>
+
+            {% if page.syllabus.addlInformation or page.syllabus.objectives %}
+            <div class="syllabus__objectives">
+              <div class="row expanded medium-uncollapse">
+                {% if page.syllabus.objectives %}
+                <div class="column large-12 small-12">
+                  <h4 class="syllabus__description-text syllabus__header syllabus__collapse syllabus__collapse--collapsed">Objectives</h4>
+                  <div class="syllabus__objectives--objective syllabus__collapsible syllabus__collapsible--collapsed">
+                    <p>{{page.syllabus.objectives | markdownify }}</p>
+                  </div>
+                </div>
+                {% endif %}
+                {% if page.syllabus.addlInformation %}
+                <div class="column large-12 small-12">
+                  <h4 class="syllabus__description-text syllabus__header syllabus__collapse syllabus__collapse--collapsed">Additional Info</h4>
+                  <div class="syllabus__objectives--info syllabus__collapsible syllabus__collapsible--collapsed">
+                    <p>{{page.syllabus.addlInformation | markdownify }}</p>
+                  </div>
+                </div>
+              </div>
+              {% endif %}
+            </div>
+            {% endif %}
+
+
+            {% if page.syllabus.syllabusClasses %}
+            <div class="divider">
+              <h1>Classes</h1>
+            </div>
+
+            <div class="syllabus__classes">
+              <div class="resources-section">
+                <div class="row expanded collapse">
+                  <div id="events" class="columns results-container">
+                    <div id="list" class="list">
+                      {% for class in page.syllabus.syllabusClasses %}
+                      <div class="result-item">
+                        <div class="js-open-modal">
+                          <h2 class="result-item__name">{{class.classTitle}}</h2>
+                          <p style="display:none; font-size:16px; font-weight:bold;" class="pdf-class-title">Class {{class.classNumber}}, Week {{class.classWeek}}: {{class.classTitle}}</p>
+                          <!-- Short Description -->
+                          <div class="result-item__short-description">
+                            <p>{{class.shortDescription}}</p>
+                          </div>
+
+                          <div class="result-item--event__date fancy-date">
+                            <div class="fancy-date__stack">
+                              <span class="fancy-date__month">Class</span>
+                            </div>
+                            <span class="fancy-date__day pdf-class-week">{{class.classNumber}}</span>
+                            <div class="fancy-date__stack">
+                              <span class="fancy-date__weekday">Week</span>
+                            </div>
+                            <span class="fancy-date__day pdf-class-week">{{class.classWeek}}</span>
+                          </div>
+                        </div>
+                        {% include class-modal.html %}
+                      </div>
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+
+            {% if page.syllabus.resources %}
+            <div class="divider">
+              <h1>Resources</h1>
+            </div>
+
+            <div class="syllabus__resources">
+              <div class="resources-section">
+                <div class="row expanded collapse">
+                  <div id="resources" class="columns results-container">
+                    <div id="list" class="list">
+                      {% if page.syllabus.resources %}
+                      {% for resource in page.syllabus.resources %}
+                      <div class="result-item">
+                        <div class="js-open-modal">
+                          {% assign resource_id =  resource.sys.id%}
+                          {% for item in all_resources %}
+                          {% if item.sys.id == resource_id %}
+                          <h2 class="result-item__name">{{item.title}}</h2>
+                          <div class="result-item__short-description">
+                            <p>{{item.shortDescription | strip_html | truncatewords: 30}}</p>
+                          </div>
+                          <div class="result-item__publication">
+                            <p><span>Published by</span> {{item.publicationName}}, {{item.publicationDate | date: "%Y"}}</p>
+                          </div>
+                          <div class="result-item__taxonomy result-item__taxonomy--type">
+                            <span class="result-item__taxonomy__key">Author</span>
+                            <span class="result-item__taxonomy__value resource-theme" data-theme="all">
+                              {% for authors in item.author %}
+                              <p class="result-item__tag">{{authors}}</p>
+                              {% endfor %}
+                            </span>
+                          </div>
+                          <div class="result-item__taxonomy result-item__taxonomy--type">
+                            <span class="result-item__taxonomy__key">Type</span>
+                            <span class="result-item__taxonomy__value">
+                              <p class="result-item__tag resource-type" data-type="all">{{item.type}}</p>
+                            </span>
+                          </div>
+                        </div>
+                        <div class="modal js-target-modal">
+                          <header class="modal__header modal--top-section">
+                            <div class="modal__type">
+                              <span>{{item.type}}</span>
+                            </div>
+
+                            <i class="modal__close material-icons js-close-modal">close</i>
+                            <h1 class="modal__title">{{item.title}}</h1>
+                            {% for authors in item.author %}
+                            <h2 class="modal__authors">{{authors}}</h2>
+                            {% endfor %}
+
+                            <p class="modal__publication"><span>Published by</span> {{item.publicationName}}, {{item.publicationDate | date: "%Y"}}</p>
+
+                            <div class="floating-button">
+                              <div class="floating-button__wrapper">
+                                {% if item.url %}
+                                <a class="button button--floating button--black" target="_blank" href="{{item.url}}" title="">Visit Webpage</a>
+                                {% endif %}
+                              </div>
+                            </div>
+                          </header>
+
+                          <div class="modal__content">
+                            <div class="result-item__short-description">
+                              <p>{{item.shortDescription}}</p>
+                            </div>
+                            <p>Type <b>{{item.type}}</b></p>
+                          </div>
+                        </div>
+                      </div>
+                      {% endif %}
+                      {% endfor %}
+                      {% endfor %}
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+          </div>
+
+          <div class="download">
+            <div class="row align-center">
+              <div class="column large-12">
+                <div class="button download-button">
+                  Download Syllabus as PDF
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
         </div>
       </div>
     </div>
@@ -67,11 +256,11 @@ layout: default
   <div class="faculty-members">
     <div class="row expanded collapse align-center">
       {% for person in page.faculty %}
-        <a href="{{site.url}}{{site.baseurl}}/faculty/{{person.lastName | slugify }}.html" target="_blank" class="large-3 column faculty-card {% if person.is_govlab %}faculty-card--govlab {% endif%}">
-          <div class="faculty-card__picture" style="background-image: url({{person.facultyImage.url}});"></div>
-          <h1 class="faculty-card__name ">{{ person.firstName }} {{ person.lastName }}</h1>
-          <p class="faculty-card__description">{% if person.shortBio %}{{ person.shortBio }}{% else %}{{ person.longBio | truncatewords: 50 }}{% endif %}</p>
-        </a>
+      <a href="{{site.url}}{{site.baseurl}}/faculty/{{person.lastName | slugify }}.html" target="_blank" class="large-3 column faculty-card {% if person.is_govlab %}faculty-card--govlab {% endif%}">
+        <div class="faculty-card__picture" style="background-image: url({{person.facultyImage.url}});"></div>
+        <h1 class="faculty-card__name ">{{ person.firstName }} {{ person.lastName }}</h1>
+        <p class="faculty-card__description">{% if person.shortBio %}{{ person.shortBio }}{% else %}{{ person.longBio | truncatewords: 50 }}{% endif %}</p>
+      </a>
       {% endfor %}
     </div>
   </div>

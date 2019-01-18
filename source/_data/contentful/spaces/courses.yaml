@@ -3,9 +3,7 @@ course:
 - sys:
     id: 2sH5A4VQ1kQTbd86ngvkAQ
   programName: Solving Public Problems With Data
-  startDate: !ruby/object:DateTime 2019-01-18 00:00:00.000000000 -05:00
-  endDate: !ruby/object:DateTime 2019-02-01 00:00:00.000000000 -05:00
-  applicationDeadline: !ruby/object:DateTime 2019-01-15 00:00:00.000000000 -05:00
+  selfPaced: true
   shortDescription: The explosion in the availability of new sources of data and the
     emergence of new data science technologies for making use of such data are expected
     to have a significant impact on public institutions and how they solve problems
@@ -196,7 +194,7 @@ course:
     sys:
       id: xh54Zkd4e6EedmvBopAsR
     syllabusTitle: Solving Public Problems With Data
-    description: "__Introduction to Why Data Matters? Why Data Science Matters? __
+    description: "__Introduction to Why Data Matters? Why Data Science Matters?__
       \n*Led by Ben Wellington*\n\nExamples and stories of how can data and data science
       help solve Public Problems.\n\n__Introduction to Evidence-Based Decision-Making:
       Examples in Economic Development__\n*Led by Quentin Palfrey*\n\nIf you invest
@@ -260,9 +258,9 @@ course:
       the Physical: AI in the Public Sector by Government Technology - 26 ways artificial
       intelligence is, or could, help government do its job.\n\n__Discovering and
       Collecting Data: Practical Advice for Government Managers__\n*Led by Carter
-      Hewgley *\n\nThis session will focus on strategies for identifying, finding
-      and getting data: where to locate information; when and how you can collect
-      your own data internally and externally (e.g. through FOIA requests or crowdsourcing)
+      Hewgley*\n\nThis session will focus on strategies for identifying, finding and
+      getting data: where to locate information; when and how you can collect your
+      own data internally and externally (e.g. through FOIA requests or crowdsourcing)
       as well as techniques to verify and validate your data sources. We also discuss
       questions of data quality and how to identify what skills you need to have access
       to in order to make use of the data you need. \n\n__Read:__\nData for Development:
@@ -276,60 +274,60 @@ course:
       government administrative and private sector data sources to foster a paradigm
       shift in federal statistical programs that would combine diverse data sources
       in a secure manner to enhance federal statistics.\n\n__Platforms and Where to
-      Store the Data?__\n*Led by Arnaud Sahuguet *\n\nIn this session, we discuss
-      the state of the art in technologies for collecting, storing, analyzing and
-      visualizing data. In particular, we focus on four hypothetical applications
-      for each topic in order that you understand what’s possible and what options
-      are available for you to be able to perform each activity. \n\n__Read: __\nOpen
-      Data Resource Kit by Jun Matsushita and Arnaud Sahuguet - Everything you ever
-      wanted to know when starting your open data project… but were too afraid to
-      ask.\n\n\n__Data Analytical Thinking and Methods II: Correlation, Causation
-      and Decision-Making__\n*Led by Daniel L. Goroff*\n\nThis lecture discusses common
-      inferential challenges and risks people face when working with data, including:
-      thinking about conditional probability, the distinction between association
-      (or correlation) and causation, what it means for events to be “independent,”
-      and how to claim a result is “statistically significant” is related to an implicit
-      theory of randomness. The lecture closes by giving some practical advice about
-      how to think through these concepts in your own domain.\n\n__Barriers to Building
-      a Data Practice in Government__\n*Led by Beth Blauer*\n\nDuring this session
-      we will discuss the risks of collecting and using data in government  including
-      financial costs, lack of institutional readiness, lack of skills and available
-      talent, lack of a governance framework, ethical concerns including privacy,
-      security, confidentiality, and questions of how to share data between organizations
-      and with researchers. We discuss strategies for overcoming these risks. \n\n__Read:__\nSelected
-      Readings on Data Governance by The GovLab - an annotated and curated collection
-      of recommended works on Data Governance.\n\n__Data Collaboratives and Corporate
-      Data Philanthropy__\n*Led by Stefaan Verhulst*\n\nMuch of the data that would
-      be valuable to access and analyze resides with the private sector—in the form
-      of, for instance, Web clicks, online purchases, sensor data, and call data records.
-      With consumers connected to more and more platforms as well as the increasing
-      prevalence of sensing technologies (i.e. the Internet of Things), data on how
-      people and societies behave is becoming even more privately owned. In this session,
-      we discuss private sources of data to solve public problems and best practices
-      for how data can be shared between private and public organizations. \n\n__Read:__
-      \nData Collaboratives: Exchanging Data to Improve People’s Lives, by Stefaan
-      Verhulst and David Sangokoya - an essay on leveraging the potential of data
-      to solve complex public problems through data collaboratives and four critical
-      accelerators towards responsible data sharing and collaboration.\nData Collaboratives:
-      Matching Demand with Supply of (Corporate) Data to solve Public Problems, by
-      Stefaan Verhulst, Iryna SUsha and Alexander Kostura - a report describing emerging
-      practice, opportunities and challenges in data collaboratives as identified
-      at the International Data Responsibility Conference.\nData Responsibility: A
-      New Social Good for the Information Age, by Stefaan Verhulst - an essay offering
-      a new understanding of data responsibility comprising a duty to share, a data
-      to protect, and a duty to act.\nMore readings at Data Collaboratives section
-      of the Open Governance Research Exchange.\n__Watch:__\nWatch “Your Company’s
-      Data Could Help End World Hunger” by Mallory Soldner, UPS Advanced Analytics
-      Manager, explain what is data philanthropy and how the next generation of corporate
-      social responsibility is using data and companies’ decision-scientist expertise
-      to solve the big problems our world is facing.\n__How-To:__ \nThinking about
-      designing your own Data Collaborative? Use our canvas and find out what would
-      be your next steps.\n\n__Strengthening a Data Analytic Culture __\n*Led by Amen-Ra
-      Mashariki*\n\nThis session will cover how to institutionalize and build a culture
-      of data analytics in your organization and how to engage stakeholders in the
-      creation of data governance policies and frameworks. \n\nRead:\nChanging Culture
-      by GovEx - a practical guide to help governments advance open data, analytics
-      and performance management practices by shaping their organizational culture.\n"
+      Store the Data?__\n*Led by Arnaud Sahuguet*\n\nIn this session, we discuss the
+      state of the art in technologies for collecting, storing, analyzing and visualizing
+      data. In particular, we focus on four hypothetical applications for each topic
+      in order that you understand what’s possible and what options are available
+      for you to be able to perform each activity. \n\n__Read:__\nOpen Data Resource
+      Kit by Jun Matsushita and Arnaud Sahuguet - Everything you ever wanted to know
+      when starting your open data project… but were too afraid to ask.\n\n\n__Data
+      Analytical Thinking and Methods II: Correlation, Causation and Decision-Making__\n*Led
+      by Daniel L. Goroff*\n\nThis lecture discusses common inferential challenges
+      and risks people face when working with data, including: thinking about conditional
+      probability, the distinction between association (or correlation) and causation,
+      what it means for events to be “independent,” and how to claim a result is “statistically
+      significant” is related to an implicit theory of randomness. The lecture closes
+      by giving some practical advice about how to think through these concepts in
+      your own domain.\n\n__Barriers to Building a Data Practice in Government__\n*Led
+      by Beth Blauer*\n\nDuring this session we will discuss the risks of collecting
+      and using data in government  including financial costs, lack of institutional
+      readiness, lack of skills and available talent, lack of a governance framework,
+      ethical concerns including privacy, security, confidentiality, and questions
+      of how to share data between organizations and with researchers. We discuss
+      strategies for overcoming these risks. \n\n__Read:__\nSelected Readings on Data
+      Governance by The GovLab - an annotated and curated collection of recommended
+      works on Data Governance.\n\n__Data Collaboratives and Corporate Data Philanthropy__\n*Led
+      by Stefaan Verhulst*\n\nMuch of the data that would be valuable to access and
+      analyze resides with the private sector—in the form of, for instance, Web clicks,
+      online purchases, sensor data, and call data records. With consumers connected
+      to more and more platforms as well as the increasing prevalence of sensing technologies
+      (i.e. the Internet of Things), data on how people and societies behave is becoming
+      even more privately owned. In this session, we discuss private sources of data
+      to solve public problems and best practices for how data can be shared between
+      private and public organizations. \n\n__Read:__ \nData Collaboratives: Exchanging
+      Data to Improve People’s Lives, by Stefaan Verhulst and David Sangokoya - an
+      essay on leveraging the potential of data to solve complex public problems through
+      data collaboratives and four critical accelerators towards responsible data
+      sharing and collaboration.\nData Collaboratives: Matching Demand with Supply
+      of (Corporate) Data to solve Public Problems, by Stefaan Verhulst, Iryna SUsha
+      and Alexander Kostura - a report describing emerging practice, opportunities
+      and challenges in data collaboratives as identified at the International Data
+      Responsibility Conference.\nData Responsibility: A New Social Good for the Information
+      Age, by Stefaan Verhulst - an essay offering a new understanding of data responsibility
+      comprising a duty to share, a data to protect, and a duty to act.\nMore readings
+      at Data Collaboratives section of the Open Governance Research Exchange.\n__Watch:__\nWatch
+      “Your Company’s Data Could Help End World Hunger” by Mallory Soldner, UPS Advanced
+      Analytics Manager, explain what is data philanthropy and how the next generation
+      of corporate social responsibility is using data and companies’ decision-scientist
+      expertise to solve the big problems our world is facing.\n__How-To:__ \nThinking
+      about designing your own Data Collaborative? Use our canvas and find out what
+      would be your next steps.\n\n__Strengthening a Data Analytic Culture__\n*Led
+      by Amen-Ra Mashariki*\n\nThis session will cover how to institutionalize and
+      build a culture of data analytics in your organization and how to engage stakeholders
+      in the creation of data governance policies and frameworks. \n\nRead:\nChanging
+      Culture by GovEx - a practical guide to help governments advance open data,
+      analytics and performance management practices by shaping their organizational
+      culture.\n"
     objectives: "At the end of this course you will be able to...\n\nArticulate the
       value-proposition for using data to solve the problems you work on in your job,
       including how to leverage data to improve decision-making\nUnderstand the data
@@ -341,3 +339,4 @@ course:
       to craft a data sharing policy to facilitate use of data across agencies and
       sectors\nKnow how others are collecting, using and sharing responsibly by other
       public and international entities\n\n"
+  courseLink: http://sppd.thegovlab.org/
