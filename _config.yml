@@ -120,6 +120,15 @@ contentful:
           limit: 1000
         base_path: ./source
         all_entries: true
+    - courses:
+        space: gvpfsi7zggwe
+        access_token: 3a7e015d277bfd033bc1fc10b8399e0672a3fe1729df8575db21f19e76832d64
+        cda_query:
+          content_type: course
+          include: 2
+          limit: 1000
+        base_path: ./source
+        all_entries: true
     - index_page:
         space: gvpfsi7zggwe
         access_token: 3a7e015d277bfd033bc1fc10b8399e0672a3fe1729df8575db21f19e76832d64
@@ -218,6 +227,11 @@ page_gen:
     template: 'syllabus_template'
     name: 'syllabusTitle'
     dir: 'syllabus'
+
+  - data: 'contentful.spaces.syllabuses.course'
+    template: 'course_template'
+    name: 'programName'
+    dir: 'courses'
 
   # - data: 'clinics'
   #   template: 'coaching_template'
