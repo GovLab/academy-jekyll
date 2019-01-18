@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title></title>
+
+<link rel="stylesheet" href="https://govlab.github.io/academy-jekyll/vendor/foundation.min.css">
+<link rel="stylesheet" href="https://govlab.github.io/academy-jekyll/vendor/styleguide.css">
+<link rel="stylesheet" href="https://govlab.github.io/academy-jekyll/vendor/slick.css"/>
+<link rel="stylesheet" href="https://govlab.github.io/academy-jekyll/css/styles.css">
+<script src="https://use.typekit.net/mvc3cdb.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.3/jspdf.debug.js"></script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-40012093-2', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+<link rel="stylesheet" href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css>
+
+</head>
+
+<body class="">
+  <header class="top-bar top-bar--orange">
+  <span class="top-bar__button js-trigger-menu" style="visibility: hidden;">menu</span>
+
+  <nav class="main-menu js-target-menu main-menu--left">
+  </nav>
+
+  <a class="top-bar__logo" href="https://govlab.github.io/academy-jekyll/"><img src="https://govlab.github.io/academy-jekyll/images/govlab-academy-logo.png" alt="The GovLab"></a>
+
+  <span class="top-bar__button js-trigger-menu">more_vert</span>
+  <nav class="main-menu js-target-menu main-menu--right">
+    <!-- Main Menu (Off Canvas) -->
+<a href="https://govlab.github.io/academy-jekyll/index.html">Home</a>
+<!-- <a href="https://govlab.github.io/academy-jekyll/about.html">About</a> -->
+<!-- <a href="https://govlab.github.io/academy-jekyll/faculty.html">Faculty</a> -->
+<a class="menu-item" href="#">Programs</a>
+  <a class="menu-item--sub" href="https://govlab.github.io/academy-jekyll/coaching-programs.html">Coaching Programs</a>
+  <a class="menu-item--sub" href="https://govlab.github.io/academy-jekyll/workshops.html">Workshops</a>
+  <a class="menu-item--sub" href="http://publicentrepreneur.org" target="_blank">Project Clinics</a>
+  <!-- <a class="menu-item--sub" href="https://govlab.github.io/academy-jekyll/master-classes.html">Master Classes</a> -->
+  <a class="menu-item--sub menu-item--sub--last" href="https://govlab.github.io/academy-jekyll/courses.html">Courses</a>
+<a href="https://govlab.github.io/academy-jekyll/project-gallery.html">Project Gallery</a>
+<!-- <a href="https://govlab.github.io/academy-jekyll/library.html">Library</a> -->
+<a href="https://govlab.github.io/academy-jekyll/community.html">Community</a>
+<!-- <a href="https://govlab.github.io/academy-jekyll/faq.html">FAQ</a> -->
+
+  </nav>
+</header>
+
+  
+  <main role="main">
+    <section class="project-gallery-page">
+  <header class="top-section banner top-section--orange m-blue">
+    <div class="row">
+      <div class="large-10 large-offset-1 columns end">
+        <h2>Project Gallery</h2>
+        <h3>Showcasing Innovative Civic and Governance Projects and their Evolution from Idea to Implementation. Get Inspired. Connect. Collaborate.</h3>
+<!--         <p class="e-sponsor m-centered">
+          With support from <img id="knight-logo" src="/images/knight-logo-white.png" alt="Knight Foundation">
+        </p> -->
+      </div>
+    </div>
+  </header>
+
+  <div class="page-section project-list">
+    <div class="row">
+      <div class="column large-8 large-offset-2 small-12 small-offset-0">
+        <div class="filter-ui">
+          <form action="#" class="form">
+            <div class="filter-ui-container">
+<!--               <div class="filter-buttons">
+                <a class="button">Sector</a>
+                <a class="button">Impact</a>
+                <a class="button">Map</a>
+                <a class="button">Explore</a>
+              </div> -->
+              <div class="select">
+                <select id="filter-category" class="filter js-change" >
+                  <option data-filter="*">Select a project category...</option>
+                  <option data-filter="open-data">Open Data</option>
+                  <option data-filter="open-contracting">Open Contracting</option>
+                  <option data-filter="data-analytics">Data Analytics</option>
+                  <option data-filter="crowdsourcing">Crowdsourcing</option>
+                  <option data-filter="collective-intelligence">Collective Intelligence</option>
+                  <option data-filter="tech-procurement">Tech Procurement</option>
+                  <option data-filter="citizen-engagement">Citizen Engagement</option>
+                  <option data-filter="big-data">Big Data</option>
+                  <option data-filter="agile-research">Agile Research</option>
+                  <option data-filter="citizen-science">Citizen Science</option>
+                  <option data-filter="humanitarian-innovation">Humanitarian Innovation</option>
+                  <option data-filter="nudges">Nudges</option>
+                  <option data-filter="communications">Communications</option>
+                  <option data-filter="legal-innovation">Legal Innovation</option>
+                  <option data-filter="open-source">Open Source</option>
+                  <option data-filter="data-science">Data Science</option>
+                  <option data-filter="service-design">Service Design</option>
+                </select>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="project-gallery-grid isotope">
+      
+      <a href="https://govlab.github.io/academy-jekyll/projects/beacon.html">
+        <article class="card-3 result-item
+        
+        data-analytics
+        
+        crowdsourcing
+        
+        citizen-engagement
+        
+        big-data
+        
+        humanitarian-innovation
+        
+        ">
+        <!-- <div class="card-3__image" bg-url="//images.ctfassets.net/gvpfsi7zggwe/5x82bxmXsc42cU40U0isaa/d582e3ff2e6b603bab01cee7a1b4e69c/logo-beacon.png"> -->
+        <div class="card-3__image" style="background-image: url('//images.ctfassets.net/gvpfsi7zggwe/5x82bxmXsc42cU40U0isaa/d582e3ff2e6b603bab01cee7a1b4e69c/logo-beacon.png')">
+          <div class="card-3__content">
+            <h1>Beacon</h1>
+          </div>
+        </div>
+      </article>
+    </a>
+    
+      <a href="https://govlab.github.io/academy-jekyll/projects/fonden-transparente.html">
+        <article class="card-3 result-item
+        
+        open-data
+        
+        data-analytics
+        
+        citizen-engagement
+        
+        humanitarian-innovation
+        
+        ">
+        <!-- <div class="card-3__image" bg-url="//images.ctfassets.net/gvpfsi7zggwe/4BES9X6Pw4C2QIeMOo02EK/99aa16a9aeafca42352c0ca5fc3471c9/logo-fonden-transparente.png"> -->
+        <div class="card-3__image" style="background-image: url('//images.ctfassets.net/gvpfsi7zggwe/4BES9X6Pw4C2QIeMOo02EK/99aa16a9aeafca42352c0ca5fc3471c9/logo-fonden-transparente.png')">
+          <div class="card-3__content">
+            <h1>FONDEN Transparente</h1>
+          </div>
+        </div>
+      </article>
+    </a>
+    
+      <a href="https://govlab.github.io/academy-jekyll/projects/green-archives.html">
+        <article class="card-3 result-item
+        
+        open-data
+        
+        citizen-engagement
+        
+        citizen-science
+        
+        legal-innovation
+        
+        ">
+        <!-- <div class="card-3__image" bg-url="//images.ctfassets.net/gvpfsi7zggwe/7GUKaGh14cQymeU4Ucouy/f91737120a811a7602988f39ced1438e/logo-greenarchives.png"> -->
+        <div class="card-3__image" style="background-image: url('//images.ctfassets.net/gvpfsi7zggwe/7GUKaGh14cQymeU4Ucouy/f91737120a811a7602988f39ced1438e/logo-greenarchives.png')">
+          <div class="card-3__content">
+            <h1>Green Archives</h1>
+          </div>
+        </div>
+      </article>
+    </a>
+    
+      <a href="https://govlab.github.io/academy-jekyll/projects/linq.html">
+        <article class="card-3 result-item
+        
+        open-data
+        
+        open-contracting
+        
+        data-analytics
+        
+        crowdsourcing
+        
+        collective-intelligence
+        
+        citizen-engagement
+        
+        citizen-science
+        
+        ">
+        <!-- <div class="card-3__image" bg-url="//images.ctfassets.net/gvpfsi7zggwe/43d0p3CMykCC0ksg2a8gI0/a10da029ca25ba4619fa1ef9d9949abe/logo-linq.png"> -->
+        <div class="card-3__image" style="background-image: url('//images.ctfassets.net/gvpfsi7zggwe/43d0p3CMykCC0ksg2a8gI0/a10da029ca25ba4619fa1ef9d9949abe/logo-linq.png')">
+          <div class="card-3__content">
+            <h1>LINQ</h1>
+          </div>
+        </div>
+      </article>
+    </a>
+    
+      <a href="https://govlab.github.io/academy-jekyll/projects/noulab.html">
+        <article class="card-3 result-item
+        
+        open-data
+        
+        data-analytics
+        
+        collective-intelligence
+        
+        citizen-engagement
+        
+        big-data
+        
+        agile-research
+        
+        ">
+        <!-- <div class="card-3__image" bg-url="//images.ctfassets.net/gvpfsi7zggwe/6eQXZPB86ksySe0wa0Wqaw/a87d66450aa37207c18e4e78dd4151bf/logo-noulab.png"> -->
+        <div class="card-3__image" style="background-image: url('//images.ctfassets.net/gvpfsi7zggwe/6eQXZPB86ksySe0wa0Wqaw/a87d66450aa37207c18e4e78dd4151bf/logo-noulab.png')">
+          <div class="card-3__content">
+            <h1>NouLAB</h1>
+          </div>
+        </div>
+      </article>
+    </a>
+    
+      <a href="https://govlab.github.io/academy-jekyll/projects/nyc-councilmatic.html">
+        <article class="card-3 result-item
+        
+        open-data
+        
+        data-analytics
+        
+        crowdsourcing
+        
+        tech-procurement
+        
+        nudges
+        
+        open-source
+        
+        data-science
+        
+        ">
+        <!-- <div class="card-3__image" bg-url="//images.ctfassets.net/gvpfsi7zggwe/gFNFoP4VwIEyIAe28i4IK/10acf073de7524a833e95ed20c8b77b9/logo-ny-councilmatic.png"> -->
+        <div class="card-3__image" style="background-image: url('//images.ctfassets.net/gvpfsi7zggwe/gFNFoP4VwIEyIAe28i4IK/10acf073de7524a833e95ed20c8b77b9/logo-ny-councilmatic.png')">
+          <div class="card-3__content">
+            <h1>NYC Councilmatic</h1>
+          </div>
+        </div>
+      </article>
+    </a>
+    
+      <a href="https://govlab.github.io/academy-jekyll/projects/nyc-prepared.html">
+        <article class="card-3 result-item
+        
+        open-data
+        
+        data-analytics
+        
+        crowdsourcing
+        
+        collective-intelligence
+        
+        citizen-engagement
+        
+        humanitarian-innovation
+        
+        ">
+        <!-- <div class="card-3__image" bg-url="//images.ctfassets.net/gvpfsi7zggwe/6pRZUSVBGoiSW26UasK20i/4358654ade541a4cfd3b0f92a4f07b6a/logo-nyc-prepared.png"> -->
+        <div class="card-3__image" style="background-image: url('//images.ctfassets.net/gvpfsi7zggwe/6pRZUSVBGoiSW26UasK20i/4358654ade541a4cfd3b0f92a4f07b6a/logo-nyc-prepared.png')">
+          <div class="card-3__content">
+            <h1>NYC: Prepared</h1>
+          </div>
+        </div>
+      </article>
+    </a>
+    
+      <a href="https://govlab.github.io/academy-jekyll/projects/spendview.html">
+        <article class="card-3 result-item
+        
+        open-data
+        
+        open-contracting
+        
+        data-analytics
+        
+        citizen-engagement
+        
+        big-data
+        
+        ">
+        <!-- <div class="card-3__image" bg-url="//images.ctfassets.net/gvpfsi7zggwe/6KKaauox7UEOEwy8Suskwe/84f17b2fb39fa62def824f85b3d3afc0/logo-presupuesto-abierto.png"> -->
+        <div class="card-3__image" style="background-image: url('//images.ctfassets.net/gvpfsi7zggwe/6KKaauox7UEOEwy8Suskwe/84f17b2fb39fa62def824f85b3d3afc0/logo-presupuesto-abierto.png')">
+          <div class="card-3__content">
+            <h1>SpendView</h1>
+          </div>
+        </div>
+      </article>
+    </a>
+    
+      <a href="https://govlab.github.io/academy-jekyll/projects/democratic-regeneration-through-technology.html">
+        <article class="card-3 result-item
+        
+        open-data
+        
+        open-contracting
+        
+        crowdsourcing
+        
+        collective-intelligence
+        
+        citizen-engagement
+        
+        big-data
+        
+        legal-innovation
+        
+        ">
+        <!-- <div class="card-3__image" bg-url="//images.ctfassets.net/gvpfsi7zggwe/2hiLIyij4UkoaGoOUciMOm/64a27c94a96c239ffc55e741f46bacb1/logo-democratic-regeneration-through-technology.jpg"> -->
+        <div class="card-3__image" style="background-image: url('//images.ctfassets.net/gvpfsi7zggwe/2hiLIyij4UkoaGoOUciMOm/64a27c94a96c239ffc55e741f46bacb1/logo-democratic-regeneration-through-technology.jpg')">
+          <div class="card-3__content">
+            <h1>Democratic Regeneration Through Technology</h1>
+          </div>
+        </div>
+      </article>
+    </a>
+    
+      <a href="https://govlab.github.io/academy-jekyll/projects/ldln.html">
+        <article class="card-3 result-item
+        
+        data-analytics
+        
+        crowdsourcing
+        
+        collective-intelligence
+        
+        tech-procurement
+        
+        citizen-science
+        
+        humanitarian-innovation
+        
+        communications
+        
+        ">
+        <!-- <div class="card-3__image" bg-url="//images.ctfassets.net/gvpfsi7zggwe/6IKTUM86mAw8EMUUCw46uA/e2ebfff830292c83f06c15e81b966759/logo-ldln.jpeg"> -->
+        <div class="card-3__image" style="background-image: url('//images.ctfassets.net/gvpfsi7zggwe/6IKTUM86mAw8EMUUCw46uA/e2ebfff830292c83f06c15e81b966759/logo-ldln.jpeg')">
+          <div class="card-3__content">
+            <h1>LDLN</h1>
+          </div>
+        </div>
+      </article>
+    </a>
+    
+      <a href="https://govlab.github.io/academy-jekyll/projects/muckrock.html">
+        <article class="card-3 result-item
+        
+        open-data
+        
+        open-contracting
+        
+        data-analytics
+        
+        crowdsourcing
+        
+        collective-intelligence
+        
+        tech-procurement
+        
+        citizen-engagement
+        
+        big-data
+        
+        ">
+        <!-- <div class="card-3__image" bg-url="//images.ctfassets.net/gvpfsi7zggwe/2CR4VwIg5WyaySwqS866wq/8a0d85a798139226a8a90a0205dd5c7a/logo-muckrock.png"> -->
+        <div class="card-3__image" style="background-image: url('//images.ctfassets.net/gvpfsi7zggwe/2CR4VwIg5WyaySwqS866wq/8a0d85a798139226a8a90a0205dd5c7a/logo-muckrock.png')">
+          <div class="card-3__content">
+            <h1>MuckRock</h1>
+          </div>
+        </div>
+      </article>
+    </a>
+    
+      <a href="https://govlab.github.io/academy-jekyll/projects/open-journalism.html">
+        <article class="card-3 result-item
+        
+        open-data
+        
+        data-analytics
+        
+        crowdsourcing
+        
+        collective-intelligence
+        
+        citizen-engagement
+        
+        big-data
+        
+        agile-research
+        
+        citizen-science
+        
+        humanitarian-innovation
+        
+        ">
+        <!-- <div class="card-3__image" bg-url="//images.ctfassets.net/gvpfsi7zggwe/1UWHQNyQms0goGeCA0KGek/467b9edaa6ce5db0a2e8233a1830a045/logo-open-journalism.png"> -->
+        <div class="card-3__image" style="background-image: url('//images.ctfassets.net/gvpfsi7zggwe/1UWHQNyQms0goGeCA0KGek/467b9edaa6ce5db0a2e8233a1830a045/logo-open-journalism.png')">
+          <div class="card-3__content">
+            <h1>Open Journalism</h1>
+          </div>
+        </div>
+      </article>
+    </a>
+    
+      <a href="https://govlab.github.io/academy-jekyll/projects/policyatlas.html">
+        <article class="card-3 result-item
+        
+        crowdsourcing
+        
+        collective-intelligence
+        
+        citizen-engagement
+        
+        ">
+        <!-- <div class="card-3__image" bg-url="//images.ctfassets.net/gvpfsi7zggwe/4Xg630uIwUIsI4wOI6MYK0/4720c9acc419c28cebd8c9c69470baa2/logo-policyatlas.png"> -->
+        <div class="card-3__image" style="background-image: url('//images.ctfassets.net/gvpfsi7zggwe/4Xg630uIwUIsI4wOI6MYK0/4720c9acc419c28cebd8c9c69470baa2/logo-policyatlas.png')">
+          <div class="card-3__content">
+            <h1>PolicyAtlas</h1>
+          </div>
+        </div>
+      </article>
+    </a>
+    
+      <a href="https://govlab.github.io/academy-jekyll/projects/pittsburgh-purchasing-suite.html">
+        <article class="card-3 result-item
+        
+        open-data
+        
+        open-contracting
+        
+        tech-procurement
+        
+        citizen-engagement
+        
+        agile-research
+        
+        nudges
+        
+        ">
+        <!-- <div class="card-3__image" bg-url="//images.ctfassets.net/gvpfsi7zggwe/3AhGTATAzmcouKKsYwcG6K/30ec45f4b3fa61e1726055d6644be225/logo-pps.png"> -->
+        <div class="card-3__image" style="background-image: url('//images.ctfassets.net/gvpfsi7zggwe/3AhGTATAzmcouKKsYwcG6K/30ec45f4b3fa61e1726055d6644be225/logo-pps.png')">
+          <div class="card-3__content">
+            <h1>Pittsburgh Purchasing Suite</h1>
+          </div>
+        </div>
+      </article>
+    </a>
+    
+      <a href="https://govlab.github.io/academy-jekyll/projects/opnnotice.html">
+        <article class="card-3 result-item
+        
+        open-data
+        
+        open-contracting
+        
+        citizen-engagement
+        
+        agile-research
+        
+        data-science
+        
+        ">
+        <!-- <div class="card-3__image" bg-url="//images.ctfassets.net/gvpfsi7zggwe/6DR46Pygc8wmyIGgw4uYK0/455a0eefe6c2326bb0ea4165bc69b354/logo-commune.png"> -->
+        <div class="card-3__image" style="background-image: url('//images.ctfassets.net/gvpfsi7zggwe/6DR46Pygc8wmyIGgw4uYK0/455a0eefe6c2326bb0ea4165bc69b354/logo-commune.png')">
+          <div class="card-3__content">
+            <h1>opnNotice</h1>
+          </div>
+        </div>
+      </article>
+    </a>
+    
+      <a href="https://govlab.github.io/academy-jekyll/projects/codeando-monterrey.html">
+        <article class="card-3 result-item
+        
+        collective-intelligence
+        
+        citizen-engagement
+        
+        agile-research
+        
+        citizen-science
+        
+        ">
+        <!-- <div class="card-3__image" bg-url="//images.ctfassets.net/gvpfsi7zggwe/5RWJ0hxxlYeyCImWYGYwe/5731ca48acb19260529e236023f5c715/logo-codeando.png"> -->
+        <div class="card-3__image" style="background-image: url('//images.ctfassets.net/gvpfsi7zggwe/5RWJ0hxxlYeyCImWYGYwe/5731ca48acb19260529e236023f5c715/logo-codeando.png')">
+          <div class="card-3__content">
+            <h1>Codeando Monterrey</h1>
+          </div>
+        </div>
+      </article>
+    </a>
+    
+  </div>
+<!--   <div class="page-section">
+    <div class="row">
+      <div class="column medium-12 page-section__content page-section__content--projects">
+        <h2>Student Projects</h2>
+        <p>Projects developed by our talented pool of students through our University-based project clinics and courses. These student-led projects were based upon client/mentor partnerships, wherein students were tasked with coming up with innovative, technologically-based solutions to complex problems faced by public and private sector institutions. GovLab programs have been offered at New York University, Yale University, MIT Media Lab, Stanford University, New York Law School and online to passionate individuals, clients have included the National Health Service, US Patent and Trademark Office, the Delaware Secretary of State, Presidencies of Mexico and Argentina, Poverty Action Lab, Lafayette Parish, Louisiana, Inter-American Development Bank, the Quito Linq Lab, Brazilian Parliament, Brookings, Connecticut Commissioner of Prisons and The Legal Aid Society.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column large-6 large-offset-3 small-12 small-offset-0">
+        <div class="filter-ui-2">
+          <form action="#" class="form">
+            <div class="filter-ui-container-2">
+              <div class="filter-buttons">
+                <a class="button">Sector</a>
+                <a class="button">Impact</a>
+                <a class="button">Map</a>
+                <a class="button">Explore</a>
+              </div>
+              <div class="select">
+                <select id="filter-category-2" class="filter-2 js-change-2" >
+                  <option data-filter="*">Select a project category...</option>
+                  <option data-filter="open-data">Open Data</option>
+                  <option data-filter="open-contracting">Open Contracting</option>
+                  <option data-filter="data-analytics">Data Analytics</option>
+                  <option data-filter="crowdsourcing">Crowdsourcing</option>
+                  <option data-filter="collective-intelligence">Collective Intelligence</option>
+                  <option data-filter="tech-procurement">Tech Procurement</option>
+                  <option data-filter="citizen-engagement">Citizen Engagement</option>
+                  <option data-filter="big-data">Big Data</option>
+                  <option data-filter="agile-research">Agile Research</option>
+                  <option data-filter="citizen-science">Citizen Science</option>
+                  <option data-filter="humanitarian-innovation">Humanitarian Innovation</option>
+                  <option data-filter="nudges">Nudges</option>
+                  <option data-filter="communications">Communications</option>
+                  <option data-filter="legal-innovation">Legal Innovation</option>
+                  <option data-filter="open-source">Open Source</option>
+                  <option data-filter="data-science">Data Science</option>
+                  <option data-filter="service-design">Service Design</option>
+                </select>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div> -->
+</div>
+</section>
+
+  </main>
+  
+  <footer class='footer'>
+  <div class="row expanded">
+    <div class="columns">
+      <div class="row">
+        <div class="footer__content footer--sections large-3 small-12 column">
+          <h2>Sections</h2>
+          <a href="https://govlab.github.io/academy-jekyll/index.html">Home</a>
+          <a href="https://govlab.github.io/academy-jekyll/about.html">About</a>
+          <a href="https://govlab.github.io/academy-jekyll/faculty.html">Faculty</a>
+          <a class="" href="https://govlab.github.io/academy-jekyll/programs.html">Programs</a>
+          <a class="" href="https://govlab.github.io/academy-jekyll/coaching-programs.html">Coaching Programs</a>
+          <a class="" href="https://govlab.github.io/academy-jekyll/workshops.html">Workshops</a>
+          <a class="" href="https://govlab.github.io/academy-jekyll/master-classes.html">Master Classes</a>
+          <a class="" href="https://govlab.github.io/academy-jekyll/courses.html">Courses</a>
+          <a href="https://govlab.github.io/academy-jekyll/project-gallery.html">Project Gallery</a>
+          <a href="https://govlab.github.io/academy-jekyll/library.html">Library</a>
+          <a href="https://govlab.github.io/academy-jekyll/community.html">Community</a>
+        </div>
+        <div class="footer__content footer--sections large-3 medium-4 small-6 column">
+          <h2>Our Partners</h2>
+<!--           <a class="footer__partner-logo" title="NYU | New York University"><img src="https://govlab.github.io/academy-jekyll/images/partners/partner-logos-nyu-gray.png" alt="School of Professional Services/NYU"></a>
+          <a class="footer__partner-logo" title="World Bank"><img src="https://govlab.github.io/academy-jekyll/images/partners/partner-logos-worldbank-gray.png" alt="World Bank"></a>
+          <a class="footer__partner-logo" title="Arizona State Universty"><img src="https://govlab.github.io/academy-jekyll/images/partners/partner-logos-arizona-uni-gray.png" alt="Arizona State Universty"></a>
+          <a id="cusp" class="footer__partner-logo" title="CUSP"><img src="https://govlab.github.io/academy-jekyll/images/partners/partner-logos-cusp-gray.png" alt="CUSP"></a> -->
+        </div>
+        <div class="footer__content large-2 medium-4 small-6 column">
+<!--           <h2>&nbsp;</h2>
+          <a class="footer__partner-logo" title="MindLab"><img src="https://govlab.github.io/academy-jekyll/images/partners/partner-logos-mindlab-gray.png" alt="MindLab"></a>
+          <a class="footer__partner-logo" title="NESTA"><img src="https://govlab.github.io/academy-jekyll/images/partners/partner-logos-nesta-gray.png" alt="NESTA"></a>
+          <a class="footer__partner-logo" title="MIT Media Lab"><img src="https://govlab.github.io/academy-jekyll/images/partners/partner-logos-mit-medialab-gray.png" alt="MIT Media Lab"></a>
+          <a class="footer__partner-logo" title="ODI"><img src="https://govlab.github.io/academy-jekyll/images/partners/partner-logos-odi-gray.png" alt="ODI"></a> -->
+        </div>
+        <div class="footer__content large-4 small-12 column">
+          <h2>Based at</h2>
+          <a class="footer__partner-logo" href="http://engineering.nyu.edu/tandon" target="_blank"><img src="https://govlab.github.io/academy-jekyll/images/nyu-tandon-logo.png" alt="NYU Tandon School of Engineering - New York University"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--
+<div class="e-content medium-3 column">
+<h4>With support from</h4>
+<a class="e-partner-logo" href="#" target="_blank"><img src="/img/knight-logo-white.png" alt="Knight Foundation"></a>
+<a class="e-partner-logo" href="http://engineering.nyu.edu/tandon" target="_blank"><img src="/img/nyu-tandon-logo.png" alt="NYU Tandon School of Engineering - New York University"></a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div class="b-copyright">
+<div class="row">
+<div class="large-10 large-centered columns">
+<a class="e-cc-badge" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> <br> <a href="#">Copyright Infringement Information</a>.
+</div>
+</div>
+</div> -->
+
+<div class="copyright">
+  <div class="row">
+    <div class="large-10 large-centered columns">
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img class="copyright__cc-badge" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+    </div>
+  </div>
+</div>
+
+  
+  <div id="overlay" class="js-overlay"></div>
+  <script src="https://govlab.github.io/academy-jekyll/vendor/jquery-2.1.4.min.js"></script>
+<script src="https://govlab.github.io/academy-jekyll/vendor/slick.min.js"></script>
+<script src="https://govlab.github.io/academy-jekyll/vendor/isotope.pkgd.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/js/foundation.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/js/plugins/foundation.equalizer.min.js"></script>
+
+<script src="https://govlab.github.io/academy-jekyll/js/project-gallery.js"></script>
+<script src="https://govlab.github.io/academy-jekyll/js/feed.js"></script>
+<script src="https://govlab.github.io/academy-jekyll/js/filters.js"></script>
+<!-- <script src="https://govlab.github.io/academy-jekyll/js/bg-image-loader.js"></script> -->
+
+<script src="https://govlab.github.io/academy-jekyll/js/scripts.js"></script>
+
+
+
+<script src="https://govlab.github.io/academy-jekyll/js/pdf.js"></script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', '', 'auto');
+ga('send', 'pageview');
+</script>
+
+<script type="text/javascript">
+    $(function() {
+        $(document).foundation();
+        // detect user browsers
+        document.documentElement.setAttribute("data-browser", navigator.userAgent);
+    });
+</script>
+
+</body>
+</html>
