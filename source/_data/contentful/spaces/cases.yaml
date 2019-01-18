@@ -2114,6 +2114,7 @@ coachingProgram:
 - sys:
     id: 2i6T1LDXMs0y2eogEi8IK8
   programName: Coaching Program for Data Driven Criminal Justice Projects
+  featured: false
   startDate: !ruby/object:DateTime 2016-06-06 00:00:00.000000000 -05:00
   endDate: !ruby/object:DateTime 2016-08-01 00:00:00.000000000 -05:00
   applicationDeadline: !ruby/object:DateTime 2016-05-23 00:00:00.000000000 -05:00
@@ -2295,7 +2296,6 @@ coachingProgram:
       title: stefaan-verhulst
       description: 
       url: "//images.ctfassets.net/gvpfsi7zggwe/6RojjcYhck8Kq2GqWKG8gu/c125d0bb55023f3c02995f39eb2ca75c/stefaan-verhulst.jpg"
-  featured: false
 - sys:
     id: 1l7V2iMx1aqoA4WmIcuCQk
   programName: Tech Innovation in Procurement
@@ -2445,6 +2445,7 @@ coachingProgram:
 - sys:
     id: 7yvkSXBjySBInNs8xWBrFa
   programName: Open Seventeen Spring 2018
+  featured: false
   startDate: !ruby/object:DateTime 2018-03-30 00:00:00.000000000 -05:00
   endDate: !ruby/object:DateTime 2018-04-26 00:00:00.000000000 -05:00
   shortDescription: 'Open Seventeen is a prize-backed challenge to reward and invest
@@ -2610,7 +2611,6 @@ coachingProgram:
       title: mrm-2
       description: 
       url: "//images.ctfassets.net/gvpfsi7zggwe/3bI1Pl6fW4SCQYNqXK2eZ9/f2ffb069836355de02607020898ecd2c/mrm-2.jpg"
-  featured: true
 syllabusClass:
 - sys:
     id: 5fOzllL7gWu6iyCua6GwGM
@@ -3432,6 +3432,7 @@ course:
 - sys:
     id: 2sH5A4VQ1kQTbd86ngvkAQ
   programName: Solving Public Problems With Data
+  featured: true
   selfPaced: true
   shortDescription: The explosion in the availability of new sources of data and the
     emergence of new data science technologies for making use of such data are expected

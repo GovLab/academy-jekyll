@@ -3,6 +3,7 @@ course:
 - sys:
     id: 2sH5A4VQ1kQTbd86ngvkAQ
   programName: Solving Public Problems With Data
+  featured: true
   selfPaced: true
   shortDescription: The explosion in the availability of new sources of data and the
     emergence of new data science technologies for making use of such data are expected

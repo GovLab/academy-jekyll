@@ -1,6 +1,7 @@
 ---
 layout: default_no_logo
 custom_body: homepage
+title: GovLab Academy
 ---
 
 <!-- <div class="top-section banner banner--index" style=""> -->
@@ -239,9 +240,9 @@ custom_body: homepage
 <section class="page-section page-section--sequence" style="padding: 0;">
  <ul class="course-list course-list--past-courses">
 
-  {% assign coachingPrograms = site.data.contentful.spaces.coaching_programs.coachingProgram %}
+  {% assign courses = site.data.contentful.spaces.coaching_programs.coachingProgram | concat: site.data.contentful.spaces.courses.course %}
 
-  {% for course in coachingPrograms %}
+  {% for course in courses %}
   {% if course.featured %}
   <li class="course-item">
     <div class="row">
