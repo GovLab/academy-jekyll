@@ -49,6 +49,9 @@
       background-color: #523080;
       opacity: 0.8;
     }
+    &--alt {
+      background-color: rgba(0,0,0,0.8);
+    }
     &--courses {
       background-color: $workshop-color;
     }
