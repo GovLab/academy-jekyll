@@ -3180,28 +3180,113 @@ syllabus:
 carousel:
 - sys:
     id: 60KRDas0i4S6GYaIa2oMQs
-  slideTitle: 10 Lessons Learned
-  slideSubtitle: Training the Next Generation of Public Leaders and Problem Solvers
-  slideDescription: Over the last three years, The GovLab and its network of 25 world-class
+  programName: 10 Lessons Learned
+  description: Over the last three years, The GovLab and its network of 25 world-class
     coaches and over 100 mentors helped 446 participants in more than a dozen US cities
     and thirty countries take a public interest technology project from idea to implementation
   destinationUrl: http://bit.ly/academy10lessons
-  slideImage:
-    title: 1-1RQowxpN6ALf0Onr71RDmw
-    description: 
-    url: "//images.ctfassets.net/gvpfsi7zggwe/a7XBfJL7d6SkwSWMWoIw/32d4fc5adbfa36e5981064bc63edb3ee/1-1RQowxpN6ALf0Onr71RDmw.png"
+  faculty:
+  - sys:
+      id: 5x6EMlJNW8cO8qSQSiiUgK
+    firstName: Liz
+    lastName: Barry
+    facultyTitle: Co-founder & Director of Community Development at the Public Lab
+    longBio: 'Liz is an activist and designer interested in collaborative urban environments.
+      My early days in New York involved catalyzing public interactions on sidewalks
+      and subway stations with a giant "Talk To Me" sign as well as working 25 floors
+      above Wall Street (SOM) designing international new cities and campuses. I''m
+      originally from North Carolina where I managed an urban agriculture youth enterprise
+      called the Durham Inner-city Gardeners (DIG). Currently, when I''m not hoisting
+      cameras up on balloons (with Public Laboratory) or hugging trees with tape measures
+      (with TreeKIT), I teach geospatial tools for urban design at Columbia, Parsons,
+      and Pratt. '
+    email: liz@publiclab.org
+    website: http://www.lizbarry.com/
+    twitter: https://twitter.com/lizbarry
+    linkedIn: https://www.linkedin.com/in/elizabethbarry
+    gitHub: https://github.com/ebarry
+    facultyImage:
+      title: liz-barry
+      description: 
+      url: "//images.ctfassets.net/gvpfsi7zggwe/3uWgwFPrIIOUCKmCmesiMQ/4a589a1bb3ebeed8ee4818f1106dd954/liz-barry.jpg"
+  - sys:
+      id: 5gSD74RzVSgSa2uC6wGScS
+    firstName: Brian
+    lastName: Behlendorf
+    facultyTitle: Managing Director at Mithril Capital Management
+    longBio: Brian Behlendorf is Managing Director at Mithril Capital Management in
+      San Francisco.  His career has been a mix of technology start-up, public policy,
+      and non-profit tech leadership. Brian serves on the Boards of the Mozilla Foundation,
+      the Electronic Frontier Foundation, and Benetech, three organizations using
+      technology to fight for civil liberties, open technologies, and social impact
+      in the digital domain.  Prior to Mithril, Brian was Chief Technology Officer
+      at the World Economic Forum.  He also served for two years at the White House
+      as advisor to the Open Government project within the Office of Science and Technology
+      Policy, and then later as advisor to Health and Human Services on open software
+      approaches to health information sharing.  Before that he has founded two tech
+      companies (CollabNet and Organic) and several Open Source software projects
+      (Apache, Subversion, and more).
+    email: brian@behlendorf.com
+    website: http://brian.behlendorf.com
+    twitter: https://twitter.com/brianbehlendorf
+    linkedIn: https://www.linkedin.com/in/brianbehlendorf
+    gitHub: https://github.com/brianbehlendorf
+    facultyImage:
+      title: brian-behlendorf
+      description: 
+      url: "//images.ctfassets.net/gvpfsi7zggwe/3qjaiUVqk0GWucaqooGy4y/4b8b259e3a54a8d2b2c6c6b84c2ebbbe/brian-behlendorf.jpg"
 - sys:
     id: 3I4ItQ01WgW8kSwi2qqm4w
-  slideTitle: Lorem ipsum dolor sit amet
-  slideSubtitle: Training the Next Generation of Public Leaders and Problem Solvers
-  slideDescription: Over the last three years, The GovLab and its network of 25 world-class
+  programName: Lorem ipsum dolor sit amet
+  description: Over the last three years, The GovLab and its network of 25 world-class
     coaches and over 100 mentors helped 446 participants in more than a dozen US cities
     and thirty countries take a public interest technology project from idea to implementation
   destinationUrl: http://bit.ly/academy10lessons
-  slideImage:
-    title: 1-1RQowxpN6ALf0Onr71RDmw
-    description: 
-    url: "//images.ctfassets.net/gvpfsi7zggwe/a7XBfJL7d6SkwSWMWoIw/32d4fc5adbfa36e5981064bc63edb3ee/1-1RQowxpN6ALf0Onr71RDmw.png"
+  faculty:
+  - sys:
+      id: 62a8KQocb6aeikQUe6iqGw
+    firstName: Jos
+    lastName: Berens
+    facultyTitle: Project Coordinator of the Data Governance Project
+    longBio: Jos Berens is the Project Coordinator of the Data Governance Project
+      (DGP), an international multidisciplinary collaboration between the Governance
+      Lab, the World Economic Forum, and Leiden University. The collaboration focuses
+      on building an expert network to solve questions regarding corporate data sharing
+      for social good, particularly in a development context. Working with a number
+      of international organisations, the DGP looks at concrete governance issues
+      in the data for development space. Based on the solutions found, the DGP is
+      developing a framework for corporate data sharing for social good. Jos holds
+      an LL.B in Dutch Law and a BA in Philosophy of a Specific Discipline, both obtained
+      at Groningen University. He is currently pursuing an LL.M in Dutch Criminal
+      Law and an LL.M in Public International Law, the former in Groningen and the
+      latter at Utrecht University. Jos specialises in privacy, data ethics and benefit/risk
+      assessment regarding data collection and use.
+    email: jos@thegovlab.org
+    twitter: https://twitter.com/jos_berens
+    linkedIn: https://www.linkedin.com/pub/jos-berens/70/a2b/223
+    facultyImage:
+      title: jos-berens
+      description: 
+      url: "//images.ctfassets.net/gvpfsi7zggwe/13O8VY9W52KMW64qiGEEq2/72eb62785a1b04f340e52dd1c3bfd423/jos-berens.jpg"
+  - sys:
+      id: 52NJACTaNO2QQgM2owqCIm
+    firstName: Karin
+    lastName: Christiansen
+    facultyTitle: Chair of Open Knowledge International, Founder and Board Member
+      of Publish What You Fund
+    longBio: Karin is an experienced CEO and board member including in the transparency,
+      open data, co-operative and not for profit sectors. She has extensive facilitation
+      and chairing experience and  She is the chair of Open Knowledge International
+      and founder and now a board member of Publish What You Fund - the global campaign
+      for the transparency of aid.  She has a background in aid and development, but
+      most recently moved into professional politics as the General Secretary of the
+      Co-operative Party in the UK. She studied Politics, Philosophy and Economics
+      as an undergraduate, and has Masters degrees in Development Economics and in
+      Social and Political Thought
+    facultyImage:
+      title: karin-christiansen
+      description: 
+      url: "//images.ctfassets.net/gvpfsi7zggwe/1ZcZ7NmT6g2ss0mEQsE0iw/22e737dcb4bf7af23699030fbccb7a35/karin-christiansen.jpg"
 indexPage:
 - sys:
     id: 1S4dVvpeSUkOOqKK066wQO
@@ -3434,6 +3519,7 @@ course:
   programName: Solving Public Problems With Data
   featured: true
   selfPaced: true
+  startDate: !ruby/object:DateTime 2017-12-01 00:00:00.000000000 -05:00
   shortDescription: The explosion in the availability of new sources of data and the
     emergence of new data science technologies for making use of such data are expected
     to have a significant impact on public institutions and how they solve problems

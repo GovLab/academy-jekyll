@@ -193,3 +193,25 @@
 .page-section__content {
 
 }
+
+.slide {
+  @include breakpoint($small-only) {
+    height: 600px;
+  }
+  @include breakpoint($medium) {
+    height: 420px;
+  }
+  @include breakpoint($large) {
+    height: 380px;
+  }
+  color: #333 !important;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  h2 {
+    margin-bottom: 20px;
+  }
+  p {
+    color: #333 !important;
+    font-weight: 400 !important;
+    margin-block-start: 5px !important;
+  }
+}

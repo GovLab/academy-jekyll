@@ -5,6 +5,7 @@ course:
   programName: Solving Public Problems With Data
   featured: true
   selfPaced: true
+  startDate: !ruby/object:DateTime 2017-12-01 00:00:00.000000000 -05:00
   shortDescription: The explosion in the availability of new sources of data and the
     emergence of new data science technologies for making use of such data are expected
     to have a significant impact on public institutions and how they solve problems
