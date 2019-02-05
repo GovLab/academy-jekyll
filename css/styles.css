@@ -267,6 +267,25 @@
   fill: #ee5b43;
   fill-opacity: 1; }
 
+.slide {
+  color: #333 !important;
+  background-color: rgba(0, 0, 0, 0.1) !important; }
+  @media (max-width: 40em) {
+    .slide {
+      height: 600px; } }
+  @media (min-width: 40.063em) and (max-width: 64em) {
+    .slide {
+      height: 420px; } }
+  @media (min-width: 64.063em) {
+    .slide {
+      height: 380px; } }
+  .slide h2 {
+    margin-bottom: 20px; }
+  .slide p {
+    color: #333 !important;
+    font-weight: 400 !important;
+    margin-block-start: 5px !important; }
+
 .highlights {
   padding: 0; }
   .highlights .slide {
