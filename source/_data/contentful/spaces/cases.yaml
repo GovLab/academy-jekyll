@@ -3180,113 +3180,126 @@ syllabus:
 carousel:
 - sys:
     id: 60KRDas0i4S6GYaIa2oMQs
-  programName: 10 Lessons Learned
-  description: Over the last three years, The GovLab and its network of 25 world-class
-    coaches and over 100 mentors helped 446 participants in more than a dozen US cities
-    and thirty countries take a public interest technology project from idea to implementation
-  destinationUrl: http://bit.ly/academy10lessons
-  faculty:
-  - sys:
-      id: 5x6EMlJNW8cO8qSQSiiUgK
-    firstName: Liz
-    lastName: Barry
-    facultyTitle: Co-founder & Director of Community Development at the Public Lab
-    longBio: 'Liz is an activist and designer interested in collaborative urban environments.
-      My early days in New York involved catalyzing public interactions on sidewalks
-      and subway stations with a giant "Talk To Me" sign as well as working 25 floors
-      above Wall Street (SOM) designing international new cities and campuses. I''m
-      originally from North Carolina where I managed an urban agriculture youth enterprise
-      called the Durham Inner-city Gardeners (DIG). Currently, when I''m not hoisting
-      cameras up on balloons (with Public Laboratory) or hugging trees with tape measures
-      (with TreeKIT), I teach geospatial tools for urban design at Columbia, Parsons,
-      and Pratt. '
-    email: liz@publiclab.org
-    website: http://www.lizbarry.com/
-    twitter: https://twitter.com/lizbarry
-    linkedIn: https://www.linkedin.com/in/elizabethbarry
-    gitHub: https://github.com/ebarry
-    facultyImage:
-      title: liz-barry
-      description: 
-      url: "//images.ctfassets.net/gvpfsi7zggwe/3uWgwFPrIIOUCKmCmesiMQ/4a589a1bb3ebeed8ee4818f1106dd954/liz-barry.jpg"
-  - sys:
-      id: 5gSD74RzVSgSa2uC6wGScS
-    firstName: Brian
-    lastName: Behlendorf
-    facultyTitle: Managing Director at Mithril Capital Management
-    longBio: Brian Behlendorf is Managing Director at Mithril Capital Management in
-      San Francisco.  His career has been a mix of technology start-up, public policy,
-      and non-profit tech leadership. Brian serves on the Boards of the Mozilla Foundation,
-      the Electronic Frontier Foundation, and Benetech, three organizations using
-      technology to fight for civil liberties, open technologies, and social impact
-      in the digital domain.  Prior to Mithril, Brian was Chief Technology Officer
-      at the World Economic Forum.  He also served for two years at the White House
-      as advisor to the Open Government project within the Office of Science and Technology
-      Policy, and then later as advisor to Health and Human Services on open software
-      approaches to health information sharing.  Before that he has founded two tech
-      companies (CollabNet and Organic) and several Open Source software projects
-      (Apache, Subversion, and more).
-    email: brian@behlendorf.com
-    website: http://brian.behlendorf.com
-    twitter: https://twitter.com/brianbehlendorf
-    linkedIn: https://www.linkedin.com/in/brianbehlendorf
-    gitHub: https://github.com/brianbehlendorf
-    facultyImage:
-      title: brian-behlendorf
-      description: 
-      url: "//images.ctfassets.net/gvpfsi7zggwe/3qjaiUVqk0GWucaqooGy4y/4b8b259e3a54a8d2b2c6c6b84c2ebbbe/brian-behlendorf.jpg"
+  programName: Solving Public Problems with Data
+  description: "“Solving Public Problems with Data” is a 101, crash course on data
+    science technologies, data analytics, and methods for trusted data sharing created
+    to help public servants and others become more data-conscious in their perspective
+    and approach to addressing major public challenges. Designed for practitioners
+    and public entrepreneurs— passionate and innovative people who wish to take advantage
+    of data and new technology to do good in the world— it was launched to support
+    a culture of innovation and burgeon a community of public entrepreneurs who strive
+    to positively transform lives by helping their institutions become more evidence-based
+    and data-driven."
+  destinationUrl: http://sppd.thegovlab.org
 - sys:
     id: 3I4ItQ01WgW8kSwi2qqm4w
-  programName: Lorem ipsum dolor sit amet
-  description: Over the last three years, The GovLab and its network of 25 world-class
-    coaches and over 100 mentors helped 446 participants in more than a dozen US cities
-    and thirty countries take a public interest technology project from idea to implementation
-  destinationUrl: http://bit.ly/academy10lessons
+  programName: Open Justice
+  description: Open Justice is a massive open online course (MOOC) designed to help
+    mainly lawyers, judges, public officials, but also technologists and members of
+    the public, learn how to leverage new technology to foster data transparency,
+    courtroom openness, and public engagement in order to improve the efficiency,
+    effectiveness and legitimacy of the courts and promote better public policy. Launched
+    in partnership with the Electoral Tribunal of the Federal Judiciary of Mexico,
+    this series of 10 modules (available in both English and Spanish) where, how,
+    and why open justice can be applied in the Mexican judiciary and globally
   faculty:
   - sys:
-      id: 62a8KQocb6aeikQUe6iqGw
-    firstName: Jos
-    lastName: Berens
-    facultyTitle: Project Coordinator of the Data Governance Project
-    longBio: Jos Berens is the Project Coordinator of the Data Governance Project
-      (DGP), an international multidisciplinary collaboration between the Governance
-      Lab, the World Economic Forum, and Leiden University. The collaboration focuses
-      on building an expert network to solve questions regarding corporate data sharing
-      for social good, particularly in a development context. Working with a number
-      of international organisations, the DGP looks at concrete governance issues
-      in the data for development space. Based on the solutions found, the DGP is
-      developing a framework for corporate data sharing for social good. Jos holds
-      an LL.B in Dutch Law and a BA in Philosophy of a Specific Discipline, both obtained
-      at Groningen University. He is currently pursuing an LL.M in Dutch Criminal
-      Law and an LL.M in Public International Law, the former in Groningen and the
-      latter at Utrecht University. Jos specialises in privacy, data ethics and benefit/risk
-      assessment regarding data collection and use.
-    email: jos@thegovlab.org
-    twitter: https://twitter.com/jos_berens
-    linkedIn: https://www.linkedin.com/pub/jos-berens/70/a2b/223
+      id: n4HlUiwcKcyWeKYEQWSiE
+    firstName: Beth Simone
+    lastName: Noveck
+    facultyTitle: Founder of The GovLab
+    affiliation: The GovLab
+    longBio: 'Beth Simone Noveck directs The Governance Lab and its MacArthur Research
+      Network on Opening Governance. Funded by the John D. and Catherine T. MacArthur
+      Foundation, the John S. and James L. Knight Foundation and Google.org, the GovLab
+      strives to improve people’s lives by changing how we govern. The GovLab designs
+      and tests technology, policy and strategies for fostering more open and collaborative
+      approaches to strengthen the ability of people and institutions to work together
+      to solve problems, make decisions, resolve conflict and govern themselves more
+      effectively and legitimately. The Jerry Hultin Global Network Visiting Professor
+      at New York University’s Polytechnic School of Engineering, she was formerly
+      the Jacob K. Javits Visiting Professor at the Robert F. Wagner Graduate School
+      of Public Service and a visiting professor at the MIT Media Lab. Beth is a professor
+      of law at New York Law School. She served in the White House as the first United
+      States Deputy Chief Technology Officer and director of the White House Open
+      Government Initiative (2009-2011). UK Prime Minister David Cameron appointed
+      her senior advisor for Open Government, and she served on the Obama-Biden transition
+      team. Among projects she’s designed or collaborated on are Unchat, The Do Tank,
+      Peer To Patent, Data.gov, Challenge.gov and the Gov Lab’s Living Labs and training
+      platform, The Academy. A graduate of Harvard University and Yale Law School,
+      she serves on the Global Commission on Internet Governance and chaired the ICANN
+      Strategy Panel on Multi-Stakeholder Innovation. She is a member of the Advisory
+      Board of the Open Contracting Partnership. She was named one of the “Foreign
+      Policy 100″ by Foreign Policy, one of the “100 Most Creative People in Business”
+      by Fast Company and one of the “Top Women in Technology” by Huffington Post.
+      She has also been honored by both the National Democratic Institute and Public
+      Knowledge for her work in civic technology. Beth is the author of Wiki Government:
+      How Technology Can Make Government Better, Democracy Stronger and Citizens More
+      Powerful, which has also appeared in Arabic, Russian, Chinese and in an audio
+      edition, and co-editor of The State of Play: Law, Games and Virtual Worlds.
+      Her next book Smart Citizens: Smarter State will appear with Harvard University
+      Press. She tweets @bethnoveck.'
+    email: noveck@thegovlab.org
+    website: http://thegovlab.org/about/team/beth-simone-noveck/
+    twitter: https://twitter.com/bethnoveck
+    linkedIn: https://www.linkedin.com/pub/beth-noveck/40/9a8/a46
     facultyImage:
-      title: jos-berens
+      title: beth-simone-noveck
       description: 
-      url: "//images.ctfassets.net/gvpfsi7zggwe/13O8VY9W52KMW64qiGEEq2/72eb62785a1b04f340e52dd1c3bfd423/jos-berens.jpg"
+      url: "//images.ctfassets.net/gvpfsi7zggwe/vZdtkl22762QQiWSsQkea/26c08114f807b31970dd828b28a817f0/beth-simone-noveck.jpg"
   - sys:
-      id: 52NJACTaNO2QQgM2owqCIm
-    firstName: Karin
-    lastName: Christiansen
-    facultyTitle: Chair of Open Knowledge International, Founder and Board Member
-      of Publish What You Fund
-    longBio: Karin is an experienced CEO and board member including in the transparency,
-      open data, co-operative and not for profit sectors. She has extensive facilitation
-      and chairing experience and  She is the chair of Open Knowledge International
-      and founder and now a board member of Publish What You Fund - the global campaign
-      for the transparency of aid.  She has a background in aid and development, but
-      most recently moved into professional politics as the General Secretary of the
-      Co-operative Party in the UK. She studied Politics, Philosophy and Economics
-      as an undergraduate, and has Masters degrees in Development Economics and in
-      Social and Political Thought
+      id: 5gfjFvZYdiAgkgaY0muu80
+    firstName: Dinorah
+    lastName: Cantú-Pedraza
+    facultyTitle: The GovLab Academy Coordinator
+    affiliation: The GovLab
+    shortBio: Dinorah Cantu coordinates the GovLab Academy, an online institute aimed
+      at helping government and social innovators take innovative projects from idea
+      to implementation. Under her direction, the Academy has worked with over five
+      hundred innovators from more than 30 countries online and off over the last
+      two years.
+    longBio: Dinorah Cantu coordinates the GovLab Academy, an online institute aimed
+      at helping government and social innovators take innovative projects from idea
+      to implementation. Under her direction, the Academy has worked with over five
+      hundred innovators from more than 30 countries online and off over the last
+      two years. Thousands more have watched its skill-building videos. She has put
+      together over 12 Coaching Programs, the Academy’s signature mentoring and peer
+      to peer learning initiative, where over 95% of whose participants complete the
+      program. The Academy is a project of the Governance Lab, based at New York University.
+      GovLab focuses on the use of technology to improve how we govern. Dinorah has
+      also designed the GovLab’s Crowdsorcerer expert system, a software tool to deliver
+      customized case studies to government leaders about open innovation. Working
+      together with lawyers and education experts from NYU, she also designed an expert
+      system to help universities determine the legal requirements for offering online
+      education. She also runs the GovLab’s Demos for Democracy video series where
+      she interviews leading technologists about new platforms to advance the public
+      interest. A lawyer by training, Dinorah founded and directed the Human Rights
+      Center of the Facultad Libre de Derecho de Monterrey prior to coming to New
+      York in 2012. She holds an MPA in Public and Nonprofit Management and Policy
+      at NYU Robert F. Wagner School of Public Service and is passionate about the
+      value of civic technology for strengthening human rights. She is bilingual in
+      English and Spanish and tweets at @dinorah_cantu.
+    email: dinorah@thegovlab.org
+    website: http://thegovlab.org/about/team/
+    twitter: https://twitter.com/dinorah_cantu
+    linkedIn: https://www.linkedin.com/pub/dinorah-cantu/35/568/56a
+    gitHub: https://github.com/dino-at-thegovlab
     facultyImage:
-      title: karin-christiansen
+      title: dinorah-cantu-pedraza
       description: 
-      url: "//images.ctfassets.net/gvpfsi7zggwe/1ZcZ7NmT6g2ss0mEQsE0iw/22e737dcb4bf7af23699030fbccb7a35/karin-christiansen.jpg"
+      url: "//images.ctfassets.net/gvpfsi7zggwe/6vQYf3IQiA4qkUYKM6q8EQ/f1e968663e59fac91027cb3de707bf27/dinorah-cantu-pedraza.jpg"
+- sys:
+    id: 2L7R0BRPeJIf0r7E3Jtiij
+  programName: 'Teaching Governance Innovation: Global Public Entrepreneurship Online
+    Conference'
+  description: Hosted by Professor Beth Noveck, Director of the GovLab in the U.S,
+    and Caroline Paulick-Thiel, Director of Politics for Tomorrow in Germany, this
+    series of online conferences brings together experienced experts who are all currently
+    working on facilitating or teaching innovation processes in the public sector,
+    either on a local, national, or global scale. The purpose of these meetings is
+    to spark mutual inspiration and learning by convening a quarterly expert exchange,
+    operating under the Chatham House Rule
+  destinationUrl: http://thegovlab.org/smarter-crowdsourcing-a-global-online-conference-on-learning-and-teaching-public-innovation-and-entrepreneurship/
 indexPage:
 - sys:
     id: 1S4dVvpeSUkOOqKK066wQO
@@ -3335,7 +3348,7 @@ indexPage:
   mailingListLabel: to the mailing list!
   digestLabel: to The Digest!
   whereWeveHelpedLabel: 'Where we''ve helped:'
-  featuredProgramTitle: Featured Program
+  featuredProgramTitle: Featured Programs
 coachingProgramsPage:
 - sys:
     id: 5KZlH8DvDGc8YmKqqeMiGC
