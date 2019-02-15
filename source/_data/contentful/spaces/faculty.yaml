@@ -946,3 +946,40 @@ faculty:
     title: mrm-2
     description: 
     url: "//images.ctfassets.net/gvpfsi7zggwe/3bI1Pl6fW4SCQYNqXK2eZ9/f2ffb069836355de02607020898ecd2c/mrm-2.jpg"
+- sys:
+    id: 5ZJZR9GHNxL9Fgu8uDIWnR
+  firstName: Andrew
+  lastName: Moss
+  shortBio: Andrew Moss is a seasoned technology executive/entrepreneur who has spent
+    his career innovating, launching and managing a range of technology-based businesses.
+    In 2014, he joined the NYU Entrepreneurial Institute as the Entrepreneur-in-Residence
+    to advise and mentor aspiring entrepreneurs from within the NYU ecosystem. In
+    2015 he was named Director Blackstone LaunchPad at NYU to implement and manage
+    the initiative.
+  longBio: "Andrew Moss is a seasoned technology executive/entrepreneur who has spent
+    his career innovating, launching and managing a range of technology-based businesses.
+    In 2014, he joined the NYU Entrepreneurial Institute as the Entrepreneur-in-Residence
+    to advise and mentor aspiring entrepreneurs from within the NYU ecosystem. In
+    2015 he was named Director Blackstone LaunchPad at NYU to implement and manage
+    the initiative. His experience and skills include a unique blend of business insight,
+    technical strength and public policy understanding.  He leverages these skills
+    to enable companies to discover clarity from the chaos of innovation. His industry
+    experience spans the corporate, consumer and educational markets. In addition
+    to his professional career, he has served as a board member/trustee for several
+    organizations including Cheshire Academy; one of the oldest independent schools
+    in the country. \nPrior to NYU, he spent 17 years as an internal entrepreneur
+    within Microsoft Corporation developing new products/services and leading public
+    policy strategy.  After leaving Microsoft he launched his own startup as well
+    as advised many others personally as well as through Lean Launch Ventures (LLV),
+    an accelerator he founded in 2012 in cooperation with Connecticut Innovations.
+    \ He has been an active public speaker throughout his career on various topics
+    involving technology, its development and applications in society. \nEarlier in
+    his career, he held senior management positions within Fortune 500 companies (The
+    Equitable, Pfizer), start-ups and boutique consulting practices.  He has also
+    been an active investor, mentor and advisor in the tech sector for over 15 years.
+    \  \n"
+  website: http://entrepreneur.nyu.edu/about-institute/
+  facultyImage:
+    title: Andy Moss
+    description: andy-moss-headsht
+    url: "//images.ctfassets.net/gvpfsi7zggwe/5ABwvPFjsBaRqCIDXVyGEH/7b88c3a4fc128f9c5be24855c0825e6c/Andy-Blog.jpg"
