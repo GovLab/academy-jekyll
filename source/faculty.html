@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="course-list">
+  <div class="top-section banner banner--clinics">
+    <div class="row banner__content">
+      <div class="large-12 column">
+        <h1>GovLab Academy Faculty</h1>
+        <h3>&nbsp;</h3>
+      </div>
+    </div>
+    <div class="banner__overlay banner__overlay--clinics">&nbsp;</div>
+  </div>
+
+<!--   <div class="divider">
+    <div class="row">
+      <div class="large-12 column">
+        <h1>Faculty Members</h1>
+      </div>
+    </div>
+  </div> -->
+  <div class="faculty-members">
+    <div class="row expanded collapse align-center">
+      {% assign faculty = site.data.contentful.spaces.faculty.faculty %}
+      {% for person in faculty %}
+      <a href="{{site.url}}{{site.baseurl}}/faculty/{{person.lastName | slugify }}.html" target="_blank" class="large-3 medium-6 small-12 column faculty-card {% if person.is_govlab %}faculty-card--govlab {% endif%}">
+        <div class="faculty-card__picture" style="background-image: url({{person.facultyImage.url}});"></div>
+        <h1 class="faculty-card__name ">{{ person.firstName }} {{ person.lastName }}</h1>
+        <p class="faculty-card__description">{% if person.shortBio %}{{ person.shortBio }}{% else %}{{ person.longBio | truncatewords: 50 }}{% endif %}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
