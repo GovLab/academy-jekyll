@@ -1,380 +1,6 @@
 ---
 coachingProgram:
 - sys:
-    id: 4gMlubSC7YcUSOqO6cY0sU
-  programName: Innovations in Tech-Enabled Disaster Management
-  startDate: !ruby/object:DateTime 2016-07-14 00:00:00.000000000 -05:00
-  endDate: !ruby/object:DateTime 2016-09-08 00:00:00.000000000 -05:00
-  applicationDeadline: !ruby/object:DateTime 2016-05-27 00:00:00.000000000 -05:00
-  shortDescription: This program is designed to convene government, social and civic
-    entrepreneurs (both individuals and teams) who are developing projects that have
-    the potential to tackle the pressing needs of people in disaster-affected communities.
-  longDescription: |-
-    Innovations in Disaster Management is a ten week online coaching program designed to convene government, social and civic entrepreneurs (both individuals and teams) who are developing projects that have the potential to tackle the pressing needs of people in disaster-affected communities. Whether your project is nonprofit or for-profit and whether you are focusing on disaster preparedness, disaster management or disaster relief, this program aims, through peer-to-peer support and expert coaching and mentoring, to help humanitarian innovators implement, scale, and assess effective projects.
-
-    Ideal participants are those who have already identified a project and/or have a project underway and have clear insight into the problem they are trying to ameliorate. Projects might aim to tackle diverse issues from the protection of vulnerable populations, to strengthening health initiatives, to providing shelter, education, and livelihood opportunities. They will have in common the application of open, data-driven, bottom-up and collaborative approaches. A public interest and public engagement focus should ultimately be the driving force behind the projects.
-
-    The GovLab Academy coaching programs have helped 450 government, social and civic entrepreneurs take 250 projects from idea to implementation. We aim to help you “cross the chasm” from idea to implementation and help you scale.
-  courseFormat: 1 faculty-led session every other week for 2 hours (one hour is with
-    a guest expert and one hour is an all-group session); and a personalized schedule
-    of peer-to-peer and one-on-one coaching sessions.
-  moreInformation: "- Fee: $250 per project. Each project can have a team of up to
-    5 participants.\n\n- The $250 fee helps to cover the stipend that we offer to
-    coaches to compensate them for their time. We hope to offer financial aid scholarships
-    to help international teams that would otherwise not be able to participate in
-    the coaching program due to financial constraints. If your team would like to
-    be considered for a scholarship (should your project be selected), please check
-    the box in your application. More details will follow. "
-  faculty:
-  - sys:
-      id: 6eIh9c6RFYmwSwsYCiMiUW
-    firstName: Julian
-    lastName: Carver
-    facultyTitle: Data Driven Innovation Consultant and Former CIO of the Canterbury
-      Earthquake Recovery Authority
-    longBio: Julian Carver is an investor, startup mentor, and technology innovator
-      in the public and private sectors. He founded and exited three web software
-      startups from 1995-2000. From 2000-2011 he led large shared services projects
-      and data sharing strategies across central and local government and the private
-      sector. In 2011 Julian worked with the Government Data and Information Reuse
-      Secretariat to develop New Zealand’s Declaration on Open and Transparent Government.
-      From April 2011 - June 2012 Julian led the establishment of information services
-      at the Canterbury Earthquake Recovery Authority (CERA), as acting Chief Information
-      Officer. From March 2013 - April 2015 he led the Canterbury Spatial Data Infrastructure
-      (SDI) Programme at LINZ, a $5m investment in a set of eight ICT projects to
-      support the $40 billion Christchurch rebuild.
-    email: julian.carver@nzcapstrat.com
-    twitter: https://twitter.com/serenare
-    linkedIn: https://www.linkedin.com/in/juliancarver
-    facultyImage:
-      title: julian-carver
-      description: 
-      url: "//images.ctfassets.net/gvpfsi7zggwe/zim4h1qde8WWoqcgiu4gy/e1055537b0e3a943735315b9388ba01f/julian-carver.jpg"
-- sys:
-    id: ckudj4ouze604m2eWe2Au
-  programName: Coaching Program for Data Driven Criminal Justice Projects - Fall 2016
-  startDate: !ruby/object:DateTime 2016-09-19 00:00:00.000000000 -05:00
-  endDate: !ruby/object:DateTime 2016-11-14 00:00:00.000000000 -05:00
-  applicationDeadline: !ruby/object:DateTime 2016-09-09 00:00:00.000000000 -05:00
-  shortDescription: The second offering of a coaching program for teams and individuals
-    working on empirically-based criminal justice innovation projects, including those
-    working in criminal justice, health, mental health and related agencies as well
-    as researchers and advocates.
-  longDescription: "The Coaching Program for Data Driven Criminal Justice Projects
-    has support from the Laura and John Arnold Foundation and is run in partnership
-    with the White House Office of Science and Technology Policy (and its efforts
-    to accelerate more city, county and states willing to adopt voluntary, data-driven
-    approaches to improve public health and safety, and reduce unnecessary incarceration).\n\nThe
-    program is the second iteration of a successful first-of-its-kind offering earlier
-    in the summer that brought together 20 teams from 12 states in a fortnightly online
-    convening format which included guest lectures by subject matter experts, one-on-one
-    mentoring sessions and peer-to-peer interaction. The program seeks to assist teams
-    and individuals working on empirically-based criminal justice innovation projects,
-    including those working in criminal justice, health, mental health and related
-    agencies as well as researchers and advocates, and who share a common desire to
-    make greater use of data to understand past performance, improve day-to-day operations,
-    and develop innovative approaches to the operations of the criminal justice system.\n\nPerhaps
-    you want to combine arrest data with Medicaid hospitalization data to identify
-    the super-utilizers of both systems? Or you are stuck trying to figure out the
-    applicable legal and privacy protections inhibiting the creation of data exchanges?
-    Maybe you want to identify which social service alternatives to incarceration
-    are working, when and for whom, and which are not? Have you developed a new algorithm
-    for determining pre-trial release? \n\nThis program is offered in response to
-    what we are hearing from you about the demand for more help, expertise and capacity
-    building to enable you to make better use of data both to understand past performance
-    and to improve day-to-day operations of criminal justice in your communities.\n\nEvery
-    other week for ten weeks, participants will come together to learn both from one
-    another and from experts in responsible data sharing practices. Participants also
-    receive personalized project management coaching designed to help you overcome
-    the specific barriers to implementation you are facing.\n\nThe program is intended
-    for those with a data driven criminal justice innovation project in mind. It is
-    not a lecture course in data science but a hands-on, customized coaching and mentoring
-    program for teams or individuals. It is designed to help you bring your project
-    from idea to fruition. The program follows the outlines of our public problem
-    solving method but is flexibly configured to be responsive to your specific needs.\n\nWith
-    implementation as our lodestar, we will focus together on developing the essential
-    aspects of the projects at each stage."
-  courseFormat: 1 faculty-led session every other week for 2 hours (one hour is with
-    a guest expert and one hour is an all-group session); and a personalized schedule
-    of peer-to-peer and one-on-one coaching sessions.
-  moreInformation: |-
-    - If accepted, participants are asked to complete a questionnaire about their projects to aid with up-front diagnosis of challenges and the design of a customized support curriculum.
-
-    - Thanks to a generous grant from the Arnold Foundation, the program is free of charge to participants. However, participants are expected to commit to the duration of the program.
-
-    - More about the first edition of the coaching program for data driven criminal justice projects [here](http://thegovlab.org/18326-2/).
-  faculty:
-  - sys:
-      id: n4HlUiwcKcyWeKYEQWSiE
-    firstName: Beth Simone
-    lastName: Noveck
-    facultyTitle: Founder of The GovLab
-    affiliation: The GovLab
-    longBio: 'Beth Simone Noveck directs The Governance Lab and its MacArthur Research
-      Network on Opening Governance. Funded by the John D. and Catherine T. MacArthur
-      Foundation, the John S. and James L. Knight Foundation and Google.org, the GovLab
-      strives to improve people’s lives by changing how we govern. The GovLab designs
-      and tests technology, policy and strategies for fostering more open and collaborative
-      approaches to strengthen the ability of people and institutions to work together
-      to solve problems, make decisions, resolve conflict and govern themselves more
-      effectively and legitimately. The Jerry Hultin Global Network Visiting Professor
-      at New York University’s Polytechnic School of Engineering, she was formerly
-      the Jacob K. Javits Visiting Professor at the Robert F. Wagner Graduate School
-      of Public Service and a visiting professor at the MIT Media Lab. Beth is a professor
-      of law at New York Law School. She served in the White House as the first United
-      States Deputy Chief Technology Officer and director of the White House Open
-      Government Initiative (2009-2011). UK Prime Minister David Cameron appointed
-      her senior advisor for Open Government, and she served on the Obama-Biden transition
-      team. Among projects she’s designed or collaborated on are Unchat, The Do Tank,
-      Peer To Patent, Data.gov, Challenge.gov and the Gov Lab’s Living Labs and training
-      platform, The Academy. A graduate of Harvard University and Yale Law School,
-      she serves on the Global Commission on Internet Governance and chaired the ICANN
-      Strategy Panel on Multi-Stakeholder Innovation. She is a member of the Advisory
-      Board of the Open Contracting Partnership. She was named one of the “Foreign
-      Policy 100″ by Foreign Policy, one of the “100 Most Creative People in Business”
-      by Fast Company and one of the “Top Women in Technology” by Huffington Post.
-      She has also been honored by both the National Democratic Institute and Public
-      Knowledge for her work in civic technology. Beth is the author of Wiki Government:
-      How Technology Can Make Government Better, Democracy Stronger and Citizens More
-      Powerful, which has also appeared in Arabic, Russian, Chinese and in an audio
-      edition, and co-editor of The State of Play: Law, Games and Virtual Worlds.
-      Her next book Smart Citizens: Smarter State will appear with Harvard University
-      Press. She tweets @bethnoveck.'
-    email: noveck@thegovlab.org
-    website: http://thegovlab.org/about/team/beth-simone-noveck/
-    twitter: https://twitter.com/bethnoveck
-    linkedIn: https://www.linkedin.com/pub/beth-noveck/40/9a8/a46
-    facultyImage:
-      title: beth-simone-noveck
-      description: 
-      url: "//images.ctfassets.net/gvpfsi7zggwe/vZdtkl22762QQiWSsQkea/26c08114f807b31970dd828b28a817f0/beth-simone-noveck.jpg"
-  - sys:
-      id: 5kS5wQk33qWKoA4e4AEwiG
-    firstName: Stefaan
-    lastName: Verhulst
-    facultyTitle: Co-Founder and Chief Research and Development Officer at the GovLab
-    affiliation: The GovLab
-    longBio: 'Stefaan G. Verhulst is Co-Founder and Chief Research and Development
-      Officer of the Governance Laboratory @NYU (GovLab) where he is responsible for
-      building a research foundation on how to transform governance using advances
-      in science and technology. Verhulst’s latest scholarship centers on how technology
-      can improve people’s lives and the creation of more effective and collaborative
-      forms of governance. Specifically, he is interested in the perils and promise
-      of collaborative technologies and how to harness the unprecedented volume of
-      information to advance the public good. Before joining NYU full time, Verhulst
-      spent more than a decade as Chief of Research for the Markle Foundation, where
-      he continues to serve as Senior Advisor. At Markle, an operational foundation
-      based in New York, he was responsible for overseeing strategic research on all
-      the priority areas of the Foundation including, for instance: transforming health
-      care using information and technology, re-engineering government to respond
-      to new national security threats, improving people’s lives in developing countries
-      by connecting them to information networks, developing multi-stakeholder networks
-      to tackle global governance challenges, changing education through information
-      technology et al. Many of Markle’s reports have been translated into legislation
-      and executive orders, and have informed the creation of new organizations and
-      businesses. He is also an Adjunct Professor in the Department of Culture and
-      Communications at New York University, Senior Research Fellow for the Center
-      for Media and Communications Studies at Central European University in Budapest;
-      and an Affiliated Senior Research Fellow at the Center for Global Communications
-      Studies at the University of Pennsylvania’s Annenberg School for Communications.
-      Previously at Oxford University he co-founded and was the Head of the Programme
-      in Comparative Media Law and Policy at the Centre for Socio Legal Studies, and
-      also served as Senior Research Fellow of Wolfson College. He is still an emeritus
-      fellow at Oxford. He also taught several years at the London School of Economics.
-      Verhulst was the UNESCO Chairholder in Communications Law and Policy for the
-      UK, a former lecturer on Communications Law and Policy issues in Belgium, and
-      Founder and Co-Director of the International Media and Info-Comms Policy and
-      Law Studies at the University of Glasgow School of Law. He has served as a consultant
-      to numerous international and national organizations, including the Council
-      of Europe, the European Commission, UNESCO, World Bank, UNDP, USAID, the UK
-      Department for International Development among others. He has been a grant recipient
-      of the Bertelsmann Foundation, the Ford Foundation, the Rockefeller Foundation,
-      and the Markle Foundation. Verhulst has authored and co-authored several books,
-      including: In Search of the Self: Conceptual Approaches to Internet Self Regulation
-      (Routledge, 2001); Convergence in European Communications Regulation (Blackstone,
-      1999); EC Media Law and Policy (AWL, 1998); Legal Responses to the Changing
-      Media (OUP, 1998); and Broadcasting Reform in India (OUP, 1998). Most recently,
-      he co-edited The Routledge Handbook of Media Law (2013). Verhulst is also founder
-      and editor of numerous journals including the International Journal of Communications
-      Law and Policy, and the Communications Law in Transition Newsletter.'
-    email: stefaan@thegovlab.org
-    website: http://thegovlab.org/about/team/stefaan-verhulst/
-    twitter: https://twitter.com/sverhulst
-    linkedIn: https://www.linkedin.com/pub/stefaan-verhulst/0/334/85a
-    facultyImage:
-      title: stefaan-verhulst
-      description: 
-      url: "//images.ctfassets.net/gvpfsi7zggwe/6RojjcYhck8Kq2GqWKG8gu/c125d0bb55023f3c02995f39eb2ca75c/stefaan-verhulst.jpg"
-- sys:
-    id: 7yvkSXBjySBInNs8xWBrFa
-  programName: Open Seventeen Spring 2018
-  featured: false
-  startDate: !ruby/object:DateTime 2018-03-30 00:00:00.000000000 -05:00
-  endDate: !ruby/object:DateTime 2018-04-26 00:00:00.000000000 -05:00
-  shortDescription: 'Open Seventeen is a prize-backed challenge to reward and invest
-    in those developing innovative and implementable projects that leverage OPEN DATA
-    and CROWDSOURCING to tackle the 17 UN Sustainable Development Goals (SDGs). This
-    spring, the challenge targets "SDG #3: Healthy Lives and Well-Being for All at
-    All Ages", and it is run in collaboration with Be He@lthy, Be Mobile, a joint
-    program between the International Telecommunications Union (ITU) and the World
-    Health Organization (WHO).'
-  longDescription: "The coaching program is designed to help you take a project from
-    idea to implementation and to scale. It is a hands-on, learning and mentoring
-    program to help you design and implement solutions to a public interest problem
-    using civic technology. At the ends of the program you should have a:\n\nClear
-    understanding of the problem you are trying to solve and its underlying causes;\nCompelling
-    theory of change and a solution narrowly tailored to fit the problem;\nStrategy
-    to engage with people and data; \nPrototype of your solution and the roadmap to
-    user-test it;\nClear and persuading pitch of your project. \n"
-  courseFormat: 5 2-hour long online sessions and offline one-on-one coaching sessions
-    with each team
-  faculty:
-  - sys:
-      id: 3OrVaJWUdGqKOeSOmEIkyY
-    firstName: Francois
-    lastName: Grey
-    facultyTitle: 'Coordinator of the Citizen Cyberscience Centre '
-    longBio: "Francois Grey is a physicist by training, with a background in nanotechnology
-      and a passion for citizen science. Since September 2014, he is Invited Professor
-      at the University of Geneva and Manager of the Citizen Cyberscience Centre,
-      a partnership between CERN, the United Nations Institute of Training and Research
-      and the University of Geneva. \n\nThe CCC develops technologies that lower the
-      barrier to entry for online participatory science and promotes the use of these
-      technologies in developing regions through face-to-face meetups between scientists,
-      developers and citizens. The CCC has helped to launch citizen science projects
-      such as CERN’s Test4Theory, which is part of the LHC@home volunteer computing
-      initiative, and open source platforms for citizen science like Crowdcrafting.org,
-      for volunteer thinking. Events launched by the CCC include the Africa@Home,
-      Asia@home and Brasil@home workshops series, the CERN Webfest and the biannual
-      Citizen Cyberscience Summit. \n\nFrom 2013-2014 Francois was Head of Citizen
-      Science at NYU’s Center for Urban Science and Progress, where he launched the
-      Science and the City hackathons in collaboration with ITP, NYU’s Interactive
-      Telecommunications Program and Science Hack Day NYC in collaboration with the
-      World Science Festival. \n\nFrancois was based in Beijing from 2008-2013, where
-      he helped establish the Open Wisdom Lab at Tsinghua University, China’s MIT,
-      to promote concepts of open and participatory science. He also helped establish
-      Tsinghua’s Lifelong Learning Lab, which extends concepts of participatory science
-      to children of all ages. He has also been a visiting Senior International Expert
-      with the Chinese Academy of Sciences, where he initiated online citizen science
-      in China through a project called CAS@home. Francois received a prestigious
-      Fellowship from the South-Africa-based Shuttleworth Foundation in 2010-11, for
-      his efforts to promote citizen science in the developing world."
-    email: francois.grey@cern.ch
-    website: http://www.citizencyberscience.net/about-the-team/
-    twitter: https://twitter.com/francoisgrey
-    facultyImage:
-      title: francois-grey
-      description: 
-      url: "//images.ctfassets.net/gvpfsi7zggwe/5DAjZUN8zus8gmwwsqWwOa/f5792113aba57442894b0e1f1532c0de/francois-grey.jpg"
-  - sys:
-      id: 5gfjFvZYdiAgkgaY0muu80
-    firstName: Dinorah
-    lastName: Cantú-Pedraza
-    facultyTitle: The GovLab Academy Coordinator
-    affiliation: The GovLab
-    shortBio: Dinorah Cantu coordinates the GovLab Academy, an online institute aimed
-      at helping government and social innovators take innovative projects from idea
-      to implementation. Under her direction, the Academy has worked with over five
-      hundred innovators from more than 30 countries online and off over the last
-      two years.
-    longBio: Dinorah Cantu coordinates the GovLab Academy, an online institute aimed
-      at helping government and social innovators take innovative projects from idea
-      to implementation. Under her direction, the Academy has worked with over five
-      hundred innovators from more than 30 countries online and off over the last
-      two years. Thousands more have watched its skill-building videos. She has put
-      together over 12 Coaching Programs, the Academy’s signature mentoring and peer
-      to peer learning initiative, where over 95% of whose participants complete the
-      program. The Academy is a project of the Governance Lab, based at New York University.
-      GovLab focuses on the use of technology to improve how we govern. Dinorah has
-      also designed the GovLab’s Crowdsorcerer expert system, a software tool to deliver
-      customized case studies to government leaders about open innovation. Working
-      together with lawyers and education experts from NYU, she also designed an expert
-      system to help universities determine the legal requirements for offering online
-      education. She also runs the GovLab’s Demos for Democracy video series where
-      she interviews leading technologists about new platforms to advance the public
-      interest. A lawyer by training, Dinorah founded and directed the Human Rights
-      Center of the Facultad Libre de Derecho de Monterrey prior to coming to New
-      York in 2012. She holds an MPA in Public and Nonprofit Management and Policy
-      at NYU Robert F. Wagner School of Public Service and is passionate about the
-      value of civic technology for strengthening human rights. She is bilingual in
-      English and Spanish and tweets at @dinorah_cantu.
-    email: dinorah@thegovlab.org
-    website: http://thegovlab.org/about/team/
-    twitter: https://twitter.com/dinorah_cantu
-    linkedIn: https://www.linkedin.com/pub/dinorah-cantu/35/568/56a
-    gitHub: https://github.com/dino-at-thegovlab
-    facultyImage:
-      title: dinorah-cantu-pedraza
-      description: 
-      url: "//images.ctfassets.net/gvpfsi7zggwe/6vQYf3IQiA4qkUYKM6q8EQ/f1e968663e59fac91027cb3de707bf27/dinorah-cantu-pedraza.jpg"
-  - sys:
-      id: 3QaOb1PlwG9zTm6su77pqo
-    firstName: 'Anirudh '
-    lastName: Dinesh
-    facultyTitle: 'Research and Technology Associate Fellow '
-    affiliation: The GovLab
-    shortBio: Anirudh Dinesh conducts research on governance innovation. He is a member
-      of the team designing and piloting experiments for new models of public engagement,
-      what the GovLab calls people-led innovation, to improve the legitimacy and effectiveness
-      of policy making and solve urgent problems.
-    longBio: |-
-      Anirudh Dinesh conducts research on governance innovation. He is a member of the team designing and piloting experiments for new models of public engagement, what the GovLab calls people-led innovation, to improve the legitimacy and effectiveness of policy making and solve urgent problems.
-
-      In addition, Anirudh is a member of the Data Labs research team looking at how governments can create the infrastructure, including the necessary skills and governance rules, to facilitate the use of administrative data for evaluating and improving public programs. With a grant from Markets for Good, he is collaborating with New Philanthropy Capital in the UK to craft a series of case studies about Data Labs and explore how they can enable charities as well as government to conduct more data-driven impact evaluations.
-
-      Last year, Anirudh helped to research, write and produce ten original Smarter State case studies, focusing on how governments can use technology to leverage the skills of civil servants. He has also researched and authored reports on Open Data for Developing Economies, a project to explore the social and economic impact of opening government data.
-
-      In his job, Anirudh organizes events at the GovLab. He was part of the organizing team of the Collective Intelligence Conference (June 2017). He has coordinated multiple online classes and coaching programs for the GovLab Academy, including the ones on innovations in tech-enabled disaster management and data driven criminal justice.
-
-      Whether in connection with events or research projects, Anirudh applies his background in computer science to help create high impact websites. He is a part of GovLab’s civic tech efforts and assists in the design and development of all of GovLab’s original tools and platforms.
-
-      Prior to joining GovLab, Anirudh co-produced TEDxBNMIT 2015, an independently organized TEDx event in Bangalore, India.
-
-      Anirudh holds a master’s degree in Computer Engineering from New York University and an undergraduate degree in Electronics and Communication Engineering from the Visvesvaraya Technological University in India. While studying there, he interned at the Defence Research and Development Organization, where he implemented the autonomous indoor navigation of a quadcopter.
-
-      Anirudh is an avid blogger and his writings can be found at www.dudurudh.com.
-    twitter: https://twitter.com/dudurudh
-    gitHub: https://github.com/dudurudh
-    facultyImage:
-      title: anirudh-dinesh
-      description: 
-      url: "//images.ctfassets.net/gvpfsi7zggwe/7cePMSGPZVozug86RMDeFC/345ce131fa79ad0de19310f98577e441/anirudh-dinesh.jpg"
-  - sys:
-      id: nvrxIa0b4XhrxxrqrvWfk
-    firstName: Rosy
-    lastName: Mondardini
-    facultyTitle: Managing Director
-    affiliation: Zurich Citizen Science Center
-    shortBio: Ms Rosy Mondardini, managing director of the ETH/UZH Citizen Science
-      Center, focused her intervention on the data generated by citizens and how this
-      kind of data can play a role for the SDGs. She explained that citizen science
-      describes the collaboration between citizens and scientists on scientific research.
-    longBio: 'Ms Rosy Mondardini, managing director of the ETH/UZH Citizen Science
-      Center, focused her intervention on the data generated by citizens and how this
-      kind of data can play a role for the SDGs. She explained that citizen science
-      describes the collaboration between citizens and scientists on scientific research.
-      Traditionally, scientists define the project, citizens are involved in data
-      collection, and scientists then do the data analysis. However, now citizens
-      are more and more involved in the data analysis and throughout the overall  process.
-      She gave examples of citizen science from the areas of biology and physics,
-      such as involving citizens in checking water quality and classifying galaxies.
-      Mondardini then gave examples of three projects that put citizens ‘at the heart
-      of the activity and the data collection’ in the area of development: safecast
-      (link is external) which saw citizens monitor radiation levels after the 2011
-      earthquake and Fukushima accident in Japan; foldit (link is external) an online
-      puzzle video game about protein folding; and hot (link is external), a humanitarian
-      open street map team which engaged volunteers in checking satellite images to
-      identify damages to buildings and other infrastructure in the aftermath of major
-      disasters. Mondardini argued that projects like these fill gaps in science and
-      provide substance to make informed decisions to support development and monitoring
-      as part of the SDGs
-
-'
-    facultyImage:
-      title: mrm-2
-      description: 
-      url: "//images.ctfassets.net/gvpfsi7zggwe/3bI1Pl6fW4SCQYNqXK2eZ9/f2ffb069836355de02607020898ecd2c/mrm-2.jpg"
-- sys:
     id: 2i6T1LDXMs0y2eogEi8IK8
   programName: Coaching Program for Data Driven Criminal Justice Projects
   featured: false
@@ -559,76 +185,6 @@ coachingProgram:
       title: stefaan-verhulst
       description: 
       url: "//images.ctfassets.net/gvpfsi7zggwe/6RojjcYhck8Kq2GqWKG8gu/c125d0bb55023f3c02995f39eb2ca75c/stefaan-verhulst.jpg"
-- sys:
-    id: 4r3SLPQKRakKQG6ui8WciW
-  programName: The Alliance4Youth Challenge 2016
-  startDate: !ruby/object:DateTime 2016-10-13 00:00:00.000000000 -05:00
-  endDate: !ruby/object:DateTime 2016-09-28 00:00:00.000000000 -05:00
-  shortDescription: Coaching program designed by Citizen Cyberlab, The GovLab , Nestlé
-    and the Alliance4YOUTH partners, to help the participants of the “Alliance4Youth
-    Challenge 2016” prepare to pitch their ideas of “The most attractive company in
-    2020.
-  longDescription: "At an historic UN summit in September 2015, world leaders formally
-    committed to the set of 17 “sustainable development goals” that form the heart
-    of the UN’s ambitious 2030 Agenda. The 8th of these goals calls for the promotion
-    of inclusive and sustainable economic development, full and productive employment,
-    and decent work for all. Everyone understands that achieving these noble outcomes
-    will, inevitably, require meaningful changes in public policy. But it will also
-    require deep changes in what private sector institutions do and, every bit as
-    important, in the ways they organize themselves to do it.\n\nWhen individuals
-    at work feel unheard, unseen, and undervalued, their daily experience on the job
-    alienates instead of engages. When they feel unable to make real contributions
-    because the levers for doing so lie well out of reach, fat paychecks flowing to
-    the accounts of distant barons offer neither satisfaction nor incentive, but only
-    fuel for discontent and anger. This has always been true. For the millennials
-    now and soon to be in the workforce, the truth goes deeper still. Their expectations
-    are higher, their skills greater, and their patience lower than those of the generations
-    before them. They are poised to contribute and have much to contribute. If their
-    work offers them no effective means to do so, they will be frustrated and all
-    of society will be the poorer – and the more fragile.\n\nIn practice, this means
-    that corporate MANAGERS will need to find new and compelling ways in which to
-    tap, harness, and leverage the knowledge, skills, energy, and commitment of theIR
-    millennial COLLEAGUES. Companies, positions, and work assignments must do more
-    than just organize and support them. They must energize and engage them. Indeed,
-    every plausible road to SDG 8 passes through the gate of engagement. \n\nAccordingly,
-    Citizen Cyberlab, The GovLab , Nestlé and the Alliance4YOUTH partners are sponsoring
-    a challenge for up to 80 students from across Swiss universities. Teams of no
-    more than 5 or 6 from across universities will each choose a sector within which
-    to focus and, then, devise an integrated plan for how a company operating in that
-    sector can best use available tools, diagnostic frameworks, information and social
-    technologies, and managerial approaches to engage and energize their people.\n\nEvery
-    week for 5 weeks, beginning October 2016, all teams will have access to a 2 hour,
-    on-line expert coaching session, which is designed to support them in framing
-    the challenge as they think best, managing team process and dynamics, becoming
-    familiar with relevant information and social technologies, and putting together
-    and rehearsing their final “pitch” – a 10 minute-per-team presentation, followed
-    by 5 minutes of Q&A – for delivery on 23 November at Nestle in Geneva to a judging
-    panel including A4Y members and a UN representative. Prizes will be given for
-    the best overall pitch and the best presentation."
-  courseFormat: 1 faculty-led session every week for 2 hours with presentations from
-    representatives of partner organizations and feedback from the coaches for each
-    team’s presentation on the topic of the week leading up to one “final” pitch at
-    Nestle in Geneva to a judging panel including A4Y members and a UN representative.
-  faculty:
-  - sys:
-      id: 52NJACTaNO2QQgM2owqCIm
-    firstName: Karin
-    lastName: Christiansen
-    facultyTitle: Chair of Open Knowledge International, Founder and Board Member
-      of Publish What You Fund
-    longBio: Karin is an experienced CEO and board member including in the transparency,
-      open data, co-operative and not for profit sectors. She has extensive facilitation
-      and chairing experience and  She is the chair of Open Knowledge International
-      and founder and now a board member of Publish What You Fund - the global campaign
-      for the transparency of aid.  She has a background in aid and development, but
-      most recently moved into professional politics as the General Secretary of the
-      Co-operative Party in the UK. She studied Politics, Philosophy and Economics
-      as an undergraduate, and has Masters degrees in Development Economics and in
-      Social and Political Thought
-    facultyImage:
-      title: karin-christiansen
-      description: 
-      url: "//images.ctfassets.net/gvpfsi7zggwe/1ZcZ7NmT6g2ss0mEQsE0iw/22e737dcb4bf7af23699030fbccb7a35/karin-christiansen.jpg"
 - sys:
     id: 1FkX1LaNLyZqjozu1gswJ2
   programName: Open Seventeen Spring 2019
@@ -836,6 +392,328 @@ coachingProgram:
       description: andy-moss-headsht
       url: "//images.ctfassets.net/gvpfsi7zggwe/5ABwvPFjsBaRqCIDXVyGEH/7b88c3a4fc128f9c5be24855c0825e6c/Andy-Blog.jpg"
 - sys:
+    id: ckudj4ouze604m2eWe2Au
+  programName: Coaching Program for Data Driven Criminal Justice Projects - Fall 2016
+  startDate: !ruby/object:DateTime 2016-09-19 00:00:00.000000000 -05:00
+  endDate: !ruby/object:DateTime 2016-11-14 00:00:00.000000000 -05:00
+  applicationDeadline: !ruby/object:DateTime 2016-09-09 00:00:00.000000000 -05:00
+  shortDescription: The second offering of a coaching program for teams and individuals
+    working on empirically-based criminal justice innovation projects, including those
+    working in criminal justice, health, mental health and related agencies as well
+    as researchers and advocates.
+  longDescription: "The Coaching Program for Data Driven Criminal Justice Projects
+    has support from the Laura and John Arnold Foundation and is run in partnership
+    with the White House Office of Science and Technology Policy (and its efforts
+    to accelerate more city, county and states willing to adopt voluntary, data-driven
+    approaches to improve public health and safety, and reduce unnecessary incarceration).\n\nThe
+    program is the second iteration of a successful first-of-its-kind offering earlier
+    in the summer that brought together 20 teams from 12 states in a fortnightly online
+    convening format which included guest lectures by subject matter experts, one-on-one
+    mentoring sessions and peer-to-peer interaction. The program seeks to assist teams
+    and individuals working on empirically-based criminal justice innovation projects,
+    including those working in criminal justice, health, mental health and related
+    agencies as well as researchers and advocates, and who share a common desire to
+    make greater use of data to understand past performance, improve day-to-day operations,
+    and develop innovative approaches to the operations of the criminal justice system.\n\nPerhaps
+    you want to combine arrest data with Medicaid hospitalization data to identify
+    the super-utilizers of both systems? Or you are stuck trying to figure out the
+    applicable legal and privacy protections inhibiting the creation of data exchanges?
+    Maybe you want to identify which social service alternatives to incarceration
+    are working, when and for whom, and which are not? Have you developed a new algorithm
+    for determining pre-trial release? \n\nThis program is offered in response to
+    what we are hearing from you about the demand for more help, expertise and capacity
+    building to enable you to make better use of data both to understand past performance
+    and to improve day-to-day operations of criminal justice in your communities.\n\nEvery
+    other week for ten weeks, participants will come together to learn both from one
+    another and from experts in responsible data sharing practices. Participants also
+    receive personalized project management coaching designed to help you overcome
+    the specific barriers to implementation you are facing.\n\nThe program is intended
+    for those with a data driven criminal justice innovation project in mind. It is
+    not a lecture course in data science but a hands-on, customized coaching and mentoring
+    program for teams or individuals. It is designed to help you bring your project
+    from idea to fruition. The program follows the outlines of our public problem
+    solving method but is flexibly configured to be responsive to your specific needs.\n\nWith
+    implementation as our lodestar, we will focus together on developing the essential
+    aspects of the projects at each stage."
+  courseFormat: 1 faculty-led session every other week for 2 hours (one hour is with
+    a guest expert and one hour is an all-group session); and a personalized schedule
+    of peer-to-peer and one-on-one coaching sessions.
+  moreInformation: |-
+    - If accepted, participants are asked to complete a questionnaire about their projects to aid with up-front diagnosis of challenges and the design of a customized support curriculum.
+
+    - Thanks to a generous grant from the Arnold Foundation, the program is free of charge to participants. However, participants are expected to commit to the duration of the program.
+
+    - More about the first edition of the coaching program for data driven criminal justice projects [here](http://thegovlab.org/18326-2/).
+  faculty:
+  - sys:
+      id: n4HlUiwcKcyWeKYEQWSiE
+    firstName: Beth Simone
+    lastName: Noveck
+    facultyTitle: Founder of The GovLab
+    affiliation: The GovLab
+    longBio: 'Beth Simone Noveck directs The Governance Lab and its MacArthur Research
+      Network on Opening Governance. Funded by the John D. and Catherine T. MacArthur
+      Foundation, the John S. and James L. Knight Foundation and Google.org, the GovLab
+      strives to improve people’s lives by changing how we govern. The GovLab designs
+      and tests technology, policy and strategies for fostering more open and collaborative
+      approaches to strengthen the ability of people and institutions to work together
+      to solve problems, make decisions, resolve conflict and govern themselves more
+      effectively and legitimately. The Jerry Hultin Global Network Visiting Professor
+      at New York University’s Polytechnic School of Engineering, she was formerly
+      the Jacob K. Javits Visiting Professor at the Robert F. Wagner Graduate School
+      of Public Service and a visiting professor at the MIT Media Lab. Beth is a professor
+      of law at New York Law School. She served in the White House as the first United
+      States Deputy Chief Technology Officer and director of the White House Open
+      Government Initiative (2009-2011). UK Prime Minister David Cameron appointed
+      her senior advisor for Open Government, and she served on the Obama-Biden transition
+      team. Among projects she’s designed or collaborated on are Unchat, The Do Tank,
+      Peer To Patent, Data.gov, Challenge.gov and the Gov Lab’s Living Labs and training
+      platform, The Academy. A graduate of Harvard University and Yale Law School,
+      she serves on the Global Commission on Internet Governance and chaired the ICANN
+      Strategy Panel on Multi-Stakeholder Innovation. She is a member of the Advisory
+      Board of the Open Contracting Partnership. She was named one of the “Foreign
+      Policy 100″ by Foreign Policy, one of the “100 Most Creative People in Business”
+      by Fast Company and one of the “Top Women in Technology” by Huffington Post.
+      She has also been honored by both the National Democratic Institute and Public
+      Knowledge for her work in civic technology. Beth is the author of Wiki Government:
+      How Technology Can Make Government Better, Democracy Stronger and Citizens More
+      Powerful, which has also appeared in Arabic, Russian, Chinese and in an audio
+      edition, and co-editor of The State of Play: Law, Games and Virtual Worlds.
+      Her next book Smart Citizens: Smarter State will appear with Harvard University
+      Press. She tweets @bethnoveck.'
+    email: noveck@thegovlab.org
+    website: http://thegovlab.org/about/team/beth-simone-noveck/
+    twitter: https://twitter.com/bethnoveck
+    linkedIn: https://www.linkedin.com/pub/beth-noveck/40/9a8/a46
+    facultyImage:
+      title: beth-simone-noveck
+      description: 
+      url: "//images.ctfassets.net/gvpfsi7zggwe/vZdtkl22762QQiWSsQkea/26c08114f807b31970dd828b28a817f0/beth-simone-noveck.jpg"
+  - sys:
+      id: 5kS5wQk33qWKoA4e4AEwiG
+    firstName: Stefaan
+    lastName: Verhulst
+    facultyTitle: Co-Founder and Chief Research and Development Officer at the GovLab
+    affiliation: The GovLab
+    longBio: 'Stefaan G. Verhulst is Co-Founder and Chief Research and Development
+      Officer of the Governance Laboratory @NYU (GovLab) where he is responsible for
+      building a research foundation on how to transform governance using advances
+      in science and technology. Verhulst’s latest scholarship centers on how technology
+      can improve people’s lives and the creation of more effective and collaborative
+      forms of governance. Specifically, he is interested in the perils and promise
+      of collaborative technologies and how to harness the unprecedented volume of
+      information to advance the public good. Before joining NYU full time, Verhulst
+      spent more than a decade as Chief of Research for the Markle Foundation, where
+      he continues to serve as Senior Advisor. At Markle, an operational foundation
+      based in New York, he was responsible for overseeing strategic research on all
+      the priority areas of the Foundation including, for instance: transforming health
+      care using information and technology, re-engineering government to respond
+      to new national security threats, improving people’s lives in developing countries
+      by connecting them to information networks, developing multi-stakeholder networks
+      to tackle global governance challenges, changing education through information
+      technology et al. Many of Markle’s reports have been translated into legislation
+      and executive orders, and have informed the creation of new organizations and
+      businesses. He is also an Adjunct Professor in the Department of Culture and
+      Communications at New York University, Senior Research Fellow for the Center
+      for Media and Communications Studies at Central European University in Budapest;
+      and an Affiliated Senior Research Fellow at the Center for Global Communications
+      Studies at the University of Pennsylvania’s Annenberg School for Communications.
+      Previously at Oxford University he co-founded and was the Head of the Programme
+      in Comparative Media Law and Policy at the Centre for Socio Legal Studies, and
+      also served as Senior Research Fellow of Wolfson College. He is still an emeritus
+      fellow at Oxford. He also taught several years at the London School of Economics.
+      Verhulst was the UNESCO Chairholder in Communications Law and Policy for the
+      UK, a former lecturer on Communications Law and Policy issues in Belgium, and
+      Founder and Co-Director of the International Media and Info-Comms Policy and
+      Law Studies at the University of Glasgow School of Law. He has served as a consultant
+      to numerous international and national organizations, including the Council
+      of Europe, the European Commission, UNESCO, World Bank, UNDP, USAID, the UK
+      Department for International Development among others. He has been a grant recipient
+      of the Bertelsmann Foundation, the Ford Foundation, the Rockefeller Foundation,
+      and the Markle Foundation. Verhulst has authored and co-authored several books,
+      including: In Search of the Self: Conceptual Approaches to Internet Self Regulation
+      (Routledge, 2001); Convergence in European Communications Regulation (Blackstone,
+      1999); EC Media Law and Policy (AWL, 1998); Legal Responses to the Changing
+      Media (OUP, 1998); and Broadcasting Reform in India (OUP, 1998). Most recently,
+      he co-edited The Routledge Handbook of Media Law (2013). Verhulst is also founder
+      and editor of numerous journals including the International Journal of Communications
+      Law and Policy, and the Communications Law in Transition Newsletter.'
+    email: stefaan@thegovlab.org
+    website: http://thegovlab.org/about/team/stefaan-verhulst/
+    twitter: https://twitter.com/sverhulst
+    linkedIn: https://www.linkedin.com/pub/stefaan-verhulst/0/334/85a
+    facultyImage:
+      title: stefaan-verhulst
+      description: 
+      url: "//images.ctfassets.net/gvpfsi7zggwe/6RojjcYhck8Kq2GqWKG8gu/c125d0bb55023f3c02995f39eb2ca75c/stefaan-verhulst.jpg"
+- sys:
+    id: 4r3SLPQKRakKQG6ui8WciW
+  programName: The Alliance4Youth Challenge 2016
+  startDate: !ruby/object:DateTime 2016-10-13 00:00:00.000000000 -05:00
+  endDate: !ruby/object:DateTime 2016-09-28 00:00:00.000000000 -05:00
+  shortDescription: Coaching program designed by Citizen Cyberlab, The GovLab , Nestlé
+    and the Alliance4YOUTH partners, to help the participants of the “Alliance4Youth
+    Challenge 2016” prepare to pitch their ideas of “The most attractive company in
+    2020.
+  longDescription: "At an historic UN summit in September 2015, world leaders formally
+    committed to the set of 17 “sustainable development goals” that form the heart
+    of the UN’s ambitious 2030 Agenda. The 8th of these goals calls for the promotion
+    of inclusive and sustainable economic development, full and productive employment,
+    and decent work for all. Everyone understands that achieving these noble outcomes
+    will, inevitably, require meaningful changes in public policy. But it will also
+    require deep changes in what private sector institutions do and, every bit as
+    important, in the ways they organize themselves to do it.\n\nWhen individuals
+    at work feel unheard, unseen, and undervalued, their daily experience on the job
+    alienates instead of engages. When they feel unable to make real contributions
+    because the levers for doing so lie well out of reach, fat paychecks flowing to
+    the accounts of distant barons offer neither satisfaction nor incentive, but only
+    fuel for discontent and anger. This has always been true. For the millennials
+    now and soon to be in the workforce, the truth goes deeper still. Their expectations
+    are higher, their skills greater, and their patience lower than those of the generations
+    before them. They are poised to contribute and have much to contribute. If their
+    work offers them no effective means to do so, they will be frustrated and all
+    of society will be the poorer – and the more fragile.\n\nIn practice, this means
+    that corporate MANAGERS will need to find new and compelling ways in which to
+    tap, harness, and leverage the knowledge, skills, energy, and commitment of theIR
+    millennial COLLEAGUES. Companies, positions, and work assignments must do more
+    than just organize and support them. They must energize and engage them. Indeed,
+    every plausible road to SDG 8 passes through the gate of engagement. \n\nAccordingly,
+    Citizen Cyberlab, The GovLab , Nestlé and the Alliance4YOUTH partners are sponsoring
+    a challenge for up to 80 students from across Swiss universities. Teams of no
+    more than 5 or 6 from across universities will each choose a sector within which
+    to focus and, then, devise an integrated plan for how a company operating in that
+    sector can best use available tools, diagnostic frameworks, information and social
+    technologies, and managerial approaches to engage and energize their people.\n\nEvery
+    week for 5 weeks, beginning October 2016, all teams will have access to a 2 hour,
+    on-line expert coaching session, which is designed to support them in framing
+    the challenge as they think best, managing team process and dynamics, becoming
+    familiar with relevant information and social technologies, and putting together
+    and rehearsing their final “pitch” – a 10 minute-per-team presentation, followed
+    by 5 minutes of Q&A – for delivery on 23 November at Nestle in Geneva to a judging
+    panel including A4Y members and a UN representative. Prizes will be given for
+    the best overall pitch and the best presentation."
+  courseFormat: 1 faculty-led session every week for 2 hours with presentations from
+    representatives of partner organizations and feedback from the coaches for each
+    team’s presentation on the topic of the week leading up to one “final” pitch at
+    Nestle in Geneva to a judging panel including A4Y members and a UN representative.
+  faculty:
+  - sys:
+      id: 52NJACTaNO2QQgM2owqCIm
+    firstName: Karin
+    lastName: Christiansen
+    facultyTitle: Chair of Open Knowledge International, Founder and Board Member
+      of Publish What You Fund
+    longBio: Karin is an experienced CEO and board member including in the transparency,
+      open data, co-operative and not for profit sectors. She has extensive facilitation
+      and chairing experience and  She is the chair of Open Knowledge International
+      and founder and now a board member of Publish What You Fund - the global campaign
+      for the transparency of aid.  She has a background in aid and development, but
+      most recently moved into professional politics as the General Secretary of the
+      Co-operative Party in the UK. She studied Politics, Philosophy and Economics
+      as an undergraduate, and has Masters degrees in Development Economics and in
+      Social and Political Thought
+    facultyImage:
+      title: karin-christiansen
+      description: 
+      url: "//images.ctfassets.net/gvpfsi7zggwe/1ZcZ7NmT6g2ss0mEQsE0iw/22e737dcb4bf7af23699030fbccb7a35/karin-christiansen.jpg"
+- sys:
+    id: 4gMlubSC7YcUSOqO6cY0sU
+  programName: Innovations in Tech-Enabled Disaster Management
+  startDate: !ruby/object:DateTime 2016-07-14 00:00:00.000000000 -05:00
+  endDate: !ruby/object:DateTime 2016-09-08 00:00:00.000000000 -05:00
+  applicationDeadline: !ruby/object:DateTime 2016-05-27 00:00:00.000000000 -05:00
+  shortDescription: This program is designed to convene government, social and civic
+    entrepreneurs (both individuals and teams) who are developing projects that have
+    the potential to tackle the pressing needs of people in disaster-affected communities.
+  longDescription: |-
+    Innovations in Disaster Management is a ten week online coaching program designed to convene government, social and civic entrepreneurs (both individuals and teams) who are developing projects that have the potential to tackle the pressing needs of people in disaster-affected communities. Whether your project is nonprofit or for-profit and whether you are focusing on disaster preparedness, disaster management or disaster relief, this program aims, through peer-to-peer support and expert coaching and mentoring, to help humanitarian innovators implement, scale, and assess effective projects.
+
+    Ideal participants are those who have already identified a project and/or have a project underway and have clear insight into the problem they are trying to ameliorate. Projects might aim to tackle diverse issues from the protection of vulnerable populations, to strengthening health initiatives, to providing shelter, education, and livelihood opportunities. They will have in common the application of open, data-driven, bottom-up and collaborative approaches. A public interest and public engagement focus should ultimately be the driving force behind the projects.
+
+    The GovLab Academy coaching programs have helped 450 government, social and civic entrepreneurs take 250 projects from idea to implementation. We aim to help you “cross the chasm” from idea to implementation and help you scale.
+  courseFormat: 1 faculty-led session every other week for 2 hours (one hour is with
+    a guest expert and one hour is an all-group session); and a personalized schedule
+    of peer-to-peer and one-on-one coaching sessions.
+  moreInformation: "- Fee: $250 per project. Each project can have a team of up to
+    5 participants.\n\n- The $250 fee helps to cover the stipend that we offer to
+    coaches to compensate them for their time. We hope to offer financial aid scholarships
+    to help international teams that would otherwise not be able to participate in
+    the coaching program due to financial constraints. If your team would like to
+    be considered for a scholarship (should your project be selected), please check
+    the box in your application. More details will follow. "
+  faculty:
+  - sys:
+      id: 6eIh9c6RFYmwSwsYCiMiUW
+    firstName: Julian
+    lastName: Carver
+    facultyTitle: Data Driven Innovation Consultant and Former CIO of the Canterbury
+      Earthquake Recovery Authority
+    longBio: Julian Carver is an investor, startup mentor, and technology innovator
+      in the public and private sectors. He founded and exited three web software
+      startups from 1995-2000. From 2000-2011 he led large shared services projects
+      and data sharing strategies across central and local government and the private
+      sector. In 2011 Julian worked with the Government Data and Information Reuse
+      Secretariat to develop New Zealand’s Declaration on Open and Transparent Government.
+      From April 2011 - June 2012 Julian led the establishment of information services
+      at the Canterbury Earthquake Recovery Authority (CERA), as acting Chief Information
+      Officer. From March 2013 - April 2015 he led the Canterbury Spatial Data Infrastructure
+      (SDI) Programme at LINZ, a $5m investment in a set of eight ICT projects to
+      support the $40 billion Christchurch rebuild.
+    email: julian.carver@nzcapstrat.com
+    twitter: https://twitter.com/serenare
+    linkedIn: https://www.linkedin.com/in/juliancarver
+    facultyImage:
+      title: julian-carver
+      description: 
+      url: "//images.ctfassets.net/gvpfsi7zggwe/zim4h1qde8WWoqcgiu4gy/e1055537b0e3a943735315b9388ba01f/julian-carver.jpg"
+- sys:
+    id: 4Brd70bb1Siw48W6c6MC8C
+  programName: Innovations in Automatic Benefits for Citizens
+  startDate: !ruby/object:DateTime 2016-08-29 00:00:00.000000000 -05:00
+  endDate: !ruby/object:DateTime 2016-11-07 00:00:00.000000000 -05:00
+  applicationDeadline: !ruby/object:DateTime 2016-08-19 00:00:00.000000000 -05:00
+  shortDescription: Led by New York City Council member Ben Kallos, this program is
+    designed to convene government, social and civic entrepreneurs who are developing
+    projects around the automation and delivery of benefits and services for citizens.
+  longDescription: |-
+    For many low-income citizens, getting access to benefits for which they are already eligible requires them to negotiate a minefield of forms, websites and duplicate documentation. Technology can improve government and organizational efficiency and ensure that thousands of citizens don’t lose out on benefits simply by enabling the automation of enrollment and renewal of people into the system. Recertifications can be automatic rather than arduous, eliminating repetitive paperwork and allowing people to get what they need and the government to reduce administrative costs.
+
+    Innovations in Automatic Benefits for Citizens is a ten week online coaching program designed to convene government, social and civic entrepreneurs (both individuals and teams) who are developing projects around the automation and delivery of benefits and services for citizens. With expert guidance from Councilmember Ben Kallos, Chair of the Committee on Governmental Operations of the New York City Council, we will help you to understand the operational flow of government as well as how to start building free and open source tools and/or bridge them with resources like OpenFisca and CiviCRM.
+
+    Whether your project is nonprofit or for-profit, this program aims, through peer-to-peer support and expert coaching and mentoring, to help innovators design, implement, scale, and assess effective projects.
+  courseFormat: 1 faculty-led session every other week for 2 hours (one hour is with
+    a guest expert and one hour is an all-group session); and a personalized schedule
+    of peer-to-peer and one-on-one coaching sessions.
+  faculty:
+  - sys:
+      id: 76jQmCfNmweoqWUoQIIYiy
+    firstName: Benjamin
+    lastName: Kallos
+    facultyTitle: Chair of the Committee on Governmental Operations of the City Council
+    longBio: At the beginning of his career in public service, Ben Kallos put Albany
+      voting records online so New Yorkers could hold politicians accountable. Since
+      then, he has run a government reform organization that helped defeat a corrupt
+      politician and has served as Policy Director for former Public Advocate Mark
+      Green. Council Member Kallos serves as Chair of the Committee on Governmental
+      Operations of the City Council, where he has fought to bring reform and transparency
+      to government agencies. Praised by the New York Times for his "fresh ideas,"
+      Council Member Kallos has advocated for improving our schools, senior services
+      and transportation. Council Member Kallos graduated from Bronx Science, SUNY
+      Albany and SUNY Buffalo Law School. He has a background in law, working as a
+      union-side labor attorney, as well as technology and government, and has served
+      as a member of Community Board 8 and Statewide Committee Chair for the New York
+      Democratic Lawyers Council. He and his wife reside on the East Side, where he
+      has lived his entire life.
+    email: kallos@gmail.com
+    website: http://benkallos.com/
+    twitter: https://twitter.com/kallos
+    linkedIn: https://www.linkedin.com/in/kallos
+    gitHub: https://github.com/kallosforcouncil
+    facultyImage:
+      title: benjamin-kallos
+      description: 
+      url: "//images.ctfassets.net/gvpfsi7zggwe/46LT94LxmoIi0Og0oI6E2i/568b607f884146d3726465b0e8b9b024/benjamin-kallos.jpg"
+- sys:
     id: 1l7V2iMx1aqoA4WmIcuCQk
   programName: Tech Innovation in Procurement
   startDate: !ruby/object:DateTime 2016-06-13 00:00:00.000000000 -05:00
@@ -982,49 +860,171 @@ coachingProgram:
       description: 
       url: "//images.ctfassets.net/gvpfsi7zggwe/42zmcO8t5KOqisQwSMg0m0/be737f3c1513d740e132ca2d1fd877b9/nina-robbins.jpg"
 - sys:
-    id: 4Brd70bb1Siw48W6c6MC8C
-  programName: Innovations in Automatic Benefits for Citizens
-  startDate: !ruby/object:DateTime 2016-08-29 00:00:00.000000000 -05:00
-  endDate: !ruby/object:DateTime 2016-11-07 00:00:00.000000000 -05:00
-  applicationDeadline: !ruby/object:DateTime 2016-08-19 00:00:00.000000000 -05:00
-  shortDescription: Led by New York City Council member Ben Kallos, this program is
-    designed to convene government, social and civic entrepreneurs who are developing
-    projects around the automation and delivery of benefits and services for citizens.
-  longDescription: |-
-    For many low-income citizens, getting access to benefits for which they are already eligible requires them to negotiate a minefield of forms, websites and duplicate documentation. Technology can improve government and organizational efficiency and ensure that thousands of citizens don’t lose out on benefits simply by enabling the automation of enrollment and renewal of people into the system. Recertifications can be automatic rather than arduous, eliminating repetitive paperwork and allowing people to get what they need and the government to reduce administrative costs.
-
-    Innovations in Automatic Benefits for Citizens is a ten week online coaching program designed to convene government, social and civic entrepreneurs (both individuals and teams) who are developing projects around the automation and delivery of benefits and services for citizens. With expert guidance from Councilmember Ben Kallos, Chair of the Committee on Governmental Operations of the New York City Council, we will help you to understand the operational flow of government as well as how to start building free and open source tools and/or bridge them with resources like OpenFisca and CiviCRM.
-
-    Whether your project is nonprofit or for-profit, this program aims, through peer-to-peer support and expert coaching and mentoring, to help innovators design, implement, scale, and assess effective projects.
-  courseFormat: 1 faculty-led session every other week for 2 hours (one hour is with
-    a guest expert and one hour is an all-group session); and a personalized schedule
-    of peer-to-peer and one-on-one coaching sessions.
+    id: 7yvkSXBjySBInNs8xWBrFa
+  programName: Open Seventeen Spring 2018
+  featured: false
+  startDate: !ruby/object:DateTime 2018-03-30 00:00:00.000000000 -05:00
+  endDate: !ruby/object:DateTime 2018-04-26 00:00:00.000000000 -05:00
+  shortDescription: 'Open Seventeen is a prize-backed challenge to reward and invest
+    in those developing innovative and implementable projects that leverage OPEN DATA
+    and CROWDSOURCING to tackle the 17 UN Sustainable Development Goals (SDGs). This
+    spring, the challenge targets "SDG #3: Healthy Lives and Well-Being for All at
+    All Ages", and it is run in collaboration with Be He@lthy, Be Mobile, a joint
+    program between the International Telecommunications Union (ITU) and the World
+    Health Organization (WHO).'
+  longDescription: "The coaching program is designed to help you take a project from
+    idea to implementation and to scale. It is a hands-on, learning and mentoring
+    program to help you design and implement solutions to a public interest problem
+    using civic technology. At the ends of the program you should have a:\n\nClear
+    understanding of the problem you are trying to solve and its underlying causes;\nCompelling
+    theory of change and a solution narrowly tailored to fit the problem;\nStrategy
+    to engage with people and data; \nPrototype of your solution and the roadmap to
+    user-test it;\nClear and persuading pitch of your project. \n"
+  courseFormat: 5 2-hour long online sessions and offline one-on-one coaching sessions
+    with each team
   faculty:
   - sys:
-      id: 76jQmCfNmweoqWUoQIIYiy
-    firstName: Benjamin
-    lastName: Kallos
-    facultyTitle: Chair of the Committee on Governmental Operations of the City Council
-    longBio: At the beginning of his career in public service, Ben Kallos put Albany
-      voting records online so New Yorkers could hold politicians accountable. Since
-      then, he has run a government reform organization that helped defeat a corrupt
-      politician and has served as Policy Director for former Public Advocate Mark
-      Green. Council Member Kallos serves as Chair of the Committee on Governmental
-      Operations of the City Council, where he has fought to bring reform and transparency
-      to government agencies. Praised by the New York Times for his "fresh ideas,"
-      Council Member Kallos has advocated for improving our schools, senior services
-      and transportation. Council Member Kallos graduated from Bronx Science, SUNY
-      Albany and SUNY Buffalo Law School. He has a background in law, working as a
-      union-side labor attorney, as well as technology and government, and has served
-      as a member of Community Board 8 and Statewide Committee Chair for the New York
-      Democratic Lawyers Council. He and his wife reside on the East Side, where he
-      has lived his entire life.
-    email: kallos@gmail.com
-    website: http://benkallos.com/
-    twitter: https://twitter.com/kallos
-    linkedIn: https://www.linkedin.com/in/kallos
-    gitHub: https://github.com/kallosforcouncil
+      id: 3OrVaJWUdGqKOeSOmEIkyY
+    firstName: Francois
+    lastName: Grey
+    facultyTitle: 'Coordinator of the Citizen Cyberscience Centre '
+    longBio: "Francois Grey is a physicist by training, with a background in nanotechnology
+      and a passion for citizen science. Since September 2014, he is Invited Professor
+      at the University of Geneva and Manager of the Citizen Cyberscience Centre,
+      a partnership between CERN, the United Nations Institute of Training and Research
+      and the University of Geneva. \n\nThe CCC develops technologies that lower the
+      barrier to entry for online participatory science and promotes the use of these
+      technologies in developing regions through face-to-face meetups between scientists,
+      developers and citizens. The CCC has helped to launch citizen science projects
+      such as CERN’s Test4Theory, which is part of the LHC@home volunteer computing
+      initiative, and open source platforms for citizen science like Crowdcrafting.org,
+      for volunteer thinking. Events launched by the CCC include the Africa@Home,
+      Asia@home and Brasil@home workshops series, the CERN Webfest and the biannual
+      Citizen Cyberscience Summit. \n\nFrom 2013-2014 Francois was Head of Citizen
+      Science at NYU’s Center for Urban Science and Progress, where he launched the
+      Science and the City hackathons in collaboration with ITP, NYU’s Interactive
+      Telecommunications Program and Science Hack Day NYC in collaboration with the
+      World Science Festival. \n\nFrancois was based in Beijing from 2008-2013, where
+      he helped establish the Open Wisdom Lab at Tsinghua University, China’s MIT,
+      to promote concepts of open and participatory science. He also helped establish
+      Tsinghua’s Lifelong Learning Lab, which extends concepts of participatory science
+      to children of all ages. He has also been a visiting Senior International Expert
+      with the Chinese Academy of Sciences, where he initiated online citizen science
+      in China through a project called CAS@home. Francois received a prestigious
+      Fellowship from the South-Africa-based Shuttleworth Foundation in 2010-11, for
+      his efforts to promote citizen science in the developing world."
+    email: francois.grey@cern.ch
+    website: http://www.citizencyberscience.net/about-the-team/
+    twitter: https://twitter.com/francoisgrey
     facultyImage:
-      title: benjamin-kallos
+      title: francois-grey
       description: 
-      url: "//images.ctfassets.net/gvpfsi7zggwe/46LT94LxmoIi0Og0oI6E2i/568b607f884146d3726465b0e8b9b024/benjamin-kallos.jpg"
+      url: "//images.ctfassets.net/gvpfsi7zggwe/5DAjZUN8zus8gmwwsqWwOa/f5792113aba57442894b0e1f1532c0de/francois-grey.jpg"
+  - sys:
+      id: 5gfjFvZYdiAgkgaY0muu80
+    firstName: Dinorah
+    lastName: Cantú-Pedraza
+    facultyTitle: The GovLab Academy Coordinator
+    affiliation: The GovLab
+    shortBio: Dinorah Cantu coordinates the GovLab Academy, an online institute aimed
+      at helping government and social innovators take innovative projects from idea
+      to implementation. Under her direction, the Academy has worked with over five
+      hundred innovators from more than 30 countries online and off over the last
+      two years.
+    longBio: Dinorah Cantu coordinates the GovLab Academy, an online institute aimed
+      at helping government and social innovators take innovative projects from idea
+      to implementation. Under her direction, the Academy has worked with over five
+      hundred innovators from more than 30 countries online and off over the last
+      two years. Thousands more have watched its skill-building videos. She has put
+      together over 12 Coaching Programs, the Academy’s signature mentoring and peer
+      to peer learning initiative, where over 95% of whose participants complete the
+      program. The Academy is a project of the Governance Lab, based at New York University.
+      GovLab focuses on the use of technology to improve how we govern. Dinorah has
+      also designed the GovLab’s Crowdsorcerer expert system, a software tool to deliver
+      customized case studies to government leaders about open innovation. Working
+      together with lawyers and education experts from NYU, she also designed an expert
+      system to help universities determine the legal requirements for offering online
+      education. She also runs the GovLab’s Demos for Democracy video series where
+      she interviews leading technologists about new platforms to advance the public
+      interest. A lawyer by training, Dinorah founded and directed the Human Rights
+      Center of the Facultad Libre de Derecho de Monterrey prior to coming to New
+      York in 2012. She holds an MPA in Public and Nonprofit Management and Policy
+      at NYU Robert F. Wagner School of Public Service and is passionate about the
+      value of civic technology for strengthening human rights. She is bilingual in
+      English and Spanish and tweets at @dinorah_cantu.
+    email: dinorah@thegovlab.org
+    website: http://thegovlab.org/about/team/
+    twitter: https://twitter.com/dinorah_cantu
+    linkedIn: https://www.linkedin.com/pub/dinorah-cantu/35/568/56a
+    gitHub: https://github.com/dino-at-thegovlab
+    facultyImage:
+      title: dinorah-cantu-pedraza
+      description: 
+      url: "//images.ctfassets.net/gvpfsi7zggwe/6vQYf3IQiA4qkUYKM6q8EQ/f1e968663e59fac91027cb3de707bf27/dinorah-cantu-pedraza.jpg"
+  - sys:
+      id: 3QaOb1PlwG9zTm6su77pqo
+    firstName: 'Anirudh '
+    lastName: Dinesh
+    facultyTitle: 'Research and Technology Associate Fellow '
+    affiliation: The GovLab
+    shortBio: Anirudh Dinesh conducts research on governance innovation. He is a member
+      of the team designing and piloting experiments for new models of public engagement,
+      what the GovLab calls people-led innovation, to improve the legitimacy and effectiveness
+      of policy making and solve urgent problems.
+    longBio: |-
+      Anirudh Dinesh conducts research on governance innovation. He is a member of the team designing and piloting experiments for new models of public engagement, what the GovLab calls people-led innovation, to improve the legitimacy and effectiveness of policy making and solve urgent problems.
+
+      In addition, Anirudh is a member of the Data Labs research team looking at how governments can create the infrastructure, including the necessary skills and governance rules, to facilitate the use of administrative data for evaluating and improving public programs. With a grant from Markets for Good, he is collaborating with New Philanthropy Capital in the UK to craft a series of case studies about Data Labs and explore how they can enable charities as well as government to conduct more data-driven impact evaluations.
+
+      Last year, Anirudh helped to research, write and produce ten original Smarter State case studies, focusing on how governments can use technology to leverage the skills of civil servants. He has also researched and authored reports on Open Data for Developing Economies, a project to explore the social and economic impact of opening government data.
+
+      In his job, Anirudh organizes events at the GovLab. He was part of the organizing team of the Collective Intelligence Conference (June 2017). He has coordinated multiple online classes and coaching programs for the GovLab Academy, including the ones on innovations in tech-enabled disaster management and data driven criminal justice.
+
+      Whether in connection with events or research projects, Anirudh applies his background in computer science to help create high impact websites. He is a part of GovLab’s civic tech efforts and assists in the design and development of all of GovLab’s original tools and platforms.
+
+      Prior to joining GovLab, Anirudh co-produced TEDxBNMIT 2015, an independently organized TEDx event in Bangalore, India.
+
+      Anirudh holds a master’s degree in Computer Engineering from New York University and an undergraduate degree in Electronics and Communication Engineering from the Visvesvaraya Technological University in India. While studying there, he interned at the Defence Research and Development Organization, where he implemented the autonomous indoor navigation of a quadcopter.
+
+      Anirudh is an avid blogger and his writings can be found at www.dudurudh.com.
+    twitter: https://twitter.com/dudurudh
+    gitHub: https://github.com/dudurudh
+    facultyImage:
+      title: anirudh-dinesh
+      description: 
+      url: "//images.ctfassets.net/gvpfsi7zggwe/7cePMSGPZVozug86RMDeFC/345ce131fa79ad0de19310f98577e441/anirudh-dinesh.jpg"
+  - sys:
+      id: nvrxIa0b4XhrxxrqrvWfk
+    firstName: Rosy
+    lastName: Mondardini
+    facultyTitle: Managing Director
+    affiliation: Zurich Citizen Science Center
+    shortBio: Ms Rosy Mondardini, managing director of the ETH/UZH Citizen Science
+      Center, focused her intervention on the data generated by citizens and how this
+      kind of data can play a role for the SDGs. She explained that citizen science
+      describes the collaboration between citizens and scientists on scientific research.
+    longBio: 'Ms Rosy Mondardini, managing director of the ETH/UZH Citizen Science
+      Center, focused her intervention on the data generated by citizens and how this
+      kind of data can play a role for the SDGs. She explained that citizen science
+      describes the collaboration between citizens and scientists on scientific research.
+      Traditionally, scientists define the project, citizens are involved in data
+      collection, and scientists then do the data analysis. However, now citizens
+      are more and more involved in the data analysis and throughout the overall  process.
+      She gave examples of citizen science from the areas of biology and physics,
+      such as involving citizens in checking water quality and classifying galaxies.
+      Mondardini then gave examples of three projects that put citizens ‘at the heart
+      of the activity and the data collection’ in the area of development: safecast
+      (link is external) which saw citizens monitor radiation levels after the 2011
+      earthquake and Fukushima accident in Japan; foldit (link is external) an online
+      puzzle video game about protein folding; and hot (link is external), a humanitarian
+      open street map team which engaged volunteers in checking satellite images to
+      identify damages to buildings and other infrastructure in the aftermath of major
+      disasters. Mondardini argued that projects like these fill gaps in science and
+      provide substance to make informed decisions to support development and monitoring
+      as part of the SDGs
+
+'
+    facultyImage:
+      title: mrm-2
+      description: 
+      url: "//images.ctfassets.net/gvpfsi7zggwe/3bI1Pl6fW4SCQYNqXK2eZ9/f2ffb069836355de02607020898ecd2c/mrm-2.jpg"

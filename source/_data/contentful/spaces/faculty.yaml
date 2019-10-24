@@ -983,3 +983,36 @@ faculty:
     title: Andy Moss
     description: andy-moss-headsht
     url: "//images.ctfassets.net/gvpfsi7zggwe/5ABwvPFjsBaRqCIDXVyGEH/7b88c3a4fc128f9c5be24855c0825e6c/Andy-Blog.jpg"
+- sys:
+    id: 2eKLf6WDNS5UqFf8uXSZvf
+  firstName: 'José Luis '
+  lastName: 'Martí '
+  facultyTitle: Vice-rector of innovation and Associate Professor of law and political
+    philosophy
+  affiliation: Pompeu Fabra University
+  shortBio: José Luis Martí is Vice-rector of innovation and Associate Professor of
+    law and political philosophy at Pompeu Fabra University of Barcelona. He does
+    research on democratic theory, governance and innovation, the philosophy of international
+    law, and constitutional theory (and more particularly on deliberative democracy,
+    participatory democracy, and collective intelligence).
+  longBio: 'José Luis Martí is Vice-rector of innovation and Associate Professor of
+    law and political philosophy at Pompeu Fabra University of Barcelona. He does
+    research on democratic theory, governance and innovation, the philosophy of international
+    law, and constitutional theory (and more particularly on deliberative democracy,
+    participatory democracy, and collective intelligence). He has published dozens
+    of articles and several books, including La República Deliberativa (Marcial Pons,
+    2006), Deliberative Democracy and Its Discontents, co-edited with Samantha Besson
+    (Ashgate, 2006), Legal Republicanism, also co-edited with Samantha Besson (Oxford
+    University Press, 2009), and A Political Philosophy in Public Life, co-authored
+    with Philip Pettit (Princeton University Press, 2010). He has been Laurance Rockefeller
+    Visiting Fellow at the University Center for Human Values (Princeton University,
+    2008-2009) and Visiting Professor at the University of Richmond (2014). A frequent
+    political commentator on Catalan, Spanish and international television and other
+    media, Martí is working with the Governance Lab at New York University on its
+    CrowdLaw project, designing 21st century law making institutions. He is currently
+    writing a book with Samantha Besson on the global actors of international lawmaking,
+    and planning a second one on AI and democracy. '
+  facultyImage:
+    title: Jose-Luis-Marti
+    description: 
+    url: "//images.ctfassets.net/gvpfsi7zggwe/5EtVKMNLgJV3kbS4Z4Prn/ed17cfe668699e55aea7bfa708c2454b/jose-luis-marti.jpg"

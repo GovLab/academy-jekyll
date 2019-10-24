@@ -111,14 +111,11 @@ carousel:
       description: 
       url: "//images.ctfassets.net/gvpfsi7zggwe/6vQYf3IQiA4qkUYKM6q8EQ/f1e968663e59fac91027cb3de707bf27/dinorah-cantu-pedraza.jpg"
 - sys:
-    id: 2L7R0BRPeJIf0r7E3Jtiij
-  programName: 'Teaching Governance Innovation: Global Public Entrepreneurship Online
-    Conference'
-  description: Hosted by Professor Beth Noveck, Director of the GovLab in the U.S,
-    and Caroline Paulick-Thiel, Director of Politics for Tomorrow in Germany, this
-    series of online conferences brings together experienced experts who are all currently
-    working on facilitating or teaching innovation processes in the public sector,
-    either on a local, national, or global scale. The purpose of these meetings is
-    to spark mutual inspiration and learning by convening a quarterly expert exchange,
-    operating under the Chatham House Rule
-  destinationUrl: http://thegovlab.org/smarter-crowdsourcing-a-global-online-conference-on-learning-and-teaching-public-innovation-and-entrepreneurship/
+    id: 2o5oioq78RL9Xf2m7tz79U
+  programName: TODAY'S PROBLEMS, YESTERDAY'S TOOLKIT
+  description: Commissioned by the Australia and New Zealand School of Government
+    (ANZSOG), this report builds on a pioneering survey of almost 400 public servants
+    in Australia and New Zealand, dozens of interviews with senior practitioners,
+    and original research into how governments around the world are training public
+    officials in innovative practices.
+  destinationUrl: https://www.thegovlab.org/static/files/publications/ANZSOG-report.pdf
